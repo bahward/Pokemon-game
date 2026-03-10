@@ -1,0 +1,1503 @@
+[
+  {
+    "id": "johto_newbark",
+    "name": "New Bark Town",
+    "regionId": "JOHTO",
+    "type": "TOWN",
+    "connections": [
+      "johto_route29"
+    ],
+    "encounters": {
+      "grass": [],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [
+      "event_johto_intro"
+    ],
+    "shopId": null,
+    "healingCenter": true,
+    "pc": true
+  },
+  {
+    "id": "johto_route29",
+    "name": "Route 29",
+    "regionId": "JOHTO",
+    "type": "ROUTE",
+    "connections": [
+      "johto_newbark",
+      "johto_cherrygrove"
+    ],
+    "encounters": {
+      "grass": [
+        {
+          "creatureId": 161,
+          "minLevel": 5,
+          "maxLevel": 9,
+          "weight": 40
+        },
+        {
+          "creatureId": 163,
+          "minLevel": 4,
+          "maxLevel": 8,
+          "weight": 30
+        },
+        {
+          "creatureId": 16,
+          "minLevel": 4,
+          "maxLevel": 7,
+          "weight": 30
+        }
+      ],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_cherrygrove",
+    "name": "Cherrygrove City",
+    "regionId": "JOHTO",
+    "type": "TOWN",
+    "connections": [
+      "johto_route29",
+      "johto_route30"
+    ],
+    "encounters": {
+      "grass": [],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": true,
+    "pc": true
+  },
+  {
+    "id": "johto_route30",
+    "name": "Route 30",
+    "regionId": "JOHTO",
+    "type": "ROUTE",
+    "connections": [
+      "johto_cherrygrove",
+      "johto_route31"
+    ],
+    "encounters": {
+      "grass": [
+        {
+          "creatureId": 161,
+          "minLevel": 6,
+          "maxLevel": 10,
+          "weight": 30
+        },
+        {
+          "creatureId": 167,
+          "minLevel": 5,
+          "maxLevel": 9,
+          "weight": 25
+        },
+        {
+          "creatureId": 187,
+          "minLevel": 5,
+          "maxLevel": 8,
+          "weight": 25
+        },
+        {
+          "creatureId": 10,
+          "minLevel": 5,
+          "maxLevel": 8,
+          "weight": 20
+        }
+      ],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_route31",
+    "name": "Route 31",
+    "regionId": "JOHTO",
+    "type": "ROUTE",
+    "connections": [
+      "johto_route30",
+      "johto_violet"
+    ],
+    "encounters": {
+      "grass": [
+        {
+          "creatureId": 167,
+          "minLevel": 7,
+          "maxLevel": 11,
+          "weight": 30
+        },
+        {
+          "creatureId": 163,
+          "minLevel": 6,
+          "maxLevel": 10,
+          "weight": 25
+        },
+        {
+          "creatureId": 187,
+          "minLevel": 7,
+          "maxLevel": 10,
+          "weight": 25
+        },
+        {
+          "creatureId": 41,
+          "minLevel": 6,
+          "maxLevel": 9,
+          "weight": 20
+        }
+      ],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_violet",
+    "name": "Violet City",
+    "regionId": "JOHTO",
+    "type": "TOWN",
+    "connections": [
+      "johto_route31",
+      "johto_sprout_tower",
+      "johto_route32"
+    ],
+    "encounters": {
+      "grass": [],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [
+      "event_sprout_tower"
+    ],
+    "shopId": null,
+    "healingCenter": true,
+    "pc": true,
+    "gymLevel": [
+      10,
+      14
+    ]
+  },
+  {
+    "id": "johto_sprout_tower",
+    "name": "Sprout Tower",
+    "regionId": "JOHTO",
+    "type": "CAVE",
+    "connections": [
+      "johto_violet"
+    ],
+    "encounters": {
+      "grass": [],
+      "water": [],
+      "cave": [
+        {
+          "creatureId": 92,
+          "minLevel": 8,
+          "maxLevel": 13,
+          "weight": 40
+        },
+        {
+          "creatureId": 96,
+          "minLevel": 8,
+          "maxLevel": 12,
+          "weight": 30
+        },
+        {
+          "creatureId": 201,
+          "minLevel": 10,
+          "maxLevel": 13,
+          "weight": 30
+        }
+      ]
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_route32",
+    "name": "Route 32",
+    "regionId": "JOHTO",
+    "type": "ROUTE",
+    "connections": [
+      "johto_violet",
+      "johto_ruins_of_alph",
+      "johto_route33"
+    ],
+    "encounters": {
+      "grass": [
+        {
+          "creatureId": 60,
+          "minLevel": 10,
+          "maxLevel": 13,
+          "weight": 30
+        },
+        {
+          "creatureId": 194,
+          "minLevel": 10,
+          "maxLevel": 14,
+          "weight": 30
+        },
+        {
+          "creatureId": 222,
+          "minLevel": 12,
+          "maxLevel": 15,
+          "weight": 20
+        }
+      ],
+      "water": [
+        {
+          "creatureId": 60,
+          "minLevel": 10,
+          "maxLevel": 14,
+          "weight": 40
+        },
+        {
+          "creatureId": 194,
+          "minLevel": 11,
+          "maxLevel": 15,
+          "weight": 30
+        }
+      ],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_ruins_of_alph",
+    "name": "Ruins of Alph",
+    "regionId": "JOHTO",
+    "type": "CAVE",
+    "connections": [
+      "johto_route32"
+    ],
+    "encounters": {
+      "grass": [],
+      "water": [],
+      "cave": [
+        {
+          "creatureId": 201,
+          "minLevel": 15,
+          "maxLevel": 20,
+          "weight": 100
+        }
+      ]
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_route33",
+    "name": "Route 33",
+    "regionId": "JOHTO",
+    "type": "ROUTE",
+    "connections": [
+      "johto_route32",
+      "johto_azalea"
+    ],
+    "encounters": {
+      "grass": [
+        {
+          "creatureId": 42,
+          "minLevel": 11,
+          "maxLevel": 15,
+          "weight": 30
+        },
+        {
+          "creatureId": 167,
+          "minLevel": 11,
+          "maxLevel": 14,
+          "weight": 25
+        },
+        {
+          "creatureId": 56,
+          "minLevel": 11,
+          "maxLevel": 15,
+          "weight": 25
+        },
+        {
+          "creatureId": 216,
+          "minLevel": 13,
+          "maxLevel": 16,
+          "weight": 20
+        }
+      ],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_azalea",
+    "name": "Azalea Town",
+    "regionId": "JOHTO",
+    "type": "TOWN",
+    "connections": [
+      "johto_route33",
+      "johto_slowpoke_well",
+      "johto_route34"
+    ],
+    "encounters": {
+      "grass": [],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": true,
+    "pc": true,
+    "gymLevel": [
+      18,
+      22
+    ]
+  },
+  {
+    "id": "johto_slowpoke_well",
+    "name": "Slowpoke Well",
+    "regionId": "JOHTO",
+    "type": "CAVE",
+    "connections": [
+      "johto_azalea"
+    ],
+    "encounters": {
+      "grass": [],
+      "water": [],
+      "cave": [
+        {
+          "creatureId": 79,
+          "minLevel": 15,
+          "maxLevel": 20,
+          "weight": 40
+        },
+        {
+          "creatureId": 60,
+          "minLevel": 15,
+          "maxLevel": 20,
+          "weight": 30
+        },
+        {
+          "creatureId": 170,
+          "minLevel": 15,
+          "maxLevel": 20,
+          "weight": 30
+        }
+      ]
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_route34",
+    "name": "Route 34",
+    "regionId": "JOHTO",
+    "type": "ROUTE",
+    "connections": [
+      "johto_azalea",
+      "johto_goldenrod"
+    ],
+    "encounters": {
+      "grass": [
+        {
+          "creatureId": 52,
+          "minLevel": 15,
+          "maxLevel": 18,
+          "weight": 30
+        },
+        {
+          "creatureId": 190,
+          "minLevel": 15,
+          "maxLevel": 19,
+          "weight": 25
+        },
+        {
+          "creatureId": 234,
+          "minLevel": 16,
+          "maxLevel": 20,
+          "weight": 25
+        },
+        {
+          "creatureId": 185,
+          "minLevel": 17,
+          "maxLevel": 21,
+          "weight": 20
+        }
+      ],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_goldenrod",
+    "name": "Goldenrod City",
+    "regionId": "JOHTO",
+    "type": "TOWN",
+    "connections": [
+      "johto_route34",
+      "johto_route35"
+    ],
+    "encounters": {
+      "grass": [],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": true,
+    "pc": true,
+    "gymLevel": [
+      22,
+      27
+    ]
+  },
+  {
+    "id": "johto_route35",
+    "name": "Route 35",
+    "regionId": "JOHTO",
+    "type": "ROUTE",
+    "connections": [
+      "johto_goldenrod",
+      "johto_national_park",
+      "johto_route36"
+    ],
+    "encounters": {
+      "grass": [
+        {
+          "creatureId": 193,
+          "minLevel": 18,
+          "maxLevel": 22,
+          "weight": 30
+        },
+        {
+          "creatureId": 163,
+          "minLevel": 18,
+          "maxLevel": 22,
+          "weight": 30
+        },
+        {
+          "creatureId": 16,
+          "minLevel": 18,
+          "maxLevel": 22,
+          "weight": 20
+        },
+        {
+          "creatureId": 190,
+          "minLevel": 18,
+          "maxLevel": 22,
+          "weight": 20
+        }
+      ],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_route36",
+    "name": "Route 36",
+    "regionId": "JOHTO",
+    "type": "ROUTE",
+    "connections": [
+      "johto_route35",
+      "johto_national_park"
+    ],
+    "encounters": {
+      "grass": [
+        {
+          "creatureId": 177,
+          "minLevel": 18,
+          "maxLevel": 22,
+          "weight": 30
+        },
+        {
+          "creatureId": 234,
+          "minLevel": 18,
+          "maxLevel": 22,
+          "weight": 30
+        },
+        {
+          "creatureId": 187,
+          "minLevel": 18,
+          "maxLevel": 22,
+          "weight": 25
+        },
+        {
+          "creatureId": 43,
+          "minLevel": 18,
+          "maxLevel": 22,
+          "weight": 15
+        }
+      ],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_national_park",
+    "name": "National Park",
+    "regionId": "JOHTO",
+    "type": "ROUTE",
+    "connections": [
+      "johto_route35",
+      "johto_route36",
+      "johto_route37"
+    ],
+    "encounters": {
+      "grass": [
+        {
+          "creatureId": 46,
+          "minLevel": 18,
+          "maxLevel": 25,
+          "weight": 30
+        },
+        {
+          "creatureId": 167,
+          "minLevel": 18,
+          "maxLevel": 25,
+          "weight": 25
+        },
+        {
+          "creatureId": 193,
+          "minLevel": 18,
+          "maxLevel": 25,
+          "weight": 25
+        },
+        {
+          "creatureId": 183,
+          "minLevel": 19,
+          "maxLevel": 24,
+          "weight": 20
+        }
+      ],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_route37",
+    "name": "Route 37",
+    "regionId": "JOHTO",
+    "type": "ROUTE",
+    "connections": [
+      "johto_national_park",
+      "johto_ecruteak"
+    ],
+    "encounters": {
+      "grass": [
+        {
+          "creatureId": 228,
+          "minLevel": 23,
+          "maxLevel": 28,
+          "weight": 30
+        },
+        {
+          "creatureId": 163,
+          "minLevel": 23,
+          "maxLevel": 28,
+          "weight": 25
+        },
+        {
+          "creatureId": 198,
+          "minLevel": 23,
+          "maxLevel": 28,
+          "weight": 25
+        },
+        {
+          "creatureId": 215,
+          "minLevel": 23,
+          "maxLevel": 28,
+          "weight": 20
+        }
+      ],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_ecruteak",
+    "name": "Ecruteak City",
+    "regionId": "JOHTO",
+    "type": "TOWN",
+    "connections": [
+      "johto_route37",
+      "johto_tin_tower",
+      "johto_route38",
+      "johto_route39"
+    ],
+    "encounters": {
+      "grass": [],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [
+      "event_burned_tower"
+    ],
+    "shopId": null,
+    "healingCenter": true,
+    "pc": true,
+    "gymLevel": [
+      28,
+      34
+    ]
+  },
+  {
+    "id": "johto_tin_tower",
+    "name": "Tin Tower",
+    "regionId": "JOHTO",
+    "type": "CAVE",
+    "connections": [
+      "johto_ecruteak"
+    ],
+    "encounters": {
+      "grass": [],
+      "water": [],
+      "cave": [
+        {
+          "creatureId": 92,
+          "minLevel": 30,
+          "maxLevel": 35,
+          "weight": 40
+        },
+        {
+          "creatureId": 93,
+          "minLevel": 30,
+          "maxLevel": 35,
+          "weight": 30
+        },
+        {
+          "creatureId": 94,
+          "minLevel": 30,
+          "maxLevel": 36,
+          "weight": 20
+        }
+      ]
+    },
+    "trainers": [],
+    "events": [
+      "event_raikou_roam",
+      "event_entei_roam",
+      "event_suicune_encounter"
+    ],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_route38",
+    "name": "Route 38",
+    "regionId": "JOHTO",
+    "type": "ROUTE",
+    "connections": [
+      "johto_ecruteak",
+      "johto_olivine"
+    ],
+    "encounters": {
+      "grass": [
+        {
+          "creatureId": 241,
+          "minLevel": 26,
+          "maxLevel": 32,
+          "weight": 30
+        },
+        {
+          "creatureId": 220,
+          "minLevel": 25,
+          "maxLevel": 30,
+          "weight": 25
+        },
+        {
+          "creatureId": 216,
+          "minLevel": 26,
+          "maxLevel": 31,
+          "weight": 25
+        },
+        {
+          "creatureId": 179,
+          "minLevel": 25,
+          "maxLevel": 30,
+          "weight": 20
+        }
+      ],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_route39",
+    "name": "Route 39",
+    "regionId": "JOHTO",
+    "type": "ROUTE",
+    "connections": [
+      "johto_ecruteak",
+      "johto_olivine"
+    ],
+    "encounters": {
+      "grass": [
+        {
+          "creatureId": 179,
+          "minLevel": 27,
+          "maxLevel": 32,
+          "weight": 30
+        },
+        {
+          "creatureId": 241,
+          "minLevel": 27,
+          "maxLevel": 32,
+          "weight": 25
+        },
+        {
+          "creatureId": 183,
+          "minLevel": 27,
+          "maxLevel": 32,
+          "weight": 25
+        },
+        {
+          "creatureId": 234,
+          "minLevel": 27,
+          "maxLevel": 32,
+          "weight": 20
+        }
+      ],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_olivine",
+    "name": "Olivine City",
+    "regionId": "JOHTO",
+    "type": "TOWN",
+    "connections": [
+      "johto_route38",
+      "johto_route39",
+      "johto_route40"
+    ],
+    "encounters": {
+      "grass": [],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": true,
+    "pc": true,
+    "gymLevel": [
+      32,
+      38
+    ]
+  },
+  {
+    "id": "johto_route40",
+    "name": "Route 40",
+    "regionId": "JOHTO",
+    "type": "ROUTE",
+    "connections": [
+      "johto_olivine",
+      "johto_cianwood"
+    ],
+    "encounters": {
+      "grass": [],
+      "water": [
+        {
+          "creatureId": 72,
+          "minLevel": 28,
+          "maxLevel": 34,
+          "weight": 40
+        },
+        {
+          "creatureId": 226,
+          "minLevel": 29,
+          "maxLevel": 35,
+          "weight": 30
+        },
+        {
+          "creatureId": 117,
+          "minLevel": 28,
+          "maxLevel": 34,
+          "weight": 30
+        }
+      ],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_cianwood",
+    "name": "Cianwood City",
+    "regionId": "JOHTO",
+    "type": "TOWN",
+    "connections": [
+      "johto_route40",
+      "johto_route41"
+    ],
+    "encounters": {
+      "grass": [],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": true,
+    "pc": true,
+    "gymLevel": [
+      36,
+      42
+    ]
+  },
+  {
+    "id": "johto_route41",
+    "name": "Route 41",
+    "regionId": "JOHTO",
+    "type": "ROUTE",
+    "connections": [
+      "johto_cianwood",
+      "johto_olivine"
+    ],
+    "encounters": {
+      "grass": [],
+      "water": [
+        {
+          "creatureId": 226,
+          "minLevel": 35,
+          "maxLevel": 42,
+          "weight": 40
+        },
+        {
+          "creatureId": 72,
+          "minLevel": 34,
+          "maxLevel": 41,
+          "weight": 30
+        },
+        {
+          "creatureId": 211,
+          "minLevel": 35,
+          "maxLevel": 42,
+          "weight": 30
+        }
+      ],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_route42",
+    "name": "Route 42",
+    "regionId": "JOHTO",
+    "type": "ROUTE",
+    "connections": [
+      "johto_ecruteak",
+      "johto_mahogany",
+      "johto_mt_mortar"
+    ],
+    "encounters": {
+      "grass": [
+        {
+          "creatureId": 56,
+          "minLevel": 34,
+          "maxLevel": 40,
+          "weight": 30
+        },
+        {
+          "creatureId": 207,
+          "minLevel": 34,
+          "maxLevel": 40,
+          "weight": 25
+        },
+        {
+          "creatureId": 220,
+          "minLevel": 35,
+          "maxLevel": 41,
+          "weight": 25
+        },
+        {
+          "creatureId": 183,
+          "minLevel": 34,
+          "maxLevel": 40,
+          "weight": 20
+        }
+      ],
+      "water": [
+        {
+          "creatureId": 60,
+          "minLevel": 34,
+          "maxLevel": 40,
+          "weight": 40
+        },
+        {
+          "creatureId": 194,
+          "minLevel": 35,
+          "maxLevel": 41,
+          "weight": 30
+        }
+      ],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_mt_mortar",
+    "name": "Mt. Mortar",
+    "regionId": "JOHTO",
+    "type": "CAVE",
+    "connections": [
+      "johto_route42"
+    ],
+    "encounters": {
+      "grass": [],
+      "water": [],
+      "cave": [
+        {
+          "creatureId": 50,
+          "minLevel": 35,
+          "maxLevel": 42,
+          "weight": 30
+        },
+        {
+          "creatureId": 74,
+          "minLevel": 36,
+          "maxLevel": 43,
+          "weight": 25
+        },
+        {
+          "creatureId": 66,
+          "minLevel": 36,
+          "maxLevel": 43,
+          "weight": 25
+        },
+        {
+          "creatureId": 104,
+          "minLevel": 36,
+          "maxLevel": 43,
+          "weight": 20
+        }
+      ]
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_route43",
+    "name": "Route 43",
+    "regionId": "JOHTO",
+    "type": "ROUTE",
+    "connections": [
+      "johto_mahogany",
+      "johto_lake_rage"
+    ],
+    "encounters": {
+      "grass": [
+        {
+          "creatureId": 193,
+          "minLevel": 38,
+          "maxLevel": 44,
+          "weight": 30
+        },
+        {
+          "creatureId": 228,
+          "minLevel": 38,
+          "maxLevel": 44,
+          "weight": 25
+        },
+        {
+          "creatureId": 17,
+          "minLevel": 38,
+          "maxLevel": 44,
+          "weight": 25
+        },
+        {
+          "creatureId": 235,
+          "minLevel": 38,
+          "maxLevel": 44,
+          "weight": 20
+        }
+      ],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_mahogany",
+    "name": "Mahogany Town",
+    "regionId": "JOHTO",
+    "type": "TOWN",
+    "connections": [
+      "johto_route42",
+      "johto_route43",
+      "johto_ice_path"
+    ],
+    "encounters": {
+      "grass": [],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": true,
+    "pc": true,
+    "gymLevel": [
+      42,
+      48
+    ]
+  },
+  {
+    "id": "johto_lake_rage",
+    "name": "Lake of Rage",
+    "regionId": "JOHTO",
+    "type": "ROUTE",
+    "connections": [
+      "johto_route43"
+    ],
+    "encounters": {
+      "grass": [],
+      "water": [
+        {
+          "creatureId": 129,
+          "minLevel": 40,
+          "maxLevel": 45,
+          "weight": 70
+        },
+        {
+          "creatureId": 130,
+          "minLevel": 40,
+          "maxLevel": 45,
+          "weight": 30
+        }
+      ],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_ice_path",
+    "name": "Ice Path",
+    "regionId": "JOHTO",
+    "type": "CAVE",
+    "connections": [
+      "johto_mahogany",
+      "johto_blackthorn"
+    ],
+    "encounters": {
+      "grass": [],
+      "water": [],
+      "cave": [
+        {
+          "creatureId": 220,
+          "minLevel": 40,
+          "maxLevel": 48,
+          "weight": 40
+        },
+        {
+          "creatureId": 119,
+          "minLevel": 0,
+          "maxLevel": 0,
+          "weight": 0
+        },
+        {
+          "creatureId": 86,
+          "minLevel": 40,
+          "maxLevel": 48,
+          "weight": 30
+        },
+        {
+          "creatureId": 225,
+          "minLevel": 40,
+          "maxLevel": 47,
+          "weight": 30
+        }
+      ]
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_blackthorn",
+    "name": "Blackthorn City",
+    "regionId": "JOHTO",
+    "type": "TOWN",
+    "connections": [
+      "johto_ice_path",
+      "johto_dragon_den",
+      "johto_victory_road",
+      "johto_mt_silver"
+    ],
+    "encounters": {
+      "grass": [],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": true,
+    "pc": true,
+    "gymLevel": [
+      50,
+      56
+    ]
+  },
+  {
+    "id": "johto_dragon_den",
+    "name": "Dragon's Den",
+    "regionId": "JOHTO",
+    "type": "CAVE",
+    "connections": [
+      "johto_blackthorn"
+    ],
+    "encounters": {
+      "grass": [],
+      "water": [
+        {
+          "creatureId": 147,
+          "minLevel": 35,
+          "maxLevel": 45,
+          "weight": 50
+        },
+        {
+          "creatureId": 148,
+          "minLevel": 45,
+          "maxLevel": 55,
+          "weight": 30
+        },
+        {
+          "creatureId": 130,
+          "minLevel": 45,
+          "maxLevel": 55,
+          "weight": 20
+        }
+      ],
+      "cave": [
+        {
+          "creatureId": 147,
+          "minLevel": 35,
+          "maxLevel": 45,
+          "weight": 40
+        },
+        {
+          "creatureId": 148,
+          "minLevel": 45,
+          "maxLevel": 55,
+          "weight": 30
+        },
+        {
+          "creatureId": 79,
+          "minLevel": 40,
+          "maxLevel": 50,
+          "weight": 20
+        }
+      ]
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_mt_silver",
+    "name": "Mt. Silver",
+    "regionId": "JOHTO",
+    "type": "CAVE",
+    "connections": [
+      "johto_blackthorn"
+    ],
+    "encounters": {
+      "grass": [],
+      "water": [],
+      "cave": [
+        {
+          "creatureId": 56,
+          "minLevel": 50,
+          "maxLevel": 60,
+          "weight": 20
+        },
+        {
+          "creatureId": 66,
+          "minLevel": 50,
+          "maxLevel": 60,
+          "weight": 20
+        },
+        {
+          "creatureId": 111,
+          "minLevel": 52,
+          "maxLevel": 62,
+          "weight": 20
+        },
+        {
+          "creatureId": 147,
+          "minLevel": 50,
+          "maxLevel": 60,
+          "weight": 20
+        },
+        {
+          "creatureId": 104,
+          "minLevel": 52,
+          "maxLevel": 62,
+          "weight": 20
+        }
+      ]
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_victory_road",
+    "name": "Victory Road",
+    "regionId": "JOHTO",
+    "type": "CAVE",
+    "connections": [
+      "johto_blackthorn"
+    ],
+    "encounters": {
+      "grass": [],
+      "water": [],
+      "cave": [
+        {
+          "creatureId": 108,
+          "minLevel": 55,
+          "maxLevel": 65,
+          "weight": 20
+        },
+        {
+          "creatureId": 74,
+          "minLevel": 55,
+          "maxLevel": 65,
+          "weight": 20
+        },
+        {
+          "creatureId": 66,
+          "minLevel": 55,
+          "maxLevel": 65,
+          "weight": 20
+        },
+        {
+          "creatureId": 111,
+          "minLevel": 55,
+          "maxLevel": 65,
+          "weight": 20
+        }
+      ]
+    },
+    "trainers": [],
+    "events": [],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_raikou_island",
+    "name": "Raikou Island",
+    "regionId": "JOHTO",
+    "type": "ROUTE",
+    "connections": [],
+    "encounters": {
+      "grass": [],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [
+      "event_raikou_encounter"
+    ],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_entei_island",
+    "name": "Entei Island",
+    "regionId": "JOHTO",
+    "type": "ROUTE",
+    "connections": [],
+    "encounters": {
+      "grass": [],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [
+      "event_entei_encounter"
+    ],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_suicune_spring",
+    "name": "Suicune Spring",
+    "regionId": "JOHTO",
+    "type": "ROUTE",
+    "connections": [],
+    "encounters": {
+      "grass": [],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [
+      "event_suicune_battle"
+    ],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_lugia_cavern",
+    "name": "Lugia Cavern",
+    "regionId": "JOHTO",
+    "type": "CAVE",
+    "connections": [],
+    "encounters": {
+      "grass": [],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [
+      "event_lugia_encounter"
+    ],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_hooh_peak",
+    "name": "Ho-Oh Peak",
+    "regionId": "JOHTO",
+    "type": "ROUTE",
+    "connections": [],
+    "encounters": {
+      "grass": [],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [
+      "event_hooh_encounter"
+    ],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  },
+  {
+    "id": "johto_celebi_shrine",
+    "name": "Celebi Shrine",
+    "regionId": "JOHTO",
+    "type": "ROUTE",
+    "connections": [],
+    "encounters": {
+      "grass": [],
+      "water": [],
+      "cave": []
+    },
+    "trainers": [],
+    "events": [
+      "event_celebi_encounter"
+    ],
+    "shopId": null,
+    "healingCenter": false,
+    "pc": false
+  }
+]

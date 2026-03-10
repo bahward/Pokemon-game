@@ -1,0 +1,108 @@
+[
+  {
+    "id": "shop_kanto_starttown",
+    "name": "Pallet Shore Mart",
+    "areaId": "kanto_starttown",
+    "items": [
+      {"itemId": 301, "price": 200},
+      {"itemId": 101, "price": 300},
+      {"itemId": 401, "price": 2100}
+    ]
+  },
+  {
+    "id": "shop_kanto_stoneridge",
+    "name": "Stoneridge Mart",
+    "areaId": "kanto_stoneridge",
+    "items": [
+      {"itemId": 301, "price": 200},
+      {"itemId": 302, "price": 600},
+      {"itemId": 101, "price": 300},
+      {"itemId": 102, "price": 700},
+      {"itemId": 201, "price": 400}
+    ]
+  },
+  {
+    "id": "shop_kanto_celadon_dept",
+    "name": "Celadon Department Store",
+    "areaId": "kanto_celadon_dept",
+    "items": [
+      {"itemId": 301, "price": 200},
+      {"itemId": 302, "price": 600},
+      {"itemId": 303, "price": 1200},
+      {"itemId": 304, "price": 99999},
+      {"itemId": 101, "price": 300},
+      {"itemId": 102, "price": 700},
+      {"itemId": 103, "price": 1500},
+      {"itemId": 104, "price": 3000},
+      {"itemId": 201, "price": 400},
+      {"itemId": 202, "price": 250},
+      {"itemId": 203, "price": 250},
+      {"itemId": 204, "price": 250},
+      {"itemId": 205, "price": 250},
+      {"itemId": 401, "price": 2100},
+      {"itemId": 402, "price": 2100},
+      {"itemId": 403, "price": 2100},
+      {"itemId": 404, "price": 2100},
+      {"itemId": 405, "price": 2100}
+    ]
+  },
+  {
+    "id": "shop_johto_goldenharbor",
+    "name": "Goldenharbour Emporium",
+    "areaId": "johto_goldenharbor",
+    "items": [
+      {"itemId": 301, "price": 200},
+      {"itemId": 302, "price": 600},
+      {"itemId": 303, "price": 1200},
+      {"itemId": 101, "price": 300},
+      {"itemId": 102, "price": 700},
+      {"itemId": 103, "price": 1500},
+      {"itemId": 201, "price": 400},
+      {"itemId": 202, "price": 250},
+      {"itemId": 203, "price": 250},
+      {"itemId": 204, "price": 250}
+    ]
+  },
+  {
+    "id": "shop_hoenn_tidewatch",
+    "name": "Tidewatch Mart",
+    "areaId": "hoenn_tidewatch",
+    "items": [
+      {"itemId": 302, "price": 600},
+      {"itemId": 303, "price": 1200},
+      {"itemId": 103, "price": 1500},
+      {"itemId": 104, "price": 3000},
+      {"itemId": 201, "price": 400},
+      {"itemId": 305, "price": 1000},
+      {"itemId": 306, "price": 1000}
+    ]
+  },
+  {
+    "id": "shop_hoenn_dept",
+    "name": "Tidewarden Grand Bazaar",
+    "areaId": "hoenn_desertspire",
+    "items": [
+      {"itemId": 301, "price": 200},
+      {"itemId": 302, "price": 600},
+      {"itemId": 303, "price": 1200},
+      {"itemId": 304, "price": 99999},
+      {"itemId": 101, "price": 300},
+      {"itemId": 102, "price": 700},
+      {"itemId": 103, "price": 1500},
+      {"itemId": 104, "price": 3000},
+      {"itemId": 201, "price": 400},
+      {"itemId": 202, "price": 250},
+      {"itemId": 203, "price": 250},
+      {"itemId": 204, "price": 250},
+      {"itemId": 205, "price": 250},
+      {"itemId": 305, "price": 1000},
+      {"itemId": 306, "price": 1000},
+      {"itemId": 401, "price": 2100},
+      {"itemId": 402, "price": 2100},
+      {"itemId": 403, "price": 2100},
+      {"itemId": 404, "price": 2100},
+      {"itemId": 405, "price": 2100},
+      {"itemId": 406, "price": 2100}
+    ]
+  }
+]

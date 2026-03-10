@@ -1,0 +1,295 @@
+[
+  {
+    "id": "event_kanto_intro",
+    "trigger": {"type": "AREA_ENTER", "areaId": "kanto_starttown"},
+    "condition": {"flag": "intro_done", "value": false},
+    "notCondition": null,
+    "actions": [
+      {"type": "DIALOGUE", "npcId": "npc_professor_kanto", "text": "Welcome to Verdania! I am Professor Aspen. Creatures and humans live side by side here. You are about to begin a grand journey!"},
+      {"type": "SET_FLAG", "flag": "intro_done", "flagValue": true}
+    ],
+    "repeatable": false
+  },
+  {
+    "id": "event_starter_select",
+    "trigger": {"type": "AREA_ENTER", "areaId": "kanto_starttown"},
+    "condition": {"flag": "intro_done", "value": true},
+    "notCondition": {"flag": "starter_chosen", "value": true},
+    "actions": [
+      {"type": "DIALOGUE", "npcId": "npc_professor_kanto", "text": "Before you go, choose TWO companions from our starter pool. They will journey with you across all three regions!"},
+      {"type": "SET_FLAG", "flag": "show_starter_select", "flagValue": true}
+    ],
+    "repeatable": false
+  },
+  {
+    "id": "event_rival_route1",
+    "trigger": {"type": "AREA_ENTER", "areaId": "kanto_route1"},
+    "condition": {"flag": "starter_chosen", "value": true},
+    "notCondition": {"flag": "rival_route1_done", "value": true},
+    "actions": [
+      {"type": "DIALOGUE", "npcId": "npc_rival_kanto", "text": "Hey! You finally left town? I've been waiting! Let's see what you and your new team can do!"},
+      {"type": "BATTLE", "trainerId": "rival_kanto_1"},
+      {"type": "SET_FLAG", "flag": "rival_route1_done", "flagValue": true}
+    ],
+    "repeatable": false
+  },
+  {
+    "id": "event_rival_mt_moon",
+    "trigger": {"type": "AREA_ENTER", "areaId": "kanto_mt_moon"},
+    "condition": {"flag": "rival_route1_done", "value": true},
+    "notCondition": {"flag": "rival_mt_moon_done", "value": true},
+    "actions": [
+      {"type": "DIALOGUE", "npcId": "npc_rival_kanto", "text": "The Moon Mountain caves are treacherous. Lucky for me I already found the fossil I wanted. You're too late!"},
+      {"type": "BATTLE", "trainerId": "rival_kanto_2"},
+      {"type": "SET_FLAG", "flag": "rival_mt_moon_done", "flagValue": true}
+    ],
+    "repeatable": false
+  },
+  {
+    "id": "event_rival_silph",
+    "trigger": {"type": "AREA_ENTER", "areaId": "kanto_silph"},
+    "condition": {"flag": "rival_mt_moon_done", "value": true},
+    "notCondition": {"flag": "rival_silph_done", "value": true},
+    "actions": [
+      {"type": "DIALOGUE", "npcId": "npc_rival_kanto", "text": "This Silph Corp takeover is insane! I tried to fight them off but there were too many… You deal with it. And then battle ME!"},
+      {"type": "BATTLE", "trainerId": "rival_kanto_3"},
+      {"type": "SET_FLAG", "flag": "rival_silph_done", "flagValue": true}
+    ],
+    "repeatable": false
+  },
+  {
+    "id": "event_kanto_e4_unlock",
+    "trigger": {"type": "FLAG_SET", "flag": "KANTO_8"},
+    "condition": null,
+    "notCondition": null,
+    "actions": [
+      {"type": "SET_FLAG", "flag": "kanto_e4_unlocked", "flagValue": true}
+    ],
+    "repeatable": false
+  },
+  {
+    "id": "event_johto_unlock",
+    "trigger": {"type": "FLAG_SET", "flag": "kanto_elite4_defeated"},
+    "condition": null,
+    "notCondition": null,
+    "actions": [
+      {"type": "DIALOGUE", "text": "With Verdania conquered, the sea route to Silverlands has opened. A new adventure awaits!"},
+      {"type": "SET_FLAG", "flag": "johto_unlocked", "flagValue": true}
+    ],
+    "repeatable": false
+  },
+  {
+    "id": "event_hoenn_unlock",
+    "trigger": {"type": "FLAG_SET", "flag": "johto_gym8_defeated"},
+    "condition": null,
+    "notCondition": null,
+    "actions": [
+      {"type": "DIALOGUE", "text": "The sea captain nods. 'You've mastered Silverlands. The western sea route to Tidewarden is yours to sail.'"},
+      {"type": "SET_FLAG", "flag": "hoenn_unlocked", "flagValue": true}
+    ],
+    "repeatable": false
+  },
+  {
+    "id": "event_legendary_glacivern",
+    "trigger": {"type": "AREA_ENTER", "areaId": "kanto_frostspire_cave"},
+    "condition": {"flag": "KANTO_8", "value": true},
+    "notCondition": {"flag": "glacivern_encountered", "value": true},
+    "actions": [
+      {"type": "DIALOGUE", "text": "A freezing aura fills the cavern. The legendary Glacivern stirs…"},
+      {"type": "WILD_ENCOUNTER", "creatureId": 144, "creatureLevel": 50},
+      {"type": "SET_FLAG", "flag": "glacivern_encountered", "flagValue": true}
+    ],
+    "repeatable": false
+  },
+  {
+    "id": "event_legendary_stormavian",
+    "trigger": {"type": "AREA_ENTER", "areaId": "kanto_thunderpeak"},
+    "condition": {"flag": "KANTO_8", "value": true},
+    "notCondition": {"flag": "stormavian_encountered", "value": true},
+    "actions": [
+      {"type": "DIALOGUE", "text": "Lightning crackles across the peak. The legendary Stormavian descends from the storm clouds!"},
+      {"type": "WILD_ENCOUNTER", "creatureId": 145, "creatureLevel": 50},
+      {"type": "SET_FLAG", "flag": "stormavian_encountered", "flagValue": true}
+    ],
+    "repeatable": false
+  },
+  {
+    "id": "event_legendary_embravian",
+    "trigger": {"type": "AREA_ENTER", "areaId": "kanto_cinderrift"},
+    "condition": {"flag": "KANTO_8", "value": true},
+    "notCondition": {"flag": "embravian_encountered", "value": true},
+    "actions": [
+      {"type": "DIALOGUE", "text": "The rift glows ember-red. Legendary Embravian erupts from the magma below!"},
+      {"type": "WILD_ENCOUNTER", "creatureId": 146, "creatureLevel": 50},
+      {"type": "SET_FLAG", "flag": "embravian_encountered", "flagValue": true}
+    ],
+    "repeatable": false
+  },
+  {
+    "id": "event_legendary_voidmind",
+    "trigger": {"type": "AREA_ENTER", "areaId": "kanto_obsidian_cavern"},
+    "condition": {"flag": "kanto_elite4_defeated", "value": true},
+    "notCondition": {"flag": "voidmind_encountered", "value": true},
+    "actions": [
+      {"type": "DIALOGUE", "text": "A presence of overwhelming psychic power fills the cavern. The legendary Voidmind materialises from the shadows…"},
+      {"type": "WILD_ENCOUNTER", "creatureId": 150, "creatureLevel": 70},
+      {"type": "SET_FLAG", "flag": "voidmind_encountered", "flagValue": true}
+    ],
+    "repeatable": false
+  },
+  {
+    "id": "event_myth_island_alpha",
+    "trigger": {"type": "AREA_ENTER", "areaId": "kanto_myth_island_alpha"},
+    "condition": {"flag": "jade_tablet_delivered", "value": true},
+    "notCondition": {"flag": "miraphel_encountered", "value": true},
+    "actions": [
+      {"type": "DIALOGUE", "text": "The jade tablet resonates with the island's ancient stones. A shimmering figure appears — Miraphel, the source of all life!"},
+      {"type": "WILD_ENCOUNTER", "creatureId": 151, "creatureLevel": 30},
+      {"type": "SET_FLAG", "flag": "miraphel_encountered", "flagValue": true}
+    ],
+    "repeatable": false
+  },
+  {
+    "id": "event_legendary_boltstride",
+    "trigger": {"type": "AREA_ENTER", "areaId": "johto_thunderplain"},
+    "condition": {"flag": "JOHTO_4", "value": true},
+    "notCondition": {"flag": "boltstride_encountered", "value": true},
+    "actions": [
+      {"type": "DIALOGUE", "text": "Thunder booms across the plain. A streak of lightning resolves into the legendary Boltstride!"},
+      {"type": "WILD_ENCOUNTER", "creatureId": 243, "creatureLevel": 40},
+      {"type": "SET_FLAG", "flag": "boltstride_encountered", "flagValue": true}
+    ],
+    "repeatable": false
+  },
+  {
+    "id": "event_legendary_infernalion",
+    "trigger": {"type": "AREA_ENTER", "areaId": "johto_volcano_depths"},
+    "condition": {"flag": "JOHTO_4", "value": true},
+    "notCondition": {"flag": "infernalion_encountered", "value": true},
+    "actions": [
+      {"type": "DIALOGUE", "text": "The volcanic depths roar. Legendary Infernalion bursts forth from the magma!"},
+      {"type": "WILD_ENCOUNTER", "creatureId": 244, "creatureLevel": 40},
+      {"type": "SET_FLAG", "flag": "infernalion_encountered", "flagValue": true}
+    ],
+    "repeatable": false
+  },
+  {
+    "id": "event_legendary_tidehearth",
+    "trigger": {"type": "AREA_ENTER", "areaId": "johto_abyssal_grotto"},
+    "condition": {"flag": "JOHTO_4", "value": true},
+    "notCondition": {"flag": "tidehearth_encountered", "value": true},
+    "actions": [
+      {"type": "DIALOGUE", "text": "Crystal-clear water fills the grotto. Legendary Tidehearth glides toward you."},
+      {"type": "WILD_ENCOUNTER", "creatureId": 245, "creatureLevel": 40},
+      {"type": "SET_FLAG", "flag": "tidehearth_encountered", "flagValue": true}
+    ],
+    "repeatable": false
+  },
+  {
+    "id": "event_legendary_tempestlord",
+    "trigger": {"type": "AREA_ENTER", "areaId": "johto_stormrift_island"},
+    "condition": {"flag": "JOHTO_6", "value": true},
+    "notCondition": {"flag": "tempestlord_encountered", "value": true},
+    "actions": [
+      {"type": "DIALOGUE", "text": "The ocean groans. From storm and sea rises the silver sovereign — Tempestlord!"},
+      {"type": "WILD_ENCOUNTER", "creatureId": 249, "creatureLevel": 70},
+      {"type": "SET_FLAG", "flag": "tempestlord_encountered", "flagValue": true}
+    ],
+    "repeatable": false
+  },
+  {
+    "id": "event_legendary_emberlord",
+    "trigger": {"type": "AREA_ENTER", "areaId": "johto_skyfire_peak"},
+    "condition": {"flag": "JOHTO_8", "value": true},
+    "notCondition": {"flag": "emberlord_encountered", "value": true},
+    "actions": [
+      {"type": "DIALOGUE", "text": "The sky ignites in a thousand colours. Descending from the heavens comes the golden sovereign — Emberlord!"},
+      {"type": "WILD_ENCOUNTER", "creatureId": 250, "creatureLevel": 70},
+      {"type": "SET_FLAG", "flag": "emberlord_encountered", "flagValue": true}
+    ],
+    "repeatable": false
+  },
+  {
+    "id": "event_legendary_crystalith",
+    "trigger": {"type": "AREA_ENTER", "areaId": "hoenn_crystalcave"},
+    "condition": {"flag": "HOENN_4", "value": true},
+    "notCondition": {"flag": "crystalith_encountered", "value": true},
+    "actions": [
+      {"type": "DIALOGUE", "text": "Ancient runes glow along the cavern walls. The stone golem Crystalith awakens!"},
+      {"type": "WILD_ENCOUNTER", "creatureId": 377, "creatureLevel": 40},
+      {"type": "SET_FLAG", "flag": "crystalith_encountered", "flagValue": true}
+    ],
+    "repeatable": false
+  },
+  {
+    "id": "event_legendary_glaciadon",
+    "trigger": {"type": "AREA_ENTER", "areaId": "hoenn_frostpeaks"},
+    "condition": {"flag": "HOENN_4", "value": true},
+    "notCondition": {"flag": "glaciadon_encountered", "value": true},
+    "actions": [
+      {"type": "DIALOGUE", "text": "The glacial peaks crack. The ice golem Glaciadon rises from the permafrost!"},
+      {"type": "WILD_ENCOUNTER", "creatureId": 378, "creatureLevel": 40},
+      {"type": "SET_FLAG", "flag": "glaciadon_encountered", "flagValue": true}
+    ],
+    "repeatable": false
+  },
+  {
+    "id": "event_legendary_ironclad",
+    "trigger": {"type": "AREA_ENTER", "areaId": "hoenn_rusted_ruin"},
+    "condition": {"flag": "HOENN_4", "value": true},
+    "notCondition": {"flag": "ironclad_encountered", "value": true},
+    "actions": [
+      {"type": "DIALOGUE", "text": "Metal grinding fills the ruins. The iron golem Ironclad stirs from its ancient slumber!"},
+      {"type": "WILD_ENCOUNTER", "creatureId": 379, "creatureLevel": 40},
+      {"type": "SET_FLAG", "flag": "ironclad_encountered", "flagValue": true}
+    ],
+    "repeatable": false
+  },
+  {
+    "id": "event_legendary_oceanmaw",
+    "trigger": {"type": "AREA_ENTER", "areaId": "hoenn_marine_trench"},
+    "condition": {"flag": "HOENN_8", "value": true},
+    "notCondition": {"flag": "oceanmaw_encountered", "value": true},
+    "actions": [
+      {"type": "DIALOGUE", "text": "The trench shudders. From the crushing depths rises Oceanmaw, the primordial sea god!"},
+      {"type": "WILD_ENCOUNTER", "creatureId": 382, "creatureLevel": 70},
+      {"type": "SET_FLAG", "flag": "oceanmaw_encountered", "flagValue": true}
+    ],
+    "repeatable": false
+  },
+  {
+    "id": "event_legendary_magmawrath",
+    "trigger": {"type": "AREA_ENTER", "areaId": "hoenn_magma_core"},
+    "condition": {"flag": "HOENN_8", "value": true},
+    "notCondition": {"flag": "magmawrath_encountered", "value": true},
+    "actions": [
+      {"type": "DIALOGUE", "text": "The core of the volcano cracks open. Magmawrath, the primordial land god, emerges!"},
+      {"type": "WILD_ENCOUNTER", "creatureId": 383, "creatureLevel": 70},
+      {"type": "SET_FLAG", "flag": "magmawrath_encountered", "flagValue": true}
+    ],
+    "repeatable": false
+  },
+  {
+    "id": "event_legendary_skydrake",
+    "trigger": {"type": "AREA_ENTER", "areaId": "hoenn_sky_pinnacle"},
+    "condition": {"flag": "hoenn_elite4_defeated", "value": true},
+    "notCondition": {"flag": "skydrake_encountered", "value": true},
+    "actions": [
+      {"type": "DIALOGUE", "text": "Above the clouds, at the pinnacle of the world, Skydrake circles — watching all three regions below."},
+      {"type": "WILD_ENCOUNTER", "creatureId": 384, "creatureLevel": 70},
+      {"type": "SET_FLAG", "flag": "skydrake_encountered", "flagValue": true}
+    ],
+    "repeatable": false
+  },
+  {
+    "id": "event_healing_center",
+    "trigger": {"type": "NPC_INTERACT", "npcId": "npc_healer"},
+    "condition": null,
+    "notCondition": null,
+    "actions": [
+      {"type": "DIALOGUE", "npcId": "npc_healer", "text": "Welcome! We restore creatures to full health. Shall I heal your team?"},
+      {"type": "HEAL_PARTY"}
+    ],
+    "repeatable": true
+  }
+]

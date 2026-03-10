@@ -1,0 +1,7676 @@
+[
+  {
+    "id": 1,
+    "name": "Verdling",
+    "types": [
+      "FLORA"
+    ],
+    "baseStats": {
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "specialAttack": 65,
+      "specialDefense": 65,
+      "speed": 45
+    },
+    "catchRate": 45,
+    "baseExp": 64,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 8
+      },
+      {
+        "level": 1,
+        "moveId": 91
+      },
+      {
+        "level": 7,
+        "moveId": 102
+      },
+      {
+        "level": 13,
+        "moveId": 91
+      },
+      {
+        "level": 20,
+        "moveId": 107
+      },
+      {
+        "level": 26,
+        "moveId": 92
+      },
+      {
+        "level": 32,
+        "moveId": 95
+      },
+      {
+        "level": 40,
+        "moveId": 96
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 2,
+        "method": "LEVEL",
+        "param": 16
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": true,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A small sprout creature energised by sunlight."
+  },
+  {
+    "id": 2,
+    "name": "Verdrake",
+    "types": [
+      "FLORA",
+      "VENOM"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 62,
+      "defense": 63,
+      "specialAttack": 80,
+      "specialDefense": 80,
+      "speed": 60
+    },
+    "catchRate": 45,
+    "baseExp": 141,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 8
+      },
+      {
+        "level": 1,
+        "moveId": 91
+      },
+      {
+        "level": 7,
+        "moveId": 102
+      },
+      {
+        "level": 16,
+        "moveId": 91
+      },
+      {
+        "level": 23,
+        "moveId": 107
+      },
+      {
+        "level": 30,
+        "moveId": 92
+      },
+      {
+        "level": 40,
+        "moveId": 95
+      },
+      {
+        "level": 50,
+        "moveId": 96
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 3,
+        "method": "LEVEL",
+        "param": 32
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "The flower bulb on its back has bloomed, releasing pollen."
+  },
+  {
+    "id": 3,
+    "name": "Verdrazor",
+    "types": [
+      "FLORA",
+      "VENOM"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 83,
+      "specialAttack": 100,
+      "specialDefense": 100,
+      "speed": 80
+    },
+    "catchRate": 45,
+    "baseExp": 208,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 8
+      },
+      {
+        "level": 1,
+        "moveId": 91
+      },
+      {
+        "level": 7,
+        "moveId": 102
+      },
+      {
+        "level": 16,
+        "moveId": 92
+      },
+      {
+        "level": 23,
+        "moveId": 107
+      },
+      {
+        "level": 32,
+        "moveId": 95
+      },
+      {
+        "level": 45,
+        "moveId": 96
+      },
+      {
+        "level": 55,
+        "moveId": 134
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Its massive flower sprays toxic spores that can blanket an entire field."
+  },
+  {
+    "id": 4,
+    "name": "Emberling",
+    "types": [
+      "FLAME"
+    ],
+    "baseStats": {
+      "hp": 39,
+      "attack": 52,
+      "defense": 43,
+      "specialAttack": 60,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 45,
+    "baseExp": 62,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 2
+      },
+      {
+        "level": 1,
+        "moveId": 10
+      },
+      {
+        "level": 9,
+        "moveId": 31
+      },
+      {
+        "level": 15,
+        "moveId": 34
+      },
+      {
+        "level": 22,
+        "moveId": 32
+      },
+      {
+        "level": 30,
+        "moveId": 14
+      },
+      {
+        "level": 38,
+        "moveId": 33
+      },
+      {
+        "level": 46,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 5,
+        "method": "LEVEL",
+        "param": 16
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": true,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "A lizard with a flame on its tail that grows with its emotions."
+  },
+  {
+    "id": 5,
+    "name": "Emberfox",
+    "types": [
+      "FLAME"
+    ],
+    "baseStats": {
+      "hp": 58,
+      "attack": 64,
+      "defense": 58,
+      "specialAttack": 80,
+      "specialDefense": 65,
+      "speed": 80
+    },
+    "catchRate": 45,
+    "baseExp": 142,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 2
+      },
+      {
+        "level": 1,
+        "moveId": 10
+      },
+      {
+        "level": 9,
+        "moveId": 31
+      },
+      {
+        "level": 15,
+        "moveId": 34
+      },
+      {
+        "level": 24,
+        "moveId": 32
+      },
+      {
+        "level": 33,
+        "moveId": 14
+      },
+      {
+        "level": 42,
+        "moveId": 33
+      },
+      {
+        "level": 52,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 6,
+        "method": "LEVEL",
+        "param": 36
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "Its claws are aflame. It moves too fast to see clearly."
+  },
+  {
+    "id": 6,
+    "name": "Embersaur",
+    "types": [
+      "FLAME",
+      "WYRM"
+    ],
+    "baseStats": {
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "specialAttack": 109,
+      "specialDefense": 85,
+      "speed": 100
+    },
+    "catchRate": 45,
+    "baseExp": 220,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 2
+      },
+      {
+        "level": 1,
+        "moveId": 10
+      },
+      {
+        "level": 9,
+        "moveId": 31
+      },
+      {
+        "level": 15,
+        "moveId": 34
+      },
+      {
+        "level": 24,
+        "moveId": 32
+      },
+      {
+        "level": 33,
+        "moveId": 14
+      },
+      {
+        "level": 42,
+        "moveId": 33
+      },
+      {
+        "level": 52,
+        "moveId": 154
+      },
+      {
+        "level": 60,
+        "moveId": 33
+      },
+      {
+        "level": 70,
+        "moveId": 216
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "A magnificent dragon. Its fiery wings can melt boulders."
+  },
+  {
+    "id": 7,
+    "name": "Aqualing",
+    "types": [
+      "AQUA"
+    ],
+    "baseStats": {
+      "hp": 44,
+      "attack": 48,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 64,
+      "speed": 43
+    },
+    "catchRate": 45,
+    "baseExp": 63,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 9
+      },
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 7,
+        "moveId": 52
+      },
+      {
+        "level": 13,
+        "moveId": 19
+      },
+      {
+        "level": 20,
+        "moveId": 53
+      },
+      {
+        "level": 27,
+        "moveId": 57
+      },
+      {
+        "level": 33,
+        "moveId": 54
+      },
+      {
+        "level": 41,
+        "moveId": 55
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 8,
+        "method": "LEVEL",
+        "param": 16
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": true,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "A turtle with a pale blue shell that repels most attacks."
+  },
+  {
+    "id": 8,
+    "name": "Aquartle",
+    "types": [
+      "AQUA"
+    ],
+    "baseStats": {
+      "hp": 59,
+      "attack": 63,
+      "defense": 80,
+      "specialAttack": 65,
+      "specialDefense": 80,
+      "speed": 58
+    },
+    "catchRate": 45,
+    "baseExp": 142,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 9
+      },
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 7,
+        "moveId": 52
+      },
+      {
+        "level": 16,
+        "moveId": 53
+      },
+      {
+        "level": 20,
+        "moveId": 19
+      },
+      {
+        "level": 27,
+        "moveId": 57
+      },
+      {
+        "level": 36,
+        "moveId": 54
+      },
+      {
+        "level": 46,
+        "moveId": 55
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 9,
+        "method": "LEVEL",
+        "param": 36
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Its shell is reinforced with iron deposits, shrugging off cannon fire."
+  },
+  {
+    "id": 9,
+    "name": "Aquasteel",
+    "types": [
+      "AQUA",
+      "IRON"
+    ],
+    "baseStats": {
+      "hp": 79,
+      "attack": 83,
+      "defense": 100,
+      "specialAttack": 85,
+      "specialDefense": 105,
+      "speed": 78
+    },
+    "catchRate": 45,
+    "baseExp": 210,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 9
+      },
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 16,
+        "moveId": 52
+      },
+      {
+        "level": 20,
+        "moveId": 53
+      },
+      {
+        "level": 27,
+        "moveId": 57
+      },
+      {
+        "level": 36,
+        "moveId": 54
+      },
+      {
+        "level": 46,
+        "moveId": 55
+      },
+      {
+        "level": 56,
+        "moveId": 232
+      },
+      {
+        "level": 66,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Its twin iron cannons can fire water at enormous pressure."
+  },
+  {
+    "id": 10,
+    "name": "Caterpite",
+    "types": [
+      "INSECT"
+    ],
+    "baseStats": {
+      "hp": 45,
+      "attack": 30,
+      "defense": 35,
+      "specialAttack": 20,
+      "specialDefense": 20,
+      "speed": 45
+    },
+    "catchRate": 255,
+    "baseExp": 39,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 181
+      },
+      {
+        "level": 1,
+        "moveId": 182
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 11,
+        "method": "LEVEL",
+        "param": 7
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "A soft-bodied larva that curls up when frightened."
+  },
+  {
+    "id": 11,
+    "name": "Cocoite",
+    "types": [
+      "INSECT"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 25,
+      "defense": 55,
+      "specialAttack": 25,
+      "specialDefense": 25,
+      "speed": 30
+    },
+    "catchRate": 120,
+    "baseExp": 72,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 13
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 12,
+        "method": "LEVEL",
+        "param": 10
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "A green cocoon hanging from tree branches."
+  },
+  {
+    "id": 12,
+    "name": "Wingoth",
+    "types": [
+      "INSECT",
+      "PSYCHE"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 45,
+      "defense": 50,
+      "specialAttack": 90,
+      "specialDefense": 80,
+      "speed": 70
+    },
+    "catchRate": 45,
+    "baseExp": 178,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 151
+      },
+      {
+        "level": 1,
+        "moveId": 181
+      },
+      {
+        "level": 12,
+        "moveId": 56
+      },
+      {
+        "level": 15,
+        "moveId": 162
+      },
+      {
+        "level": 20,
+        "moveId": 183
+      },
+      {
+        "level": 30,
+        "moveId": 163
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "A graceful moth whose wing scales carry psychic dust."
+  },
+  {
+    "id": 13,
+    "name": "Wormbit",
+    "types": [
+      "INSECT",
+      "VENOM"
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 35,
+      "defense": 30,
+      "specialAttack": 20,
+      "specialDefense": 20,
+      "speed": 50
+    },
+    "catchRate": 255,
+    "baseExp": 39,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 131
+      },
+      {
+        "level": 1,
+        "moveId": 182
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 14,
+        "method": "LEVEL",
+        "param": 7
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "A small worm with a stinger. Its venom irritates skin."
+  },
+  {
+    "id": 14,
+    "name": "Kokubit",
+    "types": [
+      "INSECT",
+      "VENOM"
+    ],
+    "baseStats": {
+      "hp": 45,
+      "attack": 25,
+      "defense": 50,
+      "specialAttack": 25,
+      "specialDefense": 25,
+      "speed": 35
+    },
+    "catchRate": 120,
+    "baseExp": 72,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 13
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 15,
+        "method": "LEVEL",
+        "param": 10
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "A spiky pupa that stings anything that touches it."
+  },
+  {
+    "id": 15,
+    "name": "Venomoth",
+    "types": [
+      "INSECT",
+      "VENOM"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 40,
+      "specialAttack": 45,
+      "specialDefense": 80,
+      "speed": 75
+    },
+    "catchRate": 45,
+    "baseExp": 175,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 131
+      },
+      {
+        "level": 1,
+        "moveId": 182
+      },
+      {
+        "level": 12,
+        "moveId": 135
+      },
+      {
+        "level": 16,
+        "moveId": 183
+      },
+      {
+        "level": 22,
+        "moveId": 184
+      },
+      {
+        "level": 30,
+        "moveId": 134
+      },
+      {
+        "level": 40,
+        "moveId": 185
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "A wasp with oversized stingers dripping neurotoxin."
+  },
+  {
+    "id": 16,
+    "name": "Pidglet",
+    "types": [
+      "NEUTRAL",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 40,
+      "specialAttack": 35,
+      "specialDefense": 35,
+      "speed": 56
+    },
+    "catchRate": 255,
+    "baseExp": 50,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 9
+      },
+      {
+        "level": 5,
+        "moveId": 141
+      },
+      {
+        "level": 9,
+        "moveId": 151
+      },
+      {
+        "level": 14,
+        "moveId": 153
+      },
+      {
+        "level": 19,
+        "moveId": 152
+      },
+      {
+        "level": 27,
+        "moveId": 160
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 17,
+        "method": "LEVEL",
+        "param": 18
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A tiny bird that flutters low over the grass."
+  },
+  {
+    "id": 17,
+    "name": "Pidgwin",
+    "types": [
+      "NEUTRAL",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 63,
+      "attack": 60,
+      "defense": 55,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 71
+    },
+    "catchRate": 120,
+    "baseExp": 122,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 9
+      },
+      {
+        "level": 5,
+        "moveId": 141
+      },
+      {
+        "level": 9,
+        "moveId": 151
+      },
+      {
+        "level": 14,
+        "moveId": 153
+      },
+      {
+        "level": 21,
+        "moveId": 152
+      },
+      {
+        "level": 31,
+        "moveId": 160
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 18,
+        "method": "LEVEL",
+        "param": 36
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND",
+      "FOREST"
+    ],
+    "description": "Its wing muscles have grown powerful enough to create gust attacks."
+  },
+  {
+    "id": 18,
+    "name": "Pidgstorm",
+    "types": [
+      "NEUTRAL",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 83,
+      "attack": 80,
+      "defense": 75,
+      "specialAttack": 70,
+      "specialDefense": 70,
+      "speed": 101
+    },
+    "catchRate": 45,
+    "baseExp": 196,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 9
+      },
+      {
+        "level": 5,
+        "moveId": 141
+      },
+      {
+        "level": 9,
+        "moveId": 151
+      },
+      {
+        "level": 14,
+        "moveId": 153
+      },
+      {
+        "level": 21,
+        "moveId": 152
+      },
+      {
+        "level": 31,
+        "moveId": 159
+      },
+      {
+        "level": 44,
+        "moveId": 154
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A raptor whose wingspan generates tornado-force gusts."
+  },
+  {
+    "id": 19,
+    "name": "Slinkit",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 30,
+      "attack": 56,
+      "defense": 35,
+      "specialAttack": 25,
+      "specialDefense": 35,
+      "speed": 72
+    },
+    "catchRate": 255,
+    "baseExp": 51,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 9
+      },
+      {
+        "level": 4,
+        "moveId": 20
+      },
+      {
+        "level": 7,
+        "moveId": 4
+      },
+      {
+        "level": 14,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 20,
+        "method": "LEVEL",
+        "param": 20
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A quick rodent that darts through underbrush."
+  },
+  {
+    "id": 20,
+    "name": "Slinkrat",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 81,
+      "defense": 60,
+      "specialAttack": 50,
+      "specialDefense": 70,
+      "speed": 97
+    },
+    "catchRate": 127,
+    "baseExp": 145,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 9
+      },
+      {
+        "level": 4,
+        "moveId": 20
+      },
+      {
+        "level": 7,
+        "moveId": 4
+      },
+      {
+        "level": 14,
+        "moveId": 22
+      },
+      {
+        "level": 20,
+        "moveId": 26
+      },
+      {
+        "level": 30,
+        "moveId": 6
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Hardened fangs can gnaw through steel cables."
+  },
+  {
+    "id": 21,
+    "name": "Sporedge",
+    "types": [
+      "NEUTRAL",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 60,
+      "defense": 30,
+      "specialAttack": 31,
+      "specialDefense": 31,
+      "speed": 70
+    },
+    "catchRate": 255,
+    "baseExp": 52,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 2
+      },
+      {
+        "level": 7,
+        "moveId": 8
+      },
+      {
+        "level": 13,
+        "moveId": 151
+      },
+      {
+        "level": 20,
+        "moveId": 153
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 22,
+        "method": "LEVEL",
+        "param": 20
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A small, aggressive bird known for its sharp beak."
+  },
+  {
+    "id": 22,
+    "name": "Sporedax",
+    "types": [
+      "NEUTRAL",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 90,
+      "defense": 65,
+      "specialAttack": 61,
+      "specialDefense": 61,
+      "speed": 100
+    },
+    "catchRate": 90,
+    "baseExp": 155,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 2
+      },
+      {
+        "level": 7,
+        "moveId": 8
+      },
+      {
+        "level": 13,
+        "moveId": 151
+      },
+      {
+        "level": 20,
+        "moveId": 153
+      },
+      {
+        "level": 27,
+        "moveId": 156
+      },
+      {
+        "level": 38,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A fearless predator bird that dives at lightning speed."
+  },
+  {
+    "id": 23,
+    "name": "Acidslith",
+    "types": [
+      "VENOM"
+    ],
+    "baseStats": {
+      "hp": 35,
+      "attack": 60,
+      "defense": 44,
+      "specialAttack": 40,
+      "specialDefense": 54,
+      "speed": 55
+    },
+    "catchRate": 255,
+    "baseExp": 58,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 131
+      },
+      {
+        "level": 7,
+        "moveId": 207
+      },
+      {
+        "level": 15,
+        "moveId": 132
+      },
+      {
+        "level": 20,
+        "moveId": 136
+      },
+      {
+        "level": 28,
+        "moveId": 133
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 24,
+        "method": "LEVEL",
+        "param": 22
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A purple serpent that paralyses prey before swallowing it."
+  },
+  {
+    "id": 24,
+    "name": "Venslith",
+    "types": [
+      "VENOM"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 85,
+      "defense": 69,
+      "specialAttack": 65,
+      "specialDefense": 79,
+      "speed": 80
+    },
+    "catchRate": 90,
+    "baseExp": 157,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 131
+      },
+      {
+        "level": 7,
+        "moveId": 207
+      },
+      {
+        "level": 15,
+        "moveId": 132
+      },
+      {
+        "level": 20,
+        "moveId": 136
+      },
+      {
+        "level": 28,
+        "moveId": 133
+      },
+      {
+        "level": 38,
+        "moveId": 134
+      },
+      {
+        "level": 48,
+        "moveId": 136
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "The cobra hood flares to intimidate enemies with a venomous glare."
+  },
+  {
+    "id": 25,
+    "name": "Voltpup",
+    "types": [
+      "VOLT"
+    ],
+    "baseStats": {
+      "hp": 35,
+      "attack": 55,
+      "defense": 30,
+      "specialAttack": 50,
+      "specialDefense": 40,
+      "speed": 90
+    },
+    "catchRate": 190,
+    "baseExp": 112,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 71
+      },
+      {
+        "level": 5,
+        "moveId": 9
+      },
+      {
+        "level": 10,
+        "moveId": 77
+      },
+      {
+        "level": 18,
+        "moveId": 72
+      },
+      {
+        "level": 26,
+        "moveId": 73
+      },
+      {
+        "level": 34,
+        "moveId": 75
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 26,
+        "method": "LEVEL",
+        "param": 30
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "Cheek sacs store electricity that crackles when excited."
+  },
+  {
+    "id": 26,
+    "name": "Volteon",
+    "types": [
+      "VOLT"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 90,
+      "defense": 55,
+      "specialAttack": 90,
+      "specialDefense": 80,
+      "speed": 110
+    },
+    "catchRate": 75,
+    "baseExp": 218,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 71
+      },
+      {
+        "level": 5,
+        "moveId": 9
+      },
+      {
+        "level": 10,
+        "moveId": 77
+      },
+      {
+        "level": 18,
+        "moveId": 72
+      },
+      {
+        "level": 26,
+        "moveId": 73
+      },
+      {
+        "level": 34,
+        "moveId": 75
+      },
+      {
+        "level": 44,
+        "moveId": 74
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "Bolts surge across its fur; it can light a town for a week."
+  },
+  {
+    "id": 27,
+    "name": "Sandbur",
+    "types": [
+      "TERRA"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 75,
+      "defense": 85,
+      "specialAttack": 20,
+      "specialDefense": 30,
+      "speed": 40
+    },
+    "catchRate": 255,
+    "baseExp": 74,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 141
+      },
+      {
+        "level": 7,
+        "moveId": 2
+      },
+      {
+        "level": 14,
+        "moveId": 142
+      },
+      {
+        "level": 22,
+        "moveId": 144
+      },
+      {
+        "level": 30,
+        "moveId": 143
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 28,
+        "method": "LEVEL",
+        "param": 22
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "DESERT"
+    ],
+    "description": "Its rough skin is covered in tiny rock shards."
+  },
+  {
+    "id": 28,
+    "name": "Sandclaw",
+    "types": [
+      "TERRA"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "attack": 100,
+      "defense": 110,
+      "specialAttack": 45,
+      "specialDefense": 55,
+      "speed": 65
+    },
+    "catchRate": 90,
+    "baseExp": 163,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 141
+      },
+      {
+        "level": 7,
+        "moveId": 2
+      },
+      {
+        "level": 14,
+        "moveId": 142
+      },
+      {
+        "level": 22,
+        "moveId": 144
+      },
+      {
+        "level": 30,
+        "moveId": 143
+      },
+      {
+        "level": 40,
+        "moveId": 146
+      },
+      {
+        "level": 50,
+        "moveId": 193
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "DESERT"
+    ],
+    "description": "Its claws can tunnel through rock as easily as soft earth."
+  },
+  {
+    "id": 29,
+    "name": "Nidbat",
+    "types": [
+      "VENOM"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 47,
+      "defense": 52,
+      "specialAttack": 40,
+      "specialDefense": 40,
+      "speed": 41
+    },
+    "catchRate": 235,
+    "baseExp": 55,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 131
+      },
+      {
+        "level": 8,
+        "moveId": 107
+      },
+      {
+        "level": 14,
+        "moveId": 105
+      },
+      {
+        "level": 20,
+        "moveId": 135
+      },
+      {
+        "level": 30,
+        "moveId": 134
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 30,
+        "method": "LEVEL",
+        "param": 22
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "A small bat that feeds on toxic berries, concentrating venom."
+  },
+  {
+    "id": 30,
+    "name": "Venbat",
+    "types": [
+      "VENOM"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 62,
+      "defense": 67,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 56
+    },
+    "catchRate": 120,
+    "baseExp": 135,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 131
+      },
+      {
+        "level": 8,
+        "moveId": 107
+      },
+      {
+        "level": 14,
+        "moveId": 105
+      },
+      {
+        "level": 20,
+        "moveId": 135
+      },
+      {
+        "level": 30,
+        "moveId": 134
+      },
+      {
+        "level": 40,
+        "moveId": 136
+      },
+      {
+        "level": 50,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "Venom drips from fangs long enough to pierce thick hides."
+  },
+  {
+    "id": 31,
+    "name": "Venqueen",
+    "types": [
+      "VENOM",
+      "TERRA"
+    ],
+    "baseStats": {
+      "hp": 81,
+      "attack": 92,
+      "defense": 77,
+      "specialAttack": 85,
+      "specialDefense": 75,
+      "speed": 76
+    },
+    "catchRate": 45,
+    "baseExp": 200,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 131
+      },
+      {
+        "level": 8,
+        "moveId": 107
+      },
+      {
+        "level": 14,
+        "moveId": 105
+      },
+      {
+        "level": 20,
+        "moveId": 135
+      },
+      {
+        "level": 30,
+        "moveId": 134
+      },
+      {
+        "level": 40,
+        "moveId": 143
+      },
+      {
+        "level": 50,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "Its drill-like horn can bore through cavern walls."
+  },
+  {
+    "id": 32,
+    "name": "Zubatlet",
+    "types": [
+      "VENOM",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "specialAttack": 30,
+      "specialDefense": 40,
+      "speed": 55
+    },
+    "catchRate": 255,
+    "baseExp": 54,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 131
+      },
+      {
+        "level": 5,
+        "moveId": 182
+      },
+      {
+        "level": 9,
+        "moveId": 153
+      },
+      {
+        "level": 16,
+        "moveId": 207
+      },
+      {
+        "level": 25,
+        "moveId": 133
+      },
+      {
+        "level": 34,
+        "moveId": 156
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 33,
+        "method": "LEVEL",
+        "param": 22
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "A blind bat that navigates with ultrasonic screeches."
+  },
+  {
+    "id": 33,
+    "name": "Zubatfang",
+    "types": [
+      "VENOM",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "attack": 80,
+      "defense": 70,
+      "specialAttack": 65,
+      "specialDefense": 75,
+      "speed": 90
+    },
+    "catchRate": 90,
+    "baseExp": 147,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 131
+      },
+      {
+        "level": 5,
+        "moveId": 182
+      },
+      {
+        "level": 9,
+        "moveId": 153
+      },
+      {
+        "level": 16,
+        "moveId": 207
+      },
+      {
+        "level": 25,
+        "moveId": 133
+      },
+      {
+        "level": 34,
+        "moveId": 156
+      },
+      {
+        "level": 44,
+        "moveId": 134
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 34,
+        "method": "HAPPINESS",
+        "param": 0
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "Uses echolocation to hunt at night; its venom is potent."
+  },
+  {
+    "id": 34,
+    "name": "Crobatfang",
+    "types": [
+      "VENOM",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "attack": 90,
+      "defense": 80,
+      "specialAttack": 70,
+      "specialDefense": 80,
+      "speed": 130
+    },
+    "catchRate": 45,
+    "baseExp": 204,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 131
+      },
+      {
+        "level": 5,
+        "moveId": 182
+      },
+      {
+        "level": 9,
+        "moveId": 153
+      },
+      {
+        "level": 16,
+        "moveId": 207
+      },
+      {
+        "level": 25,
+        "moveId": 133
+      },
+      {
+        "level": 34,
+        "moveId": 156
+      },
+      {
+        "level": 44,
+        "moveId": 134
+      },
+      {
+        "level": 55,
+        "moveId": 153
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "Four wings let it fly silently at incredible speeds."
+  },
+  {
+    "id": 35,
+    "name": "Starflit",
+    "types": [
+      "RADIANT"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 45,
+      "defense": 48,
+      "specialAttack": 60,
+      "specialDefense": 65,
+      "speed": 35
+    },
+    "catchRate": 150,
+    "baseExp": 113,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 244
+      },
+      {
+        "level": 3,
+        "moveId": 244
+      },
+      {
+        "level": 9,
+        "moveId": 245
+      },
+      {
+        "level": 14,
+        "moveId": 246
+      },
+      {
+        "level": 22,
+        "moveId": 241
+      },
+      {
+        "level": 30,
+        "moveId": 163
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 36,
+        "method": "ITEM",
+        "param": 401
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "Sings a gentle melody under starlight."
+  },
+  {
+    "id": 36,
+    "name": "Starglam",
+    "types": [
+      "RADIANT"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "attack": 70,
+      "defense": 73,
+      "specialAttack": 95,
+      "specialDefense": 90,
+      "speed": 60
+    },
+    "catchRate": 25,
+    "baseExp": 225,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 244
+      },
+      {
+        "level": 9,
+        "moveId": 245
+      },
+      {
+        "level": 14,
+        "moveId": 246
+      },
+      {
+        "level": 22,
+        "moveId": 241
+      },
+      {
+        "level": 30,
+        "moveId": 163
+      },
+      {
+        "level": 42,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "Radiates a warm pink light that calms those nearby."
+  },
+  {
+    "id": 37,
+    "name": "Vulfox",
+    "types": [
+      "FLAME"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 45,
+      "specialAttack": 70,
+      "specialDefense": 60,
+      "speed": 60
+    },
+    "catchRate": 190,
+    "baseExp": 90,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 31
+      },
+      {
+        "level": 6,
+        "moveId": 34
+      },
+      {
+        "level": 14,
+        "moveId": 35
+      },
+      {
+        "level": 22,
+        "moveId": 32
+      },
+      {
+        "level": 30,
+        "moveId": 16
+      },
+      {
+        "level": 42,
+        "moveId": 33
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 38,
+        "method": "LEVEL",
+        "param": 30
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A cunning fox that ignites its fur to intimidate enemies."
+  },
+  {
+    "id": 38,
+    "name": "Ninfox",
+    "types": [
+      "FLAME"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 75,
+      "defense": 60,
+      "specialAttack": 95,
+      "specialDefense": 110,
+      "speed": 65
+    },
+    "catchRate": 75,
+    "baseExp": 177,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 31
+      },
+      {
+        "level": 6,
+        "moveId": 34
+      },
+      {
+        "level": 14,
+        "moveId": 35
+      },
+      {
+        "level": 22,
+        "moveId": 32
+      },
+      {
+        "level": 30,
+        "moveId": 16
+      },
+      {
+        "level": 42,
+        "moveId": 33
+      },
+      {
+        "level": 55,
+        "moveId": 38
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Said to have nine fiery tails that cast hypnotic flames."
+  },
+  {
+    "id": 39,
+    "name": "Jiggloon",
+    "types": [
+      "RADIANT",
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 115,
+      "attack": 45,
+      "defense": 20,
+      "specialAttack": 45,
+      "specialDefense": 25,
+      "speed": 20
+    },
+    "catchRate": 170,
+    "baseExp": 95,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 3
+      },
+      {
+        "level": 4,
+        "moveId": 8
+      },
+      {
+        "level": 9,
+        "moveId": 168
+      },
+      {
+        "level": 14,
+        "moveId": 244
+      },
+      {
+        "level": 19,
+        "moveId": 20
+      },
+      {
+        "level": 29,
+        "moveId": 241
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 40,
+        "method": "ITEM",
+        "param": 401
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A round, buoyant creature that sings soothing lullabies."
+  },
+  {
+    "id": 40,
+    "name": "Wigglatoon",
+    "types": [
+      "RADIANT",
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 140,
+      "attack": 70,
+      "defense": 45,
+      "specialAttack": 85,
+      "specialDefense": 50,
+      "speed": 45
+    },
+    "catchRate": 45,
+    "baseExp": 196,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 3
+      },
+      {
+        "level": 4,
+        "moveId": 8
+      },
+      {
+        "level": 9,
+        "moveId": 168
+      },
+      {
+        "level": 14,
+        "moveId": 244
+      },
+      {
+        "level": 19,
+        "moveId": 20
+      },
+      {
+        "level": 29,
+        "moveId": 241
+      },
+      {
+        "level": 45,
+        "moveId": 26
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Inflates to enormous size and rolls over opponents."
+  },
+  {
+    "id": 41,
+    "name": "Kanto041",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #41."
+  },
+  {
+    "id": 42,
+    "name": "Kanto042",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #42."
+  },
+  {
+    "id": 43,
+    "name": "Kanto043",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #43."
+  },
+  {
+    "id": 44,
+    "name": "Kanto044",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #44."
+  },
+  {
+    "id": 45,
+    "name": "Kanto045",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #45."
+  },
+  {
+    "id": 46,
+    "name": "Kanto046",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #46."
+  },
+  {
+    "id": 47,
+    "name": "Kanto047",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #47."
+  },
+  {
+    "id": 48,
+    "name": "Kanto048",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #48."
+  },
+  {
+    "id": 49,
+    "name": "Kanto049",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #49."
+  },
+  {
+    "id": 50,
+    "name": "Kanto050",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #50."
+  },
+  {
+    "id": 51,
+    "name": "Kanto051",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #51."
+  },
+  {
+    "id": 52,
+    "name": "Kanto052",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #52."
+  },
+  {
+    "id": 53,
+    "name": "Kanto053",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #53."
+  },
+  {
+    "id": 54,
+    "name": "Kanto054",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #54."
+  },
+  {
+    "id": 55,
+    "name": "Kanto055",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #55."
+  },
+  {
+    "id": 56,
+    "name": "Kanto056",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #56."
+  },
+  {
+    "id": 57,
+    "name": "Kanto057",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #57."
+  },
+  {
+    "id": 58,
+    "name": "Embarpup",
+    "types": [
+      "FLAME"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 45,
+      "specialAttack": 70,
+      "specialDefense": 50,
+      "speed": 60
+    },
+    "catchRate": 190,
+    "baseExp": 91,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 31
+      },
+      {
+        "level": 7,
+        "moveId": 8
+      },
+      {
+        "level": 10,
+        "moveId": 35
+      },
+      {
+        "level": 18,
+        "moveId": 34
+      },
+      {
+        "level": 28,
+        "moveId": 32
+      },
+      {
+        "level": 36,
+        "moveId": 40
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 59,
+        "method": "ITEM",
+        "param": 402
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A loyal fire-type pup that guards its trainer fiercely."
+  },
+  {
+    "id": 59,
+    "name": "Emberleo",
+    "types": [
+      "FLAME"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "attack": 110,
+      "defense": 80,
+      "specialAttack": 100,
+      "specialDefense": 80,
+      "speed": 95
+    },
+    "catchRate": 75,
+    "baseExp": 194,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 31
+      },
+      {
+        "level": 7,
+        "moveId": 8
+      },
+      {
+        "level": 10,
+        "moveId": 35
+      },
+      {
+        "level": 18,
+        "moveId": 34
+      },
+      {
+        "level": 28,
+        "moveId": 32
+      },
+      {
+        "level": 36,
+        "moveId": 40
+      },
+      {
+        "level": 50,
+        "moveId": 33
+      },
+      {
+        "level": 60,
+        "moveId": 38
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A majestic fire lion whose roar echoes across mountains."
+  },
+  {
+    "id": 60,
+    "name": "Kanto060",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #60."
+  },
+  {
+    "id": 61,
+    "name": "Kanto061",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #61."
+  },
+  {
+    "id": 62,
+    "name": "Kanto062",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #62."
+  },
+  {
+    "id": 63,
+    "name": "Kanto063",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #63."
+  },
+  {
+    "id": 64,
+    "name": "Kanto064",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #64."
+  },
+  {
+    "id": 65,
+    "name": "Kanto065",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #65."
+  },
+  {
+    "id": 66,
+    "name": "Kanto066",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #66."
+  },
+  {
+    "id": 67,
+    "name": "Kanto067",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #67."
+  },
+  {
+    "id": 68,
+    "name": "Kanto068",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #68."
+  },
+  {
+    "id": 69,
+    "name": "Kanto069",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #69."
+  },
+  {
+    "id": 70,
+    "name": "Kanto070",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #70."
+  },
+  {
+    "id": 71,
+    "name": "Kanto071",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #71."
+  },
+  {
+    "id": 72,
+    "name": "Kanto072",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #72."
+  },
+  {
+    "id": 73,
+    "name": "Kanto073",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #73."
+  },
+  {
+    "id": 74,
+    "name": "Kanto074",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #74."
+  },
+  {
+    "id": 75,
+    "name": "Kanto075",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #75."
+  },
+  {
+    "id": 76,
+    "name": "Kanto076",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #76."
+  },
+  {
+    "id": 77,
+    "name": "Blazecolt",
+    "types": [
+      "FLAME"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 85,
+      "defense": 55,
+      "specialAttack": 65,
+      "specialDefense": 65,
+      "speed": 90
+    },
+    "catchRate": 190,
+    "baseExp": 82,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 31
+      },
+      {
+        "level": 6,
+        "moveId": 34
+      },
+      {
+        "level": 9,
+        "moveId": 152
+      },
+      {
+        "level": 15,
+        "moveId": 35
+      },
+      {
+        "level": 24,
+        "moveId": 32
+      },
+      {
+        "level": 32,
+        "moveId": 36
+      },
+      {
+        "level": 48,
+        "moveId": 33
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 78,
+        "method": "LEVEL",
+        "param": 40
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Its fiery mane and tail ignite when it gallops at full speed."
+  },
+  {
+    "id": 78,
+    "name": "Blazesteed",
+    "types": [
+      "FLAME"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 100,
+      "defense": 70,
+      "specialAttack": 80,
+      "specialDefense": 80,
+      "speed": 105
+    },
+    "catchRate": 75,
+    "baseExp": 175,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 31
+      },
+      {
+        "level": 6,
+        "moveId": 34
+      },
+      {
+        "level": 9,
+        "moveId": 152
+      },
+      {
+        "level": 15,
+        "moveId": 35
+      },
+      {
+        "level": 24,
+        "moveId": 32
+      },
+      {
+        "level": 32,
+        "moveId": 36
+      },
+      {
+        "level": 48,
+        "moveId": 33
+      },
+      {
+        "level": 58,
+        "moveId": 38
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Gallops so fast its hooves barely touch the ground."
+  },
+  {
+    "id": 79,
+    "name": "Slowfin",
+    "types": [
+      "AQUA",
+      "PSYCHE"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 40,
+      "specialDefense": 40,
+      "speed": 15
+    },
+    "catchRate": 190,
+    "baseExp": 99,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 5,
+        "moveId": 161
+      },
+      {
+        "level": 14,
+        "moveId": 56
+      },
+      {
+        "level": 26,
+        "moveId": 168
+      },
+      {
+        "level": 37,
+        "moveId": 162
+      },
+      {
+        "level": 48,
+        "moveId": 163
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 80,
+        "method": "LEVEL",
+        "param": 37
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "So laid-back it doesn't notice pain until much later."
+  },
+  {
+    "id": 80,
+    "name": "Slowdon",
+    "types": [
+      "AQUA",
+      "PSYCHE"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "attack": 75,
+      "defense": 110,
+      "specialAttack": 100,
+      "specialDefense": 80,
+      "speed": 30
+    },
+    "catchRate": 75,
+    "baseExp": 164,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 5,
+        "moveId": 161
+      },
+      {
+        "level": 14,
+        "moveId": 56
+      },
+      {
+        "level": 26,
+        "moveId": 168
+      },
+      {
+        "level": 37,
+        "moveId": 162
+      },
+      {
+        "level": 48,
+        "moveId": 163
+      },
+      {
+        "level": 55,
+        "moveId": 165
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Its thick skull protects a surprisingly powerful psychic mind."
+  },
+  {
+    "id": 81,
+    "name": "Magnetite",
+    "types": [
+      "IRON",
+      "VOLT"
+    ],
+    "baseStats": {
+      "hp": 25,
+      "attack": 35,
+      "defense": 70,
+      "specialAttack": 95,
+      "specialDefense": 55,
+      "speed": 45
+    },
+    "catchRate": 190,
+    "baseExp": 89,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 71
+      },
+      {
+        "level": 6,
+        "moveId": 237
+      },
+      {
+        "level": 13,
+        "moveId": 77
+      },
+      {
+        "level": 21,
+        "moveId": 78
+      },
+      {
+        "level": 30,
+        "moveId": 76
+      },
+      {
+        "level": 38,
+        "moveId": 74
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 82,
+        "method": "LEVEL",
+        "param": 30
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "A strange magnetic creature that hovers using electric fields."
+  },
+  {
+    "id": 82,
+    "name": "Magnetite2",
+    "types": [
+      "IRON",
+      "VOLT"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 60,
+      "defense": 95,
+      "specialAttack": 120,
+      "specialDefense": 70,
+      "speed": 70
+    },
+    "catchRate": 60,
+    "baseExp": 161,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 71
+      },
+      {
+        "level": 6,
+        "moveId": 237
+      },
+      {
+        "level": 13,
+        "moveId": 77
+      },
+      {
+        "level": 21,
+        "moveId": 78
+      },
+      {
+        "level": 30,
+        "moveId": 76
+      },
+      {
+        "level": 38,
+        "moveId": 74
+      },
+      {
+        "level": 50,
+        "moveId": 233
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 83,
+        "method": "LEVEL",
+        "param": 60
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "Three magnetite units orbit each other generating vast power."
+  },
+  {
+    "id": 83,
+    "name": "Magnezone",
+    "types": [
+      "IRON",
+      "VOLT"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 70,
+      "defense": 115,
+      "specialAttack": 130,
+      "specialDefense": 90,
+      "speed": 60
+    },
+    "catchRate": 30,
+    "baseExp": 241,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 71
+      },
+      {
+        "level": 6,
+        "moveId": 237
+      },
+      {
+        "level": 13,
+        "moveId": 77
+      },
+      {
+        "level": 21,
+        "moveId": 78
+      },
+      {
+        "level": 30,
+        "moveId": 76
+      },
+      {
+        "level": 38,
+        "moveId": 74
+      },
+      {
+        "level": 50,
+        "moveId": 233
+      },
+      {
+        "level": 60,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "Has evolved to emit powerful electromagnetic pulses."
+  },
+  {
+    "id": 84,
+    "name": "Kanto084",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #84."
+  },
+  {
+    "id": 85,
+    "name": "Kanto085",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #85."
+  },
+  {
+    "id": 86,
+    "name": "Kanto086",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #86."
+  },
+  {
+    "id": 87,
+    "name": "Kanto087",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #87."
+  },
+  {
+    "id": 88,
+    "name": "Grimeslug",
+    "types": [
+      "VENOM"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 80,
+      "defense": 50,
+      "specialAttack": 40,
+      "specialDefense": 50,
+      "speed": 25
+    },
+    "catchRate": 190,
+    "baseExp": 90,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 131
+      },
+      {
+        "level": 1,
+        "moveId": 107
+      },
+      {
+        "level": 7,
+        "moveId": 133
+      },
+      {
+        "level": 20,
+        "moveId": 136
+      },
+      {
+        "level": 28,
+        "moveId": 134
+      },
+      {
+        "level": 38,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 89,
+        "method": "LEVEL",
+        "param": 38
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "TOWN"
+    ],
+    "description": "A mound of toxic sludge born from industrial waste."
+  },
+  {
+    "id": 89,
+    "name": "Grimemass",
+    "types": [
+      "VENOM"
+    ],
+    "baseStats": {
+      "hp": 105,
+      "attack": 105,
+      "defense": 75,
+      "specialAttack": 65,
+      "specialDefense": 100,
+      "speed": 50
+    },
+    "catchRate": 75,
+    "baseExp": 184,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 131
+      },
+      {
+        "level": 1,
+        "moveId": 107
+      },
+      {
+        "level": 7,
+        "moveId": 133
+      },
+      {
+        "level": 20,
+        "moveId": 136
+      },
+      {
+        "level": 28,
+        "moveId": 134
+      },
+      {
+        "level": 38,
+        "moveId": 5
+      },
+      {
+        "level": 55,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "TOWN"
+    ],
+    "description": "An enormous toxic sludge heap that corrodes everything it touches."
+  },
+  {
+    "id": 90,
+    "name": "Kanto090",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #90."
+  },
+  {
+    "id": 91,
+    "name": "Kanto091",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #91."
+  },
+  {
+    "id": 92,
+    "name": "Hauntling",
+    "types": [
+      "SHADE",
+      "VENOM"
+    ],
+    "baseStats": {
+      "hp": 30,
+      "attack": 35,
+      "defense": 30,
+      "specialAttack": 100,
+      "specialDefense": 35,
+      "speed": 80
+    },
+    "catchRate": 190,
+    "baseExp": 95,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 201
+      },
+      {
+        "level": 5,
+        "moveId": 207
+      },
+      {
+        "level": 8,
+        "moveId": 106
+      },
+      {
+        "level": 15,
+        "moveId": 206
+      },
+      {
+        "level": 25,
+        "moveId": 202
+      },
+      {
+        "level": 35,
+        "moveId": 104
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 93,
+        "method": "LEVEL",
+        "param": 25
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE",
+      "TOWN"
+    ],
+    "description": "A drifting spirit found near old graveyards."
+  },
+  {
+    "id": 93,
+    "name": "Hauntmare",
+    "types": [
+      "SHADE",
+      "VENOM"
+    ],
+    "baseStats": {
+      "hp": 45,
+      "attack": 50,
+      "defense": 45,
+      "specialAttack": 115,
+      "specialDefense": 55,
+      "speed": 95
+    },
+    "catchRate": 90,
+    "baseExp": 172,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 201
+      },
+      {
+        "level": 5,
+        "moveId": 207
+      },
+      {
+        "level": 8,
+        "moveId": 106
+      },
+      {
+        "level": 15,
+        "moveId": 206
+      },
+      {
+        "level": 25,
+        "moveId": 202
+      },
+      {
+        "level": 35,
+        "moveId": 104
+      },
+      {
+        "level": 45,
+        "moveId": 202
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 94,
+        "method": "LEVEL",
+        "param": 36
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE",
+      "TOWN"
+    ],
+    "description": "Stretches its shadowy arms to drag prey into darkness."
+  },
+  {
+    "id": 94,
+    "name": "Hauntmare2",
+    "types": [
+      "SHADE",
+      "VENOM"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 60,
+      "specialAttack": 130,
+      "specialDefense": 75,
+      "speed": 110
+    },
+    "catchRate": 45,
+    "baseExp": 218,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 201
+      },
+      {
+        "level": 5,
+        "moveId": 207
+      },
+      {
+        "level": 8,
+        "moveId": 106
+      },
+      {
+        "level": 15,
+        "moveId": 206
+      },
+      {
+        "level": 25,
+        "moveId": 202
+      },
+      {
+        "level": 35,
+        "moveId": 104
+      },
+      {
+        "level": 45,
+        "moveId": 202
+      },
+      {
+        "level": 55,
+        "moveId": 204
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "A phantom with enough power to rend the veil between worlds."
+  },
+  {
+    "id": 95,
+    "name": "Kanto095",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #95."
+  },
+  {
+    "id": 96,
+    "name": "Kanto096",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #96."
+  },
+  {
+    "id": 97,
+    "name": "Kanto097",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #97."
+  },
+  {
+    "id": 98,
+    "name": "Kanto098",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #98."
+  },
+  {
+    "id": 99,
+    "name": "Kanto099",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #99."
+  },
+  {
+    "id": 100,
+    "name": "Voltorb",
+    "types": [
+      "VOLT"
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 30,
+      "defense": 50,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 100
+    },
+    "catchRate": 190,
+    "baseExp": 66,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 71
+      },
+      {
+        "level": 5,
+        "moveId": 80
+      },
+      {
+        "level": 14,
+        "moveId": 77
+      },
+      {
+        "level": 20,
+        "moveId": 76
+      },
+      {
+        "level": 30,
+        "moveId": 74
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 101,
+        "method": "LEVEL",
+        "param": 30
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Round electric orb that shocks careless trainers."
+  },
+  {
+    "id": 101,
+    "name": "Electrob",
+    "types": [
+      "VOLT"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 70,
+      "specialAttack": 80,
+      "specialDefense": 80,
+      "speed": 140
+    },
+    "catchRate": 60,
+    "baseExp": 150,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 71
+      },
+      {
+        "level": 5,
+        "moveId": 80
+      },
+      {
+        "level": 14,
+        "moveId": 77
+      },
+      {
+        "level": 20,
+        "moveId": 76
+      },
+      {
+        "level": 30,
+        "moveId": 74
+      },
+      {
+        "level": 40,
+        "moveId": 74
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Its charge is so powerful it can fuse metal."
+  },
+  {
+    "id": 102,
+    "name": "Eggcluster",
+    "types": [
+      "FLORA",
+      "PSYCHE"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 40,
+      "defense": 80,
+      "specialAttack": 60,
+      "specialDefense": 45,
+      "speed": 40
+    },
+    "catchRate": 90,
+    "baseExp": 98,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 91
+      },
+      {
+        "level": 7,
+        "moveId": 161
+      },
+      {
+        "level": 14,
+        "moveId": 103
+      },
+      {
+        "level": 22,
+        "moveId": 96
+      },
+      {
+        "level": 30,
+        "moveId": 163
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 103,
+        "method": "ITEM",
+        "param": 405
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "Six psychically linked eggs that roll and dodge together."
+  },
+  {
+    "id": 103,
+    "name": "Eggpalm",
+    "types": [
+      "FLORA",
+      "PSYCHE"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "attack": 95,
+      "defense": 85,
+      "specialAttack": 125,
+      "specialDefense": 75,
+      "speed": 55
+    },
+    "catchRate": 45,
+    "baseExp": 182,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 91
+      },
+      {
+        "level": 7,
+        "moveId": 161
+      },
+      {
+        "level": 14,
+        "moveId": 103
+      },
+      {
+        "level": 22,
+        "moveId": 96
+      },
+      {
+        "level": 30,
+        "moveId": 163
+      },
+      {
+        "level": 45,
+        "moveId": 97
+      },
+      {
+        "level": 55,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "A walking coconut palm with immense psychic power."
+  },
+  {
+    "id": 104,
+    "name": "Cubskull",
+    "types": [
+      "TERRA"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 50,
+      "defense": 95,
+      "specialAttack": 40,
+      "specialDefense": 50,
+      "speed": 35
+    },
+    "catchRate": 190,
+    "baseExp": 74,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 6,
+        "moveId": 141
+      },
+      {
+        "level": 12,
+        "moveId": 191
+      },
+      {
+        "level": 20,
+        "moveId": 143
+      },
+      {
+        "level": 28,
+        "moveId": 192
+      },
+      {
+        "level": 38,
+        "moveId": 193
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 105,
+        "method": "LEVEL",
+        "param": 28
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "Always wears the skull of its deceased mother."
+  },
+  {
+    "id": 105,
+    "name": "Marowitch",
+    "types": [
+      "TERRA"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 80,
+      "defense": 110,
+      "specialAttack": 50,
+      "specialDefense": 80,
+      "speed": 45
+    },
+    "catchRate": 75,
+    "baseExp": 149,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 6,
+        "moveId": 141
+      },
+      {
+        "level": 12,
+        "moveId": 191
+      },
+      {
+        "level": 20,
+        "moveId": 143
+      },
+      {
+        "level": 28,
+        "moveId": 192
+      },
+      {
+        "level": 38,
+        "moveId": 193
+      },
+      {
+        "level": 48,
+        "moveId": 146
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "Dances under moonlight, mourning with its bone club raised."
+  },
+  {
+    "id": 106,
+    "name": "Kanto106",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #106."
+  },
+  {
+    "id": 107,
+    "name": "Kanto107",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #107."
+  },
+  {
+    "id": 108,
+    "name": "Kanto108",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #108."
+  },
+  {
+    "id": 109,
+    "name": "Kanto109",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #109."
+  },
+  {
+    "id": 110,
+    "name": "Kanto110",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #110."
+  },
+  {
+    "id": 111,
+    "name": "Rhinolet",
+    "types": [
+      "TERRA",
+      "STONE"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 85,
+      "defense": 95,
+      "specialAttack": 30,
+      "specialDefense": 30,
+      "speed": 25
+    },
+    "catchRate": 120,
+    "baseExp": 135,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 141
+      },
+      {
+        "level": 10,
+        "moveId": 191
+      },
+      {
+        "level": 20,
+        "moveId": 143
+      },
+      {
+        "level": 30,
+        "moveId": 192
+      },
+      {
+        "level": 42,
+        "moveId": 193
+      },
+      {
+        "level": 52,
+        "moveId": 146
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 112,
+        "method": "LEVEL",
+        "param": 42
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A rough-skinned rhino that uses its horn as a drill."
+  },
+  {
+    "id": 112,
+    "name": "Rhinodon",
+    "types": [
+      "TERRA",
+      "STONE"
+    ],
+    "baseStats": {
+      "hp": 105,
+      "attack": 130,
+      "defense": 120,
+      "specialAttack": 45,
+      "specialDefense": 45,
+      "speed": 40
+    },
+    "catchRate": 60,
+    "baseExp": 204,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 141
+      },
+      {
+        "level": 10,
+        "moveId": 191
+      },
+      {
+        "level": 20,
+        "moveId": 143
+      },
+      {
+        "level": 30,
+        "moveId": 192
+      },
+      {
+        "level": 42,
+        "moveId": 193
+      },
+      {
+        "level": 52,
+        "moveId": 146
+      },
+      {
+        "level": 62,
+        "moveId": 6
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Its drill horn can pierce a skyscraper foundation."
+  },
+  {
+    "id": 113,
+    "name": "Chansheal",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 250,
+      "attack": 5,
+      "defense": 5,
+      "specialAttack": 35,
+      "specialDefense": 105,
+      "speed": 50
+    },
+    "catchRate": 30,
+    "baseExp": 255,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 3
+      },
+      {
+        "level": 9,
+        "moveId": 8
+      },
+      {
+        "level": 17,
+        "moveId": 17
+      },
+      {
+        "level": 25,
+        "moveId": 29
+      },
+      {
+        "level": 33,
+        "moveId": 246
+      },
+      {
+        "level": 45,
+        "moveId": 20
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Kind-hearted healer that shares its life-giving egg freely."
+  },
+  {
+    "id": 114,
+    "name": "Tanglevine",
+    "types": [
+      "FLORA"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 55,
+      "defense": 115,
+      "specialAttack": 100,
+      "specialDefense": 40,
+      "speed": 60
+    },
+    "catchRate": 45,
+    "baseExp": 166,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 91
+      },
+      {
+        "level": 7,
+        "moveId": 102
+      },
+      {
+        "level": 15,
+        "moveId": 94
+      },
+      {
+        "level": 25,
+        "moveId": 96
+      },
+      {
+        "level": 33,
+        "moveId": 95
+      },
+      {
+        "level": 45,
+        "moveId": 97
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Masses of tangling blue vines that regenerate instantly."
+  },
+  {
+    "id": 115,
+    "name": "Kangasnap",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 105,
+      "attack": 95,
+      "defense": 80,
+      "specialAttack": 40,
+      "specialDefense": 80,
+      "speed": 90
+    },
+    "catchRate": 45,
+    "baseExp": 172,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 7,
+        "moveId": 8
+      },
+      {
+        "level": 15,
+        "moveId": 20
+      },
+      {
+        "level": 20,
+        "moveId": 122
+      },
+      {
+        "level": 30,
+        "moveId": 21
+      },
+      {
+        "level": 40,
+        "moveId": 6
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A mother creature that carries its young in a belly pouch."
+  },
+  {
+    "id": 116,
+    "name": "Seahorse",
+    "types": [
+      "AQUA"
+    ],
+    "baseStats": {
+      "hp": 30,
+      "attack": 40,
+      "defense": 70,
+      "specialAttack": 70,
+      "specialDefense": 25,
+      "speed": 60
+    },
+    "catchRate": 225,
+    "baseExp": 83,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 8,
+        "moveId": 53
+      },
+      {
+        "level": 15,
+        "moveId": 213
+      },
+      {
+        "level": 25,
+        "moveId": 55
+      },
+      {
+        "level": 32,
+        "moveId": 212
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 117,
+        "method": "LEVEL",
+        "param": 32
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Anchors itself with its curled tail during ocean currents."
+  },
+  {
+    "id": 117,
+    "name": "Kingdorse",
+    "types": [
+      "AQUA",
+      "WYRM"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 95,
+      "defense": 95,
+      "specialAttack": 95,
+      "specialDefense": 45,
+      "speed": 85
+    },
+    "catchRate": 75,
+    "baseExp": 170,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 8,
+        "moveId": 53
+      },
+      {
+        "level": 15,
+        "moveId": 213
+      },
+      {
+        "level": 25,
+        "moveId": 55
+      },
+      {
+        "level": 32,
+        "moveId": 212
+      },
+      {
+        "level": 45,
+        "moveId": 216
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Majestic sea-horse ruler. Steers with its fan-like dorsal fin."
+  },
+  {
+    "id": 118,
+    "name": "Goldeenlet",
+    "types": [
+      "AQUA"
+    ],
+    "baseStats": {
+      "hp": 45,
+      "attack": 67,
+      "defense": 60,
+      "specialAttack": 35,
+      "specialDefense": 50,
+      "speed": 63
+    },
+    "catchRate": 225,
+    "baseExp": 111,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 10,
+        "moveId": 57
+      },
+      {
+        "level": 19,
+        "moveId": 54
+      },
+      {
+        "level": 28,
+        "moveId": 55
+      },
+      {
+        "level": 38,
+        "moveId": 61
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 119,
+        "method": "LEVEL",
+        "param": 33
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "A graceful fish with a horn like a lance."
+  },
+  {
+    "id": 119,
+    "name": "Goldash",
+    "types": [
+      "AQUA"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 92,
+      "defense": 65,
+      "specialAttack": 65,
+      "specialDefense": 80,
+      "speed": 68
+    },
+    "catchRate": 60,
+    "baseExp": 214,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 10,
+        "moveId": 57
+      },
+      {
+        "level": 19,
+        "moveId": 54
+      },
+      {
+        "level": 28,
+        "moveId": 55
+      },
+      {
+        "level": 38,
+        "moveId": 61
+      },
+      {
+        "level": 48,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Commands schools of fish with majestic golden scales."
+  },
+  {
+    "id": 120,
+    "name": "Staryte",
+    "types": [
+      "AQUA"
+    ],
+    "baseStats": {
+      "hp": 30,
+      "attack": 45,
+      "defense": 55,
+      "specialAttack": 70,
+      "specialDefense": 55,
+      "speed": 85
+    },
+    "catchRate": 225,
+    "baseExp": 106,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 7,
+        "moveId": 56
+      },
+      {
+        "level": 17,
+        "moveId": 161
+      },
+      {
+        "level": 27,
+        "moveId": 162
+      },
+      {
+        "level": 37,
+        "moveId": 163
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 121,
+        "method": "ITEM",
+        "param": 405
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "A star-shaped sea creature that regenerates lost limbs."
+  },
+  {
+    "id": 121,
+    "name": "Starblaze",
+    "types": [
+      "AQUA",
+      "PSYCHE"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 85,
+      "specialAttack": 100,
+      "specialDefense": 85,
+      "speed": 115
+    },
+    "catchRate": 60,
+    "baseExp": 207,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 7,
+        "moveId": 56
+      },
+      {
+        "level": 17,
+        "moveId": 161
+      },
+      {
+        "level": 27,
+        "moveId": 162
+      },
+      {
+        "level": 37,
+        "moveId": 163
+      },
+      {
+        "level": 47,
+        "moveId": 165
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Its gem glows with otherworldly light linked to distant stars."
+  },
+  {
+    "id": 122,
+    "name": "Mimiknight",
+    "types": [
+      "PSYCHE",
+      "RADIANT"
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 65,
+      "specialAttack": 100,
+      "specialDefense": 120,
+      "speed": 90
+    },
+    "catchRate": 45,
+    "baseExp": 136,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 244
+      },
+      {
+        "level": 9,
+        "moveId": 170
+      },
+      {
+        "level": 17,
+        "moveId": 162
+      },
+      {
+        "level": 25,
+        "moveId": 163
+      },
+      {
+        "level": 33,
+        "moveId": 167
+      },
+      {
+        "level": 45,
+        "moveId": 165
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "TOWN"
+    ],
+    "description": "Mimes barriers so convincingly they become real."
+  },
+  {
+    "id": 123,
+    "name": "Scyther",
+    "types": [
+      "INSECT",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 80,
+      "specialAttack": 55,
+      "specialDefense": 80,
+      "speed": 105
+    },
+    "catchRate": 45,
+    "baseExp": 187,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 181
+      },
+      {
+        "level": 9,
+        "moveId": 153
+      },
+      {
+        "level": 17,
+        "moveId": 184
+      },
+      {
+        "level": 25,
+        "moveId": 185
+      },
+      {
+        "level": 38,
+        "moveId": 155
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "Razor-sharp scythes on its forearms can split boulders."
+  },
+  {
+    "id": 124,
+    "name": "Jynxara",
+    "types": [
+      "FROST",
+      "PSYCHE"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 50,
+      "defense": 35,
+      "specialAttack": 115,
+      "specialDefense": 95,
+      "speed": 95
+    },
+    "catchRate": 45,
+    "baseExp": 137,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 114
+      },
+      {
+        "level": 8,
+        "moveId": 168
+      },
+      {
+        "level": 17,
+        "moveId": 112
+      },
+      {
+        "level": 25,
+        "moveId": 161
+      },
+      {
+        "level": 33,
+        "moveId": 163
+      },
+      {
+        "level": 45,
+        "moveId": 113
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "Its dancing movements mesmerise opponents into deep sleep."
+  },
+  {
+    "id": 125,
+    "name": "Elecbolt",
+    "types": [
+      "VOLT"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 83,
+      "defense": 57,
+      "specialAttack": 95,
+      "specialDefense": 85,
+      "speed": 105
+    },
+    "catchRate": 45,
+    "baseExp": 156,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 71
+      },
+      {
+        "level": 9,
+        "moveId": 77
+      },
+      {
+        "level": 17,
+        "moveId": 72
+      },
+      {
+        "level": 25,
+        "moveId": 73
+      },
+      {
+        "level": 33,
+        "moveId": 76
+      },
+      {
+        "level": 41,
+        "moveId": 74
+      },
+      {
+        "level": 49,
+        "moveId": 75
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Living dynamo; bolts arc between its horns."
+  },
+  {
+    "id": 126,
+    "name": "Magmar",
+    "types": [
+      "FLAME"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 95,
+      "defense": 57,
+      "specialAttack": 100,
+      "specialDefense": 85,
+      "speed": 93
+    },
+    "catchRate": 45,
+    "baseExp": 173,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 31
+      },
+      {
+        "level": 9,
+        "moveId": 39
+      },
+      {
+        "level": 17,
+        "moveId": 35
+      },
+      {
+        "level": 25,
+        "moveId": 37
+      },
+      {
+        "level": 33,
+        "moveId": 32
+      },
+      {
+        "level": 41,
+        "moveId": 33
+      },
+      {
+        "level": 49,
+        "moveId": 38
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "Its body temperature can exceed 1000 degrees."
+  },
+  {
+    "id": 127,
+    "name": "Pinsirax",
+    "types": [
+      "INSECT"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 125,
+      "defense": 100,
+      "specialAttack": 55,
+      "specialDefense": 70,
+      "speed": 85
+    },
+    "catchRate": 45,
+    "baseExp": 200,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 181
+      },
+      {
+        "level": 9,
+        "moveId": 184
+      },
+      {
+        "level": 17,
+        "moveId": 121
+      },
+      {
+        "level": 25,
+        "moveId": 193
+      },
+      {
+        "level": 38,
+        "moveId": 124
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "Its crushing horns can snap tree trunks with one squeeze."
+  },
+  {
+    "id": 128,
+    "name": "Taurock",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "attack": 100,
+      "defense": 95,
+      "specialAttack": 40,
+      "specialDefense": 70,
+      "speed": 110
+    },
+    "catchRate": 45,
+    "baseExp": 172,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 7,
+        "moveId": 9
+      },
+      {
+        "level": 15,
+        "moveId": 20
+      },
+      {
+        "level": 25,
+        "moveId": 21
+      },
+      {
+        "level": 38,
+        "moveId": 6
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Charges with its three tails whipping to build speed."
+  },
+  {
+    "id": 129,
+    "name": "Kanto129",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #129."
+  },
+  {
+    "id": 130,
+    "name": "Kanto130",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #130."
+  },
+  {
+    "id": 131,
+    "name": "Laprasia",
+    "types": [
+      "AQUA",
+      "FROST"
+    ],
+    "baseStats": {
+      "hp": 130,
+      "attack": 85,
+      "defense": 80,
+      "specialAttack": 85,
+      "specialDefense": 95,
+      "speed": 60
+    },
+    "catchRate": 45,
+    "baseExp": 187,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 5,
+        "moveId": 56
+      },
+      {
+        "level": 12,
+        "moveId": 115
+      },
+      {
+        "level": 20,
+        "moveId": 112
+      },
+      {
+        "level": 28,
+        "moveId": 54
+      },
+      {
+        "level": 35,
+        "moveId": 113
+      },
+      {
+        "level": 44,
+        "moveId": 55
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "A gentle sea giant that ferries people across oceans."
+  },
+  {
+    "id": 132,
+    "name": "Mimicoze",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 48,
+      "attack": 48,
+      "defense": 48,
+      "specialAttack": 48,
+      "specialDefense": 48,
+      "speed": 48
+    },
+    "catchRate": 35,
+    "baseExp": 101,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Can reshape its entire body to copy any other creature."
+  },
+  {
+    "id": 133,
+    "name": "Eevee",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 55,
+      "defense": 50,
+      "specialAttack": 45,
+      "specialDefense": 65,
+      "speed": 55
+    },
+    "catchRate": 45,
+    "baseExp": 92,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 8,
+        "moveId": 9
+      },
+      {
+        "level": 15,
+        "moveId": 4
+      },
+      {
+        "level": 29,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 134,
+        "method": "ITEM",
+        "param": 403
+      },
+      {
+        "toId": 135,
+        "method": "ITEM",
+        "param": 404
+      },
+      {
+        "toId": 136,
+        "method": "ITEM",
+        "param": 402
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "TOWN"
+    ],
+    "description": "An adaptable creature whose genetic code is highly unstable."
+  },
+  {
+    "id": 134,
+    "name": "Aquareon",
+    "types": [
+      "AQUA"
+    ],
+    "baseStats": {
+      "hp": 130,
+      "attack": 65,
+      "defense": 60,
+      "specialAttack": 110,
+      "specialDefense": 95,
+      "speed": 65
+    },
+    "catchRate": 45,
+    "baseExp": 184,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 9,
+        "moveId": 56
+      },
+      {
+        "level": 17,
+        "moveId": 54
+      },
+      {
+        "level": 25,
+        "moveId": 59
+      },
+      {
+        "level": 33,
+        "moveId": 55
+      },
+      {
+        "level": 41,
+        "moveId": 61
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Absorbs water through its velvety hide to strengthen itself."
+  },
+  {
+    "id": 135,
+    "name": "Voltareon",
+    "types": [
+      "VOLT"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 60,
+      "specialAttack": 110,
+      "specialDefense": 95,
+      "speed": 130
+    },
+    "catchRate": 45,
+    "baseExp": 184,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 71
+      },
+      {
+        "level": 9,
+        "moveId": 77
+      },
+      {
+        "level": 17,
+        "moveId": 73
+      },
+      {
+        "level": 25,
+        "moveId": 76
+      },
+      {
+        "level": 33,
+        "moveId": 74
+      },
+      {
+        "level": 41,
+        "moveId": 75
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Charges up static electricity in its bristly yellow fur."
+  },
+  {
+    "id": 136,
+    "name": "Flarareon",
+    "types": [
+      "FLAME"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 130,
+      "defense": 60,
+      "specialAttack": 95,
+      "specialDefense": 110,
+      "speed": 65
+    },
+    "catchRate": 45,
+    "baseExp": 184,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 31
+      },
+      {
+        "level": 9,
+        "moveId": 34
+      },
+      {
+        "level": 17,
+        "moveId": 32
+      },
+      {
+        "level": 25,
+        "moveId": 35
+      },
+      {
+        "level": 33,
+        "moveId": 33
+      },
+      {
+        "level": 41,
+        "moveId": 38
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Body temperature is so high it can ignite air around it."
+  },
+  {
+    "id": 137,
+    "name": "Kanto137",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #137."
+  },
+  {
+    "id": 138,
+    "name": "Shellfossil",
+    "types": [
+      "STONE",
+      "AQUA"
+    ],
+    "baseStats": {
+      "hp": 35,
+      "attack": 40,
+      "defense": 100,
+      "specialAttack": 90,
+      "specialDefense": 55,
+      "speed": 35
+    },
+    "catchRate": 45,
+    "baseExp": 99,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 191
+      },
+      {
+        "level": 13,
+        "moveId": 53
+      },
+      {
+        "level": 22,
+        "moveId": 146
+      },
+      {
+        "level": 33,
+        "moveId": 54
+      },
+      {
+        "level": 44,
+        "moveId": 193
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 139,
+        "method": "LEVEL",
+        "param": 40
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Revived from an ancient shell fossil."
+  },
+  {
+    "id": 139,
+    "name": "Shelltide",
+    "types": [
+      "STONE",
+      "AQUA"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 60,
+      "defense": 125,
+      "specialAttack": 115,
+      "specialDefense": 70,
+      "speed": 55
+    },
+    "catchRate": 45,
+    "baseExp": 205,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 191
+      },
+      {
+        "level": 13,
+        "moveId": 53
+      },
+      {
+        "level": 22,
+        "moveId": 146
+      },
+      {
+        "level": 33,
+        "moveId": 54
+      },
+      {
+        "level": 44,
+        "moveId": 193
+      },
+      {
+        "level": 54,
+        "moveId": 55
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Ancient oceanic predator restored from fossil DNA."
+  },
+  {
+    "id": 140,
+    "name": "Skullfossil",
+    "types": [
+      "STONE",
+      "AQUA"
+    ],
+    "baseStats": {
+      "hp": 30,
+      "attack": 80,
+      "defense": 90,
+      "specialAttack": 55,
+      "specialDefense": 45,
+      "speed": 55
+    },
+    "catchRate": 45,
+    "baseExp": 99,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 2
+      },
+      {
+        "level": 13,
+        "moveId": 57
+      },
+      {
+        "level": 22,
+        "moveId": 143
+      },
+      {
+        "level": 33,
+        "moveId": 192
+      },
+      {
+        "level": 44,
+        "moveId": 193
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 141,
+        "method": "LEVEL",
+        "param": 40
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Revived from a skull fossil. An ancient predator."
+  },
+  {
+    "id": 141,
+    "name": "Skullmare",
+    "types": [
+      "STONE",
+      "AQUA"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 120,
+      "defense": 110,
+      "specialAttack": 45,
+      "specialDefense": 45,
+      "speed": 80
+    },
+    "catchRate": 45,
+    "baseExp": 205,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 2
+      },
+      {
+        "level": 13,
+        "moveId": 57
+      },
+      {
+        "level": 22,
+        "moveId": 143
+      },
+      {
+        "level": 33,
+        "moveId": 192
+      },
+      {
+        "level": 44,
+        "moveId": 193
+      },
+      {
+        "level": 54,
+        "moveId": 193
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "A resurrected marine monster with armour-plated jaws."
+  },
+  {
+    "id": 142,
+    "name": "Kanto142",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 100,
+    "baseExp": 100,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #142."
+  },
+  {
+    "id": 143,
+    "name": "Snorlith",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 160,
+      "attack": 110,
+      "defense": 65,
+      "specialAttack": 65,
+      "specialDefense": 110,
+      "speed": 30
+    },
+    "catchRate": 25,
+    "baseExp": 189,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 9,
+        "moveId": 20
+      },
+      {
+        "level": 17,
+        "moveId": 21
+      },
+      {
+        "level": 25,
+        "moveId": 17
+      },
+      {
+        "level": 33,
+        "moveId": 5
+      },
+      {
+        "level": 41,
+        "moveId": 6
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Consumes 400 kg of food daily then sleeps for a week."
+  },
+  {
+    "id": 144,
+    "name": "Glacivern",
+    "types": [
+      "FROST",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "attack": 85,
+      "defense": 100,
+      "specialAttack": 95,
+      "specialDefense": 125,
+      "speed": 85
+    },
+    "catchRate": 3,
+    "baseExp": 215,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 114
+      },
+      {
+        "level": 1,
+        "moveId": 151
+      },
+      {
+        "level": 8,
+        "moveId": 116
+      },
+      {
+        "level": 15,
+        "moveId": 117
+      },
+      {
+        "level": 22,
+        "moveId": 112
+      },
+      {
+        "level": 29,
+        "moveId": 119
+      },
+      {
+        "level": 43,
+        "moveId": 113
+      },
+      {
+        "level": 50,
+        "moveId": 154
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": true,
+    "habitat": [
+      "CAVE",
+      "MOUNTAIN"
+    ],
+    "description": "The legendary ice bird said to control blizzards."
+  },
+  {
+    "id": 145,
+    "name": "Stormavian",
+    "types": [
+      "VOLT",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "attack": 90,
+      "defense": 85,
+      "specialAttack": 125,
+      "specialDefense": 90,
+      "speed": 100
+    },
+    "catchRate": 3,
+    "baseExp": 215,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 71
+      },
+      {
+        "level": 1,
+        "moveId": 151
+      },
+      {
+        "level": 8,
+        "moveId": 77
+      },
+      {
+        "level": 15,
+        "moveId": 78
+      },
+      {
+        "level": 22,
+        "moveId": 73
+      },
+      {
+        "level": 29,
+        "moveId": 160
+      },
+      {
+        "level": 43,
+        "moveId": 74
+      },
+      {
+        "level": 50,
+        "moveId": 154
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": true,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "The legendary thunder bird that calls lightning from storm clouds."
+  },
+  {
+    "id": 146,
+    "name": "Embravian",
+    "types": [
+      "FLAME",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "attack": 100,
+      "defense": 90,
+      "specialAttack": 125,
+      "specialDefense": 85,
+      "speed": 90
+    },
+    "catchRate": 3,
+    "baseExp": 215,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 31
+      },
+      {
+        "level": 1,
+        "moveId": 151
+      },
+      {
+        "level": 8,
+        "moveId": 152
+      },
+      {
+        "level": 15,
+        "moveId": 37
+      },
+      {
+        "level": 22,
+        "moveId": 32
+      },
+      {
+        "level": 29,
+        "moveId": 40
+      },
+      {
+        "level": 43,
+        "moveId": 33
+      },
+      {
+        "level": 50,
+        "moveId": 154
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": true,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "The legendary fire bird whose feathers glow like embers."
+  },
+  {
+    "id": 147,
+    "name": "Draklet",
+    "types": [
+      "WYRM"
+    ],
+    "baseStats": {
+      "hp": 41,
+      "attack": 64,
+      "defense": 45,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 50
+    },
+    "catchRate": 45,
+    "baseExp": 60,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 211
+      },
+      {
+        "level": 5,
+        "moveId": 52
+      },
+      {
+        "level": 15,
+        "moveId": 53
+      },
+      {
+        "level": 24,
+        "moveId": 212
+      },
+      {
+        "level": 35,
+        "moveId": 213
+      },
+      {
+        "level": 45,
+        "moveId": 215
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 148,
+        "method": "LEVEL",
+        "param": 30
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "A shy water dragon that hides beneath lily pads."
+  },
+  {
+    "id": 148,
+    "name": "Drakine",
+    "types": [
+      "WYRM"
+    ],
+    "baseStats": {
+      "hp": 61,
+      "attack": 84,
+      "defense": 65,
+      "specialAttack": 70,
+      "specialDefense": 70,
+      "speed": 70
+    },
+    "catchRate": 45,
+    "baseExp": 147,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 211
+      },
+      {
+        "level": 5,
+        "moveId": 52
+      },
+      {
+        "level": 15,
+        "moveId": 53
+      },
+      {
+        "level": 24,
+        "moveId": 212
+      },
+      {
+        "level": 35,
+        "moveId": 213
+      },
+      {
+        "level": 45,
+        "moveId": 215
+      },
+      {
+        "level": 55,
+        "moveId": 217
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 149,
+        "method": "LEVEL",
+        "param": 55
+      }
+    ],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Its scales shimmer like opals; it dances in river currents."
+  },
+  {
+    "id": 149,
+    "name": "Dragonite",
+    "types": [
+      "WYRM",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 91,
+      "attack": 134,
+      "defense": 95,
+      "specialAttack": 100,
+      "specialDefense": 100,
+      "speed": 80
+    },
+    "catchRate": 45,
+    "baseExp": 270,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 211
+      },
+      {
+        "level": 5,
+        "moveId": 52
+      },
+      {
+        "level": 15,
+        "moveId": 53
+      },
+      {
+        "level": 24,
+        "moveId": 212
+      },
+      {
+        "level": 35,
+        "moveId": 213
+      },
+      {
+        "level": 45,
+        "moveId": 215
+      },
+      {
+        "level": 55,
+        "moveId": 217
+      },
+      {
+        "level": 65,
+        "moveId": 6
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "A majestic dragon that circles the globe in sixteen hours."
+  },
+  {
+    "id": 150,
+    "name": "Voidmind",
+    "types": [
+      "PSYCHE"
+    ],
+    "baseStats": {
+      "hp": 106,
+      "attack": 110,
+      "defense": 90,
+      "specialAttack": 154,
+      "specialDefense": 90,
+      "speed": 130
+    },
+    "catchRate": 3,
+    "baseExp": 220,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 161
+      },
+      {
+        "level": 1,
+        "moveId": 17
+      },
+      {
+        "level": 9,
+        "moveId": 167
+      },
+      {
+        "level": 18,
+        "moveId": 164
+      },
+      {
+        "level": 27,
+        "moveId": 163
+      },
+      {
+        "level": 36,
+        "moveId": 165
+      },
+      {
+        "level": 63,
+        "moveId": 5
+      },
+      {
+        "level": 72,
+        "moveId": 163
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": true,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "An artificial psychic creature of immense and terrifying power."
+  },
+  {
+    "id": 151,
+    "name": "Miraphel",
+    "types": [
+      "PSYCHE"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 100,
+      "specialAttack": 100,
+      "specialDefense": 100,
+      "speed": 100
+    },
+    "catchRate": 45,
+    "baseExp": 220,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 161
+      },
+      {
+        "level": 1,
+        "moveId": 17
+      },
+      {
+        "level": 10,
+        "moveId": 19
+      },
+      {
+        "level": 20,
+        "moveId": 163
+      },
+      {
+        "level": 30,
+        "moveId": 167
+      },
+      {
+        "level": 40,
+        "moveId": 165
+      },
+      {
+        "level": 50,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "KANTO",
+    "isStarter": false,
+    "isLegendary": true,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "The mythical source creature. It can learn any technique."
+  }
+]

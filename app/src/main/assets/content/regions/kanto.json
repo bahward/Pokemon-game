@@ -1,0 +1,21 @@
+{
+  "id": "KANTO",
+  "name": "Verdania",
+  "startAreaId": "kanto_starttown",
+  "areas": [
+    "kanto_starttown","kanto_route1","kanto_stoneridge","kanto_route2","kanto_viridian_forest",
+    "kanto_route3","kanto_mistfall","kanto_mt_moon","kanto_route4","kanto_voltharrow",
+    "kanto_route6","kanto_route5","kanto_bloomvale","kanto_route7","kanto_celadon_dept",
+    "kanto_route8","kanto_route9","kanto_spirithaven","kanto_route10","kanto_route11",
+    "kanto_route12","kanto_psygate","kanto_route13","kanto_route14","kanto_route15",
+    "kanto_cindermark","kanto_route16","kanto_route17","kanto_route18","kanto_groundveil",
+    "kanto_route19","kanto_route20","kanto_route21","kanto_route22","kanto_apex_citadel",
+    "kanto_frostspire_cave","kanto_thunderpeak","kanto_cinderrift","kanto_obsidian_cavern",
+    "kanto_myth_island_alpha","kanto_seafoam_islands","kanto_pokemon_tower","kanto_silph"
+  ],
+  "gymIds": [
+    "gym_kanto_1","gym_kanto_2","gym_kanto_3","gym_kanto_4",
+    "gym_kanto_5","gym_kanto_6","gym_kanto_7","gym_kanto_8"
+  ],
+  "eliteFourId": "elite4_kanto"
+}

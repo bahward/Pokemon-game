@@ -1,0 +1,5183 @@
+[
+  {
+    "id": 152,
+    "name": "Sproutkit",
+    "types": [
+      "FLORA"
+    ],
+    "baseStats": {
+      "hp": 45,
+      "attack": 49,
+      "defense": 65,
+      "specialAttack": 49,
+      "specialDefense": 65,
+      "speed": 45
+    },
+    "catchRate": 45,
+    "baseExp": 64,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 8
+      },
+      {
+        "level": 7,
+        "moveId": 91
+      },
+      {
+        "level": 14,
+        "moveId": 103
+      },
+      {
+        "level": 20,
+        "moveId": 92
+      },
+      {
+        "level": 27,
+        "moveId": 108
+      },
+      {
+        "level": 34,
+        "moveId": 98
+      },
+      {
+        "level": 44,
+        "moveId": 95
+      },
+      {
+        "level": 54,
+        "moveId": 96
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 153,
+        "method": "LEVEL",
+        "param": 18
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": true,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A sprout dinosaur that absorbs sunlight through the leaf on its head."
+  },
+  {
+    "id": 153,
+    "name": "Sproutwig",
+    "types": [
+      "FLORA"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 62,
+      "defense": 80,
+      "specialAttack": 63,
+      "specialDefense": 80,
+      "speed": 60
+    },
+    "catchRate": 45,
+    "baseExp": 141,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 8
+      },
+      {
+        "level": 7,
+        "moveId": 91
+      },
+      {
+        "level": 14,
+        "moveId": 103
+      },
+      {
+        "level": 20,
+        "moveId": 92
+      },
+      {
+        "level": 27,
+        "moveId": 108
+      },
+      {
+        "level": 34,
+        "moveId": 98
+      },
+      {
+        "level": 44,
+        "moveId": 95
+      },
+      {
+        "level": 54,
+        "moveId": 96
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 154,
+        "method": "LEVEL",
+        "param": 32
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A larger leaf dino that swings its thick neck defensively."
+  },
+  {
+    "id": 154,
+    "name": "Sproutking",
+    "types": [
+      "FLORA"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 82,
+      "defense": 100,
+      "specialAttack": 83,
+      "specialDefense": 100,
+      "speed": 80
+    },
+    "catchRate": 45,
+    "baseExp": 208,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 8
+      },
+      {
+        "level": 7,
+        "moveId": 91
+      },
+      {
+        "level": 14,
+        "moveId": 103
+      },
+      {
+        "level": 20,
+        "moveId": 92
+      },
+      {
+        "level": 27,
+        "moveId": 108
+      },
+      {
+        "level": 34,
+        "moveId": 99
+      },
+      {
+        "level": 44,
+        "moveId": 95
+      },
+      {
+        "level": 54,
+        "moveId": 100
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A massive stegosaurus-like creature whose petals release healing pollen."
+  },
+  {
+    "id": 155,
+    "name": "Embercub",
+    "types": [
+      "FLAME"
+    ],
+    "baseStats": {
+      "hp": 39,
+      "attack": 52,
+      "defense": 43,
+      "specialAttack": 60,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 45,
+    "baseExp": 62,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 2
+      },
+      {
+        "level": 6,
+        "moveId": 10
+      },
+      {
+        "level": 10,
+        "moveId": 31
+      },
+      {
+        "level": 16,
+        "moveId": 34
+      },
+      {
+        "level": 23,
+        "moveId": 32
+      },
+      {
+        "level": 31,
+        "moveId": 40
+      },
+      {
+        "level": 38,
+        "moveId": 33
+      },
+      {
+        "level": 50,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 156,
+        "method": "LEVEL",
+        "param": 14
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": true,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "A spiky-backed cub that ignites the quills on its back when threatened."
+  },
+  {
+    "id": 156,
+    "name": "Emberbadge",
+    "types": [
+      "FLAME"
+    ],
+    "baseStats": {
+      "hp": 58,
+      "attack": 64,
+      "defense": 58,
+      "specialAttack": 80,
+      "specialDefense": 65,
+      "speed": 80
+    },
+    "catchRate": 45,
+    "baseExp": 142,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 2
+      },
+      {
+        "level": 6,
+        "moveId": 10
+      },
+      {
+        "level": 10,
+        "moveId": 31
+      },
+      {
+        "level": 16,
+        "moveId": 34
+      },
+      {
+        "level": 23,
+        "moveId": 32
+      },
+      {
+        "level": 31,
+        "moveId": 40
+      },
+      {
+        "level": 38,
+        "moveId": 33
+      },
+      {
+        "level": 50,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 157,
+        "method": "LEVEL",
+        "param": 36
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "Its volcanic back blazes with raw heat; footsteps leave scorch marks."
+  },
+  {
+    "id": 157,
+    "name": "Emberblazer",
+    "types": [
+      "FLAME"
+    ],
+    "baseStats": {
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "specialAttack": 109,
+      "specialDefense": 85,
+      "speed": 100
+    },
+    "catchRate": 45,
+    "baseExp": 220,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 2
+      },
+      {
+        "level": 6,
+        "moveId": 10
+      },
+      {
+        "level": 10,
+        "moveId": 31
+      },
+      {
+        "level": 16,
+        "moveId": 34
+      },
+      {
+        "level": 23,
+        "moveId": 32
+      },
+      {
+        "level": 31,
+        "moveId": 40
+      },
+      {
+        "level": 38,
+        "moveId": 33
+      },
+      {
+        "level": 50,
+        "moveId": 38
+      },
+      {
+        "level": 60,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "A fiery volcano badger. Its back erupts with explosive force."
+  },
+  {
+    "id": 158,
+    "name": "Tidekit",
+    "types": [
+      "AQUA"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 64,
+      "specialAttack": 44,
+      "specialDefense": 48,
+      "speed": 43
+    },
+    "catchRate": 45,
+    "baseExp": 63,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 9
+      },
+      {
+        "level": 6,
+        "moveId": 51
+      },
+      {
+        "level": 10,
+        "moveId": 52
+      },
+      {
+        "level": 18,
+        "moveId": 57
+      },
+      {
+        "level": 27,
+        "moveId": 54
+      },
+      {
+        "level": 35,
+        "moveId": 55
+      },
+      {
+        "level": 45,
+        "moveId": 61
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 159,
+        "method": "LEVEL",
+        "param": 18
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": true,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "A blue crocodilian that chomps anything within reach."
+  },
+  {
+    "id": 159,
+    "name": "Tidesnap",
+    "types": [
+      "AQUA"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 80,
+      "defense": 80,
+      "specialAttack": 59,
+      "specialDefense": 63,
+      "speed": 58
+    },
+    "catchRate": 45,
+    "baseExp": 142,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 9
+      },
+      {
+        "level": 6,
+        "moveId": 51
+      },
+      {
+        "level": 10,
+        "moveId": 52
+      },
+      {
+        "level": 18,
+        "moveId": 57
+      },
+      {
+        "level": 27,
+        "moveId": 54
+      },
+      {
+        "level": 35,
+        "moveId": 55
+      },
+      {
+        "level": 45,
+        "moveId": 61
+      },
+      {
+        "level": 55,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 160,
+        "method": "LEVEL",
+        "param": 30
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Its jaws are powerful enough to crush boulders with ease."
+  },
+  {
+    "id": 160,
+    "name": "Tidecroc",
+    "types": [
+      "AQUA"
+    ],
+    "baseStats": {
+      "hp": 79,
+      "attack": 105,
+      "defense": 100,
+      "specialAttack": 79,
+      "specialDefense": 83,
+      "speed": 78
+    },
+    "catchRate": 45,
+    "baseExp": 218,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 9
+      },
+      {
+        "level": 6,
+        "moveId": 51
+      },
+      {
+        "level": 10,
+        "moveId": 52
+      },
+      {
+        "level": 18,
+        "moveId": 57
+      },
+      {
+        "level": 27,
+        "moveId": 54
+      },
+      {
+        "level": 35,
+        "moveId": 55
+      },
+      {
+        "level": 45,
+        "moveId": 61
+      },
+      {
+        "level": 55,
+        "moveId": 57
+      },
+      {
+        "level": 65,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "A titanic crocodile whose hydro-cannon tail can shatter ships."
+  },
+  {
+    "id": 161,
+    "name": "Sentret",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 35,
+      "attack": 46,
+      "defense": 34,
+      "specialAttack": 35,
+      "specialDefense": 45,
+      "speed": 20
+    },
+    "catchRate": 255,
+    "baseExp": 57,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 5,
+        "moveId": 9
+      },
+      {
+        "level": 9,
+        "moveId": 4
+      },
+      {
+        "level": 15,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 162,
+        "method": "LEVEL",
+        "param": 15
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Stands on its tail to scan for danger."
+  },
+  {
+    "id": 162,
+    "name": "Furret",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "attack": 76,
+      "defense": 64,
+      "specialAttack": 45,
+      "specialDefense": 55,
+      "speed": 90
+    },
+    "catchRate": 90,
+    "baseExp": 145,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 5,
+        "moveId": 9
+      },
+      {
+        "level": 9,
+        "moveId": 4
+      },
+      {
+        "level": 15,
+        "moveId": 22
+      },
+      {
+        "level": 25,
+        "moveId": 25
+      },
+      {
+        "level": 35,
+        "moveId": 20
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Sleek body lets it slip through tight tunnels to hunt prey."
+  },
+  {
+    "id": 163,
+    "name": "Hoolet",
+    "types": [
+      "NEUTRAL",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 30,
+      "defense": 30,
+      "specialAttack": 36,
+      "specialDefense": 56,
+      "speed": 50
+    },
+    "catchRate": 255,
+    "baseExp": 52,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 3
+      },
+      {
+        "level": 5,
+        "moveId": 168
+      },
+      {
+        "level": 9,
+        "moveId": 151
+      },
+      {
+        "level": 15,
+        "moveId": 163
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 164,
+        "method": "LEVEL",
+        "param": 20
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "A round owl that hypnotises prey with huge spinning eyes."
+  },
+  {
+    "id": 164,
+    "name": "Hootdream",
+    "types": [
+      "NEUTRAL",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "attack": 50,
+      "defense": 50,
+      "specialAttack": 76,
+      "specialDefense": 96,
+      "speed": 70
+    },
+    "catchRate": 90,
+    "baseExp": 158,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 3
+      },
+      {
+        "level": 5,
+        "moveId": 168
+      },
+      {
+        "level": 9,
+        "moveId": 151
+      },
+      {
+        "level": 15,
+        "moveId": 163
+      },
+      {
+        "level": 25,
+        "moveId": 162
+      },
+      {
+        "level": 35,
+        "moveId": 165
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "Psychic owl whose hypnotic eyes can entrance any foe."
+  },
+  {
+    "id": 165,
+    "name": "Ledybug",
+    "types": [
+      "INSECT",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 20,
+      "defense": 30,
+      "specialAttack": 40,
+      "specialDefense": 80,
+      "speed": 55
+    },
+    "catchRate": 255,
+    "baseExp": 54,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 181
+      },
+      {
+        "level": 6,
+        "moveId": 125
+      },
+      {
+        "level": 11,
+        "moveId": 183
+      },
+      {
+        "level": 18,
+        "moveId": 185
+      },
+      {
+        "level": 28,
+        "moveId": 187
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 166,
+        "method": "LEVEL",
+        "param": 18
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A ladybird that uses team coordination to fight."
+  },
+  {
+    "id": 166,
+    "name": "Ledystar",
+    "types": [
+      "INSECT",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 35,
+      "defense": 50,
+      "specialAttack": 55,
+      "specialDefense": 110,
+      "speed": 85
+    },
+    "catchRate": 90,
+    "baseExp": 137,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 181
+      },
+      {
+        "level": 6,
+        "moveId": 125
+      },
+      {
+        "level": 11,
+        "moveId": 183
+      },
+      {
+        "level": 18,
+        "moveId": 185
+      },
+      {
+        "level": 28,
+        "moveId": 187
+      },
+      {
+        "level": 40,
+        "moveId": 184
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A star-patterned beetle renowned for its keen senses."
+  },
+  {
+    "id": 167,
+    "name": "Weblet",
+    "types": [
+      "INSECT",
+      "VENOM"
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 60,
+      "defense": 40,
+      "specialAttack": 40,
+      "specialDefense": 40,
+      "speed": 30
+    },
+    "catchRate": 255,
+    "baseExp": 57,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 131
+      },
+      {
+        "level": 5,
+        "moveId": 182
+      },
+      {
+        "level": 12,
+        "moveId": 181
+      },
+      {
+        "level": 22,
+        "moveId": 135
+      },
+      {
+        "level": 32,
+        "moveId": 184
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 168,
+        "method": "LEVEL",
+        "param": 22
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "Spins sticky webs between trees to trap flying insects."
+  },
+  {
+    "id": 168,
+    "name": "Arachfang",
+    "types": [
+      "INSECT",
+      "VENOM"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 90,
+      "defense": 70,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 40
+    },
+    "catchRate": 90,
+    "baseExp": 140,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 131
+      },
+      {
+        "level": 5,
+        "moveId": 182
+      },
+      {
+        "level": 12,
+        "moveId": 181
+      },
+      {
+        "level": 22,
+        "moveId": 135
+      },
+      {
+        "level": 32,
+        "moveId": 184
+      },
+      {
+        "level": 42,
+        "moveId": 185
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "A monstrous spider. Its web can hold creatures ten times its size."
+  },
+  {
+    "id": 169,
+    "name": "Johto169",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 70,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 70
+    },
+    "catchRate": 100,
+    "baseExp": 110,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #169."
+  },
+  {
+    "id": 170,
+    "name": "Chinchourl",
+    "types": [
+      "AQUA",
+      "VOLT"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "attack": 38,
+      "defense": 38,
+      "specialAttack": 56,
+      "specialDefense": 56,
+      "speed": 67
+    },
+    "catchRate": 190,
+    "baseExp": 90,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 6,
+        "moveId": 71
+      },
+      {
+        "level": 12,
+        "moveId": 53
+      },
+      {
+        "level": 22,
+        "moveId": 77
+      },
+      {
+        "level": 32,
+        "moveId": 73
+      },
+      {
+        "level": 43,
+        "moveId": 55
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 171,
+        "method": "LEVEL",
+        "param": 27
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Two glowing antennae lure prey in deep dark water."
+  },
+  {
+    "id": 171,
+    "name": "Lanturnfin",
+    "types": [
+      "AQUA",
+      "VOLT"
+    ],
+    "baseStats": {
+      "hp": 125,
+      "attack": 58,
+      "defense": 58,
+      "specialAttack": 76,
+      "specialDefense": 76,
+      "speed": 67
+    },
+    "catchRate": 75,
+    "baseExp": 161,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 6,
+        "moveId": 71
+      },
+      {
+        "level": 12,
+        "moveId": 53
+      },
+      {
+        "level": 22,
+        "moveId": 77
+      },
+      {
+        "level": 32,
+        "moveId": 73
+      },
+      {
+        "level": 43,
+        "moveId": 55
+      },
+      {
+        "level": 55,
+        "moveId": 74
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Its lantern generates enough electricity to stun large fish."
+  },
+  {
+    "id": 172,
+    "name": "Johto172",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 70,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 70
+    },
+    "catchRate": 100,
+    "baseExp": 110,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #172."
+  },
+  {
+    "id": 173,
+    "name": "Starbaby",
+    "types": [
+      "RADIANT"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 25,
+      "defense": 28,
+      "specialAttack": 45,
+      "specialDefense": 55,
+      "speed": 15
+    },
+    "catchRate": 150,
+    "baseExp": 37,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 244
+      },
+      {
+        "level": 5,
+        "moveId": 246
+      },
+      {
+        "level": 9,
+        "moveId": 245
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 35,
+        "method": "HAPPINESS",
+        "param": 0
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A tiny star creature that loves being held."
+  },
+  {
+    "id": 174,
+    "name": "Bubbloon",
+    "types": [
+      "RADIANT",
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "attack": 30,
+      "defense": 15,
+      "specialAttack": 40,
+      "specialDefense": 20,
+      "speed": 15
+    },
+    "catchRate": 170,
+    "baseExp": 38,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 3
+      },
+      {
+        "level": 4,
+        "moveId": 8
+      },
+      {
+        "level": 9,
+        "moveId": 168
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 39,
+        "method": "HAPPINESS",
+        "param": 0
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A tiny bubbly baby that sings off-key lullabies."
+  },
+  {
+    "id": 175,
+    "name": "Johto175",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 70,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 70
+    },
+    "catchRate": 100,
+    "baseExp": 110,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #175."
+  },
+  {
+    "id": 176,
+    "name": "Johto176",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 70,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 70
+    },
+    "catchRate": 100,
+    "baseExp": 110,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #176."
+  },
+  {
+    "id": 177,
+    "name": "Johto177",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 70,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 70
+    },
+    "catchRate": 100,
+    "baseExp": 110,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #177."
+  },
+  {
+    "id": 178,
+    "name": "Johto178",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 70,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 70
+    },
+    "catchRate": 100,
+    "baseExp": 110,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #178."
+  },
+  {
+    "id": 179,
+    "name": "Fluffolt",
+    "types": [
+      "VOLT"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 40,
+      "defense": 40,
+      "specialAttack": 65,
+      "specialDefense": 45,
+      "speed": 35
+    },
+    "catchRate": 235,
+    "baseExp": 78,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 71
+      },
+      {
+        "level": 6,
+        "moveId": 105
+      },
+      {
+        "level": 15,
+        "moveId": 77
+      },
+      {
+        "level": 23,
+        "moveId": 73
+      },
+      {
+        "level": 30,
+        "moveId": 76
+      },
+      {
+        "level": 42,
+        "moveId": 74
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 180,
+        "method": "LEVEL",
+        "param": 15
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Static builds in its wool, making its fleece glow."
+  },
+  {
+    "id": 180,
+    "name": "Flaireep",
+    "types": [
+      "VOLT"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 55,
+      "defense": 55,
+      "specialAttack": 80,
+      "specialDefense": 60,
+      "speed": 45
+    },
+    "catchRate": 120,
+    "baseExp": 161,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 71
+      },
+      {
+        "level": 6,
+        "moveId": 105
+      },
+      {
+        "level": 15,
+        "moveId": 77
+      },
+      {
+        "level": 23,
+        "moveId": 73
+      },
+      {
+        "level": 30,
+        "moveId": 76
+      },
+      {
+        "level": 42,
+        "moveId": 74
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 181,
+        "method": "LEVEL",
+        "param": 30
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "The red sphere on its tail acts as a lightning rod."
+  },
+  {
+    "id": 181,
+    "name": "Flailhorn",
+    "types": [
+      "VOLT"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 115,
+      "specialDefense": 90,
+      "speed": 55
+    },
+    "catchRate": 45,
+    "baseExp": 230,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 71
+      },
+      {
+        "level": 6,
+        "moveId": 105
+      },
+      {
+        "level": 15,
+        "moveId": 77
+      },
+      {
+        "level": 23,
+        "moveId": 73
+      },
+      {
+        "level": 30,
+        "moveId": 76
+      },
+      {
+        "level": 42,
+        "moveId": 74
+      },
+      {
+        "level": 55,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "The beacon on its tail glows so brightly ships mistake it for a lighthouse."
+  },
+  {
+    "id": 182,
+    "name": "Johto182",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 70,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 70
+    },
+    "catchRate": 100,
+    "baseExp": 110,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #182."
+  },
+  {
+    "id": 183,
+    "name": "Johto183",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 70,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 70
+    },
+    "catchRate": 100,
+    "baseExp": 110,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #183."
+  },
+  {
+    "id": 184,
+    "name": "Johto184",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 70,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 70
+    },
+    "catchRate": 100,
+    "baseExp": 110,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #184."
+  },
+  {
+    "id": 185,
+    "name": "Johto185",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 70,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 70
+    },
+    "catchRate": 100,
+    "baseExp": 110,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #185."
+  },
+  {
+    "id": 186,
+    "name": "Johto186",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 70,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 70
+    },
+    "catchRate": 100,
+    "baseExp": 110,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #186."
+  },
+  {
+    "id": 187,
+    "name": "Driftleaf",
+    "types": [
+      "FLORA",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 35,
+      "attack": 35,
+      "defense": 40,
+      "specialAttack": 35,
+      "specialDefense": 55,
+      "speed": 50
+    },
+    "catchRate": 255,
+    "baseExp": 74,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 91
+      },
+      {
+        "level": 7,
+        "moveId": 105
+      },
+      {
+        "level": 15,
+        "moveId": 102
+      },
+      {
+        "level": 22,
+        "moveId": 103
+      },
+      {
+        "level": 30,
+        "moveId": 96
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 188,
+        "method": "LEVEL",
+        "param": 18
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Floats on the wind, spreading seeds across wide distances."
+  },
+  {
+    "id": 188,
+    "name": "Driftfern",
+    "types": [
+      "FLORA",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 45,
+      "defense": 50,
+      "specialAttack": 45,
+      "specialDefense": 65,
+      "speed": 80
+    },
+    "catchRate": 120,
+    "baseExp": 119,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 91
+      },
+      {
+        "level": 7,
+        "moveId": 105
+      },
+      {
+        "level": 15,
+        "moveId": 102
+      },
+      {
+        "level": 22,
+        "moveId": 103
+      },
+      {
+        "level": 30,
+        "moveId": 96
+      },
+      {
+        "level": 40,
+        "moveId": 97
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 189,
+        "method": "LEVEL",
+        "param": 27
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Leaps between updrafts with its broadened leaf pads."
+  },
+  {
+    "id": 189,
+    "name": "Driftbloom",
+    "types": [
+      "FLORA",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "attack": 55,
+      "defense": 70,
+      "specialAttack": 55,
+      "specialDefense": 80,
+      "speed": 110
+    },
+    "catchRate": 45,
+    "baseExp": 180,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 91
+      },
+      {
+        "level": 7,
+        "moveId": 105
+      },
+      {
+        "level": 15,
+        "moveId": 102
+      },
+      {
+        "level": 22,
+        "moveId": 103
+      },
+      {
+        "level": 30,
+        "moveId": 96
+      },
+      {
+        "level": 40,
+        "moveId": 97
+      },
+      {
+        "level": 52,
+        "moveId": 154
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "The enormous flower on its head controls nearby air currents."
+  },
+  {
+    "id": 190,
+    "name": "Johto190",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 70,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 70
+    },
+    "catchRate": 100,
+    "baseExp": 110,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #190."
+  },
+  {
+    "id": 191,
+    "name": "Sunsprite",
+    "types": [
+      "FLORA"
+    ],
+    "baseStats": {
+      "hp": 30,
+      "attack": 30,
+      "defense": 30,
+      "specialAttack": 30,
+      "specialDefense": 30,
+      "speed": 30
+    },
+    "catchRate": 235,
+    "baseExp": 36,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 93
+      },
+      {
+        "level": 7,
+        "moveId": 108
+      },
+      {
+        "level": 14,
+        "moveId": 103
+      },
+      {
+        "level": 22,
+        "moveId": 98
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 192,
+        "method": "ITEM",
+        "param": 405
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Falls from the sky during meteor showers."
+  },
+  {
+    "id": 192,
+    "name": "Sunbloom",
+    "types": [
+      "FLORA"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "attack": 75,
+      "defense": 55,
+      "specialAttack": 105,
+      "specialDefense": 85,
+      "speed": 30
+    },
+    "catchRate": 120,
+    "baseExp": 149,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 93
+      },
+      {
+        "level": 7,
+        "moveId": 108
+      },
+      {
+        "level": 14,
+        "moveId": 103
+      },
+      {
+        "level": 22,
+        "moveId": 98
+      },
+      {
+        "level": 35,
+        "moveId": 95
+      },
+      {
+        "level": 48,
+        "moveId": 96
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Turns to face the sun constantly; withers in the dark."
+  },
+  {
+    "id": 193,
+    "name": "Dragonfly",
+    "types": [
+      "INSECT",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 65,
+      "defense": 45,
+      "specialAttack": 75,
+      "specialDefense": 45,
+      "speed": 95
+    },
+    "catchRate": 75,
+    "baseExp": 147,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 181
+      },
+      {
+        "level": 7,
+        "moveId": 153
+      },
+      {
+        "level": 14,
+        "moveId": 183
+      },
+      {
+        "level": 24,
+        "moveId": 185
+      },
+      {
+        "level": 36,
+        "moveId": 185
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Creates sonic booms with its wingbeats that shatter glass."
+  },
+  {
+    "id": 194,
+    "name": "Woopert",
+    "types": [
+      "AQUA",
+      "TERRA"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 45,
+      "defense": 45,
+      "specialAttack": 25,
+      "specialDefense": 25,
+      "speed": 15
+    },
+    "catchRate": 255,
+    "baseExp": 71,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 6,
+        "moveId": 141
+      },
+      {
+        "level": 12,
+        "moveId": 147
+      },
+      {
+        "level": 20,
+        "moveId": 144
+      },
+      {
+        "level": 28,
+        "moveId": 143
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 195,
+        "method": "LEVEL",
+        "param": 20
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Wanders on land in cool weather; its skin secretes goop."
+  },
+  {
+    "id": 195,
+    "name": "Quagswamp",
+    "types": [
+      "AQUA",
+      "TERRA"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "attack": 85,
+      "defense": 85,
+      "specialAttack": 65,
+      "specialDefense": 65,
+      "speed": 35
+    },
+    "catchRate": 90,
+    "baseExp": 175,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 6,
+        "moveId": 141
+      },
+      {
+        "level": 12,
+        "moveId": 147
+      },
+      {
+        "level": 20,
+        "moveId": 144
+      },
+      {
+        "level": 28,
+        "moveId": 143
+      },
+      {
+        "level": 40,
+        "moveId": 146
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Wallows in mud. Its body absorbs shock from any blow."
+  },
+  {
+    "id": 196,
+    "name": "Johto196",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 70,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 70
+    },
+    "catchRate": 100,
+    "baseExp": 110,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #196."
+  },
+  {
+    "id": 197,
+    "name": "Johto197",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 70,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 70
+    },
+    "catchRate": 100,
+    "baseExp": 110,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #197."
+  },
+  {
+    "id": 198,
+    "name": "Johto198",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 70,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 70
+    },
+    "catchRate": 100,
+    "baseExp": 110,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #198."
+  },
+  {
+    "id": 199,
+    "name": "Johto199",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 70,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 70
+    },
+    "catchRate": 100,
+    "baseExp": 110,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #199."
+  },
+  {
+    "id": 200,
+    "name": "Mistwail",
+    "types": [
+      "SHADE"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 60,
+      "defense": 60,
+      "specialAttack": 85,
+      "specialDefense": 85,
+      "speed": 85
+    },
+    "catchRate": 45,
+    "baseExp": 147,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 201
+      },
+      {
+        "level": 5,
+        "moveId": 207
+      },
+      {
+        "level": 15,
+        "moveId": 206
+      },
+      {
+        "level": 25,
+        "moveId": 202
+      },
+      {
+        "level": 35,
+        "moveId": 204
+      },
+      {
+        "level": 45,
+        "moveId": 205
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "A screaming spirit that feeds on fear and sadness."
+  },
+  {
+    "id": 201,
+    "name": "Inscribeon",
+    "types": [
+      "PSYCHE"
+    ],
+    "baseStats": {
+      "hp": 48,
+      "attack": 72,
+      "defense": 48,
+      "specialAttack": 72,
+      "specialDefense": 48,
+      "speed": 48
+    },
+    "catchRate": 225,
+    "baseExp": 90,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 164
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "A living ancient letter. Its power is magnified in groups."
+  },
+  {
+    "id": 202,
+    "name": "Blobounce",
+    "types": [
+      "PSYCHE"
+    ],
+    "baseStats": {
+      "hp": 190,
+      "attack": 33,
+      "defense": 58,
+      "specialAttack": 33,
+      "specialDefense": 58,
+      "speed": 33
+    },
+    "catchRate": 45,
+    "baseExp": 142,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 19
+      },
+      {
+        "level": 1,
+        "moveId": 169
+      },
+      {
+        "level": 1,
+        "moveId": 170
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "Never attacks; waits patiently then returns damage doubled."
+  },
+  {
+    "id": 203,
+    "name": "Twindeer",
+    "types": [
+      "NEUTRAL",
+      "PSYCHE"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 80,
+      "defense": 65,
+      "specialAttack": 90,
+      "specialDefense": 65,
+      "speed": 85
+    },
+    "catchRate": 60,
+    "baseExp": 144,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 9,
+        "moveId": 161
+      },
+      {
+        "level": 17,
+        "moveId": 20
+      },
+      {
+        "level": 25,
+        "moveId": 163
+      },
+      {
+        "level": 33,
+        "moveId": 166
+      },
+      {
+        "level": 45,
+        "moveId": 165
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Its tail has a second face that bites anything sneaking up behind."
+  },
+  {
+    "id": 204,
+    "name": "Pinacone",
+    "types": [
+      "INSECT"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 90,
+      "specialAttack": 35,
+      "specialDefense": 35,
+      "speed": 15
+    },
+    "catchRate": 190,
+    "baseExp": 74,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 181
+      },
+      {
+        "level": 7,
+        "moveId": 13
+      },
+      {
+        "level": 13,
+        "moveId": 184
+      },
+      {
+        "level": 20,
+        "moveId": 192
+      },
+      {
+        "level": 28,
+        "moveId": 193
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 205,
+        "method": "LEVEL",
+        "param": 31
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "Hangs motionless from branches, then explodes when touched."
+  },
+  {
+    "id": 205,
+    "name": "Fortrettle",
+    "types": [
+      "INSECT",
+      "STONE"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "attack": 90,
+      "defense": 140,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 40
+    },
+    "catchRate": 45,
+    "baseExp": 170,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 181
+      },
+      {
+        "level": 7,
+        "moveId": 13
+      },
+      {
+        "level": 13,
+        "moveId": 184
+      },
+      {
+        "level": 20,
+        "moveId": 192
+      },
+      {
+        "level": 28,
+        "moveId": 193
+      },
+      {
+        "level": 40,
+        "moveId": 196
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "An armoured fortress bug whose protective shell is nearly indestructible."
+  },
+  {
+    "id": 206,
+    "name": "Coilsnout",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "attack": 70,
+      "defense": 70,
+      "specialAttack": 65,
+      "specialDefense": 65,
+      "speed": 45
+    },
+    "catchRate": 190,
+    "baseExp": 125,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 9,
+        "moveId": 20
+      },
+      {
+        "level": 17,
+        "moveId": 17
+      },
+      {
+        "level": 25,
+        "moveId": 168
+      },
+      {
+        "level": 33,
+        "moveId": 212
+      },
+      {
+        "level": 45,
+        "moveId": 146
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "A serpentine creature that drills into the earth to hide."
+  },
+  {
+    "id": 207,
+    "name": "Scorpwing",
+    "types": [
+      "TERRA",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 75,
+      "defense": 105,
+      "specialAttack": 35,
+      "specialDefense": 65,
+      "speed": 85
+    },
+    "catchRate": 60,
+    "baseExp": 147,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 2
+      },
+      {
+        "level": 9,
+        "moveId": 131
+      },
+      {
+        "level": 17,
+        "moveId": 153
+      },
+      {
+        "level": 25,
+        "moveId": 141
+      },
+      {
+        "level": 33,
+        "moveId": 143
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "Glides silently and stings prey with its barbed tail."
+  },
+  {
+    "id": 208,
+    "name": "Steelonyx",
+    "types": [
+      "IRON",
+      "TERRA"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "attack": 85,
+      "defense": 200,
+      "specialAttack": 55,
+      "specialDefense": 65,
+      "speed": 30
+    },
+    "catchRate": 25,
+    "baseExp": 179,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 141
+      },
+      {
+        "level": 9,
+        "moveId": 191
+      },
+      {
+        "level": 20,
+        "moveId": 143
+      },
+      {
+        "level": 30,
+        "moveId": 232
+      },
+      {
+        "level": 40,
+        "moveId": 234
+      },
+      {
+        "level": 50,
+        "moveId": 237
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "Tempered by the earth's inner heat into impenetrable steel segments."
+  },
+  {
+    "id": 209,
+    "name": "Snubbull",
+    "types": [
+      "RADIANT"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 80,
+      "defense": 50,
+      "specialAttack": 40,
+      "specialDefense": 40,
+      "speed": 30
+    },
+    "catchRate": 190,
+    "baseExp": 84,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 221
+      },
+      {
+        "level": 8,
+        "moveId": 246
+      },
+      {
+        "level": 15,
+        "moveId": 222
+      },
+      {
+        "level": 22,
+        "moveId": 243
+      },
+      {
+        "level": 32,
+        "moveId": 241
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 210,
+        "method": "LEVEL",
+        "param": 23
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "TOWN"
+    ],
+    "description": "Looks intimidating but is actually very affectionate."
+  },
+  {
+    "id": 210,
+    "name": "Granbull",
+    "types": [
+      "RADIANT"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "attack": 120,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 45
+    },
+    "catchRate": 75,
+    "baseExp": 177,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 221
+      },
+      {
+        "level": 8,
+        "moveId": 246
+      },
+      {
+        "level": 15,
+        "moveId": 222
+      },
+      {
+        "level": 22,
+        "moveId": 243
+      },
+      {
+        "level": 32,
+        "moveId": 241
+      },
+      {
+        "level": 45,
+        "moveId": 6
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "TOWN"
+    ],
+    "description": "Powerful jaws can crush stone; hearts as soft as its cheeks."
+  },
+  {
+    "id": 211,
+    "name": "Quilfish",
+    "types": [
+      "AQUA",
+      "VENOM"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 95,
+      "defense": 85,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 85
+    },
+    "catchRate": 45,
+    "baseExp": 86,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 8,
+        "moveId": 131
+      },
+      {
+        "level": 14,
+        "moveId": 107
+      },
+      {
+        "level": 22,
+        "moveId": 135
+      },
+      {
+        "level": 30,
+        "moveId": 134
+      },
+      {
+        "level": 40,
+        "moveId": 55
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Inflates like a balloon and launches sharp toxic spines."
+  },
+  {
+    "id": 212,
+    "name": "Scizorex",
+    "types": [
+      "INSECT",
+      "IRON"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 130,
+      "defense": 100,
+      "specialAttack": 55,
+      "specialDefense": 80,
+      "speed": 65
+    },
+    "catchRate": 25,
+    "baseExp": 187,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 181
+      },
+      {
+        "level": 9,
+        "moveId": 231
+      },
+      {
+        "level": 17,
+        "moveId": 184
+      },
+      {
+        "level": 25,
+        "moveId": 185
+      },
+      {
+        "level": 38,
+        "moveId": 234
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "Its steel pincers move at bullet speed, leaving opponents no chance."
+  },
+  {
+    "id": 213,
+    "name": "Shrootle",
+    "types": [
+      "INSECT",
+      "STONE"
+    ],
+    "baseStats": {
+      "hp": 20,
+      "attack": 10,
+      "defense": 230,
+      "specialAttack": 10,
+      "specialDefense": 230,
+      "speed": 5
+    },
+    "catchRate": 190,
+    "baseExp": 177,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 181
+      },
+      {
+        "level": 8,
+        "moveId": 13
+      },
+      {
+        "level": 16,
+        "moveId": 192
+      },
+      {
+        "level": 24,
+        "moveId": 196
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "Hides completely inside its rock-hard shell, fermenting berries within."
+  },
+  {
+    "id": 214,
+    "name": "Heracles",
+    "types": [
+      "INSECT",
+      "BRAWL"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 125,
+      "defense": 75,
+      "specialAttack": 40,
+      "specialDefense": 95,
+      "speed": 85
+    },
+    "catchRate": 45,
+    "baseExp": 200,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 181
+      },
+      {
+        "level": 9,
+        "moveId": 121
+      },
+      {
+        "level": 17,
+        "moveId": 122
+      },
+      {
+        "level": 25,
+        "moveId": 123
+      },
+      {
+        "level": 33,
+        "moveId": 124
+      },
+      {
+        "level": 45,
+        "moveId": 126
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "A beetle warrior who flings opponents over mountaintops."
+  },
+  {
+    "id": 215,
+    "name": "Sneaselt",
+    "types": [
+      "MURK",
+      "FROST"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 95,
+      "defense": 55,
+      "specialAttack": 35,
+      "specialDefense": 75,
+      "speed": 115
+    },
+    "catchRate": 60,
+    "baseExp": 86,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 221
+      },
+      {
+        "level": 7,
+        "moveId": 225
+      },
+      {
+        "level": 14,
+        "moveId": 111
+      },
+      {
+        "level": 22,
+        "moveId": 112
+      },
+      {
+        "level": 30,
+        "moveId": 224
+      },
+      {
+        "level": 42,
+        "moveId": 115
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "A cunning thief of the ice tundra; razor claws steal eggs."
+  },
+  {
+    "id": 216,
+    "name": "Honeyursa",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 80,
+      "defense": 50,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 40
+    },
+    "catchRate": 120,
+    "baseExp": 111,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 9,
+        "moveId": 8
+      },
+      {
+        "level": 17,
+        "moveId": 93
+      },
+      {
+        "level": 25,
+        "moveId": 22
+      },
+      {
+        "level": 33,
+        "moveId": 20
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 217,
+        "method": "LEVEL",
+        "param": 30
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "A honey-loving cub that scents food from miles away."
+  },
+  {
+    "id": 217,
+    "name": "Bearram",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "attack": 130,
+      "defense": 75,
+      "specialAttack": 75,
+      "specialDefense": 75,
+      "speed": 55
+    },
+    "catchRate": 60,
+    "baseExp": 189,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 9,
+        "moveId": 8
+      },
+      {
+        "level": 17,
+        "moveId": 93
+      },
+      {
+        "level": 25,
+        "moveId": 22
+      },
+      {
+        "level": 33,
+        "moveId": 20
+      },
+      {
+        "level": 43,
+        "moveId": 6
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "When it stands on two legs its terrifying roar echoes for miles."
+  },
+  {
+    "id": 218,
+    "name": "Magmite",
+    "types": [
+      "FLAME"
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 40,
+      "defense": 40,
+      "specialAttack": 70,
+      "specialDefense": 40,
+      "speed": 20
+    },
+    "catchRate": 190,
+    "baseExp": 87,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 31
+      },
+      {
+        "level": 8,
+        "moveId": 191
+      },
+      {
+        "level": 17,
+        "moveId": 32
+      },
+      {
+        "level": 25,
+        "moveId": 39
+      },
+      {
+        "level": 33,
+        "moveId": 33
+      },
+      {
+        "level": 44,
+        "moveId": 38
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 219,
+        "method": "LEVEL",
+        "param": 38
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "A living blob of magma that leaves a searing trail behind it."
+  },
+  {
+    "id": 219,
+    "name": "Magcargill",
+    "types": [
+      "FLAME",
+      "STONE"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 50,
+      "defense": 120,
+      "specialAttack": 80,
+      "specialDefense": 80,
+      "speed": 30
+    },
+    "catchRate": 75,
+    "baseExp": 155,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 31
+      },
+      {
+        "level": 8,
+        "moveId": 191
+      },
+      {
+        "level": 17,
+        "moveId": 32
+      },
+      {
+        "level": 25,
+        "moveId": 39
+      },
+      {
+        "level": 33,
+        "moveId": 33
+      },
+      {
+        "level": 44,
+        "moveId": 38
+      },
+      {
+        "level": 55,
+        "moveId": 196
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "Its shell reaches 18,000 degrees \u2014 touching it means instant burns."
+  },
+  {
+    "id": 220,
+    "name": "Snufflet",
+    "types": [
+      "FROST",
+      "TERRA"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 50,
+      "defense": 40,
+      "specialAttack": 30,
+      "specialDefense": 30,
+      "speed": 50
+    },
+    "catchRate": 225,
+    "baseExp": 50,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 8,
+        "moveId": 114
+      },
+      {
+        "level": 15,
+        "moveId": 142
+      },
+      {
+        "level": 23,
+        "moveId": 117
+      },
+      {
+        "level": 31,
+        "moveId": 143
+      },
+      {
+        "level": 41,
+        "moveId": 112
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 221,
+        "method": "LEVEL",
+        "param": 33
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "Digs through snow to find ancient berries preserved in ice."
+  },
+  {
+    "id": 221,
+    "name": "Swinemaw",
+    "types": [
+      "FROST",
+      "TERRA"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 80,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 50
+    },
+    "catchRate": 75,
+    "baseExp": 155,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 8,
+        "moveId": 114
+      },
+      {
+        "level": 15,
+        "moveId": 142
+      },
+      {
+        "level": 23,
+        "moveId": 117
+      },
+      {
+        "level": 31,
+        "moveId": 143
+      },
+      {
+        "level": 41,
+        "moveId": 112
+      },
+      {
+        "level": 51,
+        "moveId": 113
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "Charges through blizzards with fur coated in ice armour."
+  },
+  {
+    "id": 222,
+    "name": "Coralite",
+    "types": [
+      "AQUA",
+      "STONE"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 55,
+      "defense": 85,
+      "specialAttack": 65,
+      "specialDefense": 85,
+      "speed": 35
+    },
+    "catchRate": 60,
+    "baseExp": 144,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 8,
+        "moveId": 196
+      },
+      {
+        "level": 17,
+        "moveId": 56
+      },
+      {
+        "level": 25,
+        "moveId": 198
+      },
+      {
+        "level": 33,
+        "moveId": 54
+      },
+      {
+        "level": 44,
+        "moveId": 193
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Lives in warm shallow reefs; its coral horns regrow overnight."
+  },
+  {
+    "id": 223,
+    "name": "Gunfish",
+    "types": [
+      "AQUA"
+    ],
+    "baseStats": {
+      "hp": 35,
+      "attack": 65,
+      "defense": 35,
+      "specialAttack": 65,
+      "specialDefense": 35,
+      "speed": 65
+    },
+    "catchRate": 190,
+    "baseExp": 95,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 8,
+        "moveId": 53
+      },
+      {
+        "level": 16,
+        "moveId": 55
+      },
+      {
+        "level": 24,
+        "moveId": 56
+      },
+      {
+        "level": 32,
+        "moveId": 61
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 224,
+        "method": "LEVEL",
+        "param": 25
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Attaches to larger fish and fires water projectiles from its mouth."
+  },
+  {
+    "id": 224,
+    "name": "Oktillery",
+    "types": [
+      "AQUA"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "attack": 105,
+      "defense": 75,
+      "specialAttack": 105,
+      "specialDefense": 75,
+      "speed": 45
+    },
+    "catchRate": 75,
+    "baseExp": 168,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 8,
+        "moveId": 53
+      },
+      {
+        "level": 16,
+        "moveId": 55
+      },
+      {
+        "level": 24,
+        "moveId": 56
+      },
+      {
+        "level": 32,
+        "moveId": 61
+      },
+      {
+        "level": 44,
+        "moveId": 55
+      },
+      {
+        "level": 54,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Fires a torrent of concentrated water powerful enough to pierce steel."
+  },
+  {
+    "id": 225,
+    "name": "Giftbird",
+    "types": [
+      "FROST",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 45,
+      "attack": 55,
+      "defense": 45,
+      "specialAttack": 65,
+      "specialDefense": 45,
+      "speed": 75
+    },
+    "catchRate": 45,
+    "baseExp": 116,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 111
+      },
+      {
+        "level": 8,
+        "moveId": 151
+      },
+      {
+        "level": 16,
+        "moveId": 115
+      },
+      {
+        "level": 24,
+        "moveId": 113
+      },
+      {
+        "level": 32,
+        "moveId": 154
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "Carries supplies in its tail-sack; sometimes gifts rival trainers."
+  },
+  {
+    "id": 226,
+    "name": "Mantaray",
+    "types": [
+      "AQUA",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 40,
+      "defense": 70,
+      "specialAttack": 80,
+      "specialDefense": 140,
+      "speed": 70
+    },
+    "catchRate": 25,
+    "baseExp": 161,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 151
+      },
+      {
+        "level": 8,
+        "moveId": 53
+      },
+      {
+        "level": 16,
+        "moveId": 54
+      },
+      {
+        "level": 24,
+        "moveId": 156
+      },
+      {
+        "level": 32,
+        "moveId": 55
+      },
+      {
+        "level": 44,
+        "moveId": 154
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Glides above ocean waves using graceful, wing-like pectoral fins."
+  },
+  {
+    "id": 227,
+    "name": "Skarmore",
+    "types": [
+      "IRON",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 80,
+      "defense": 140,
+      "specialAttack": 40,
+      "specialDefense": 70,
+      "speed": 70
+    },
+    "catchRate": 25,
+    "baseExp": 163,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 231
+      },
+      {
+        "level": 9,
+        "moveId": 152
+      },
+      {
+        "level": 17,
+        "moveId": 153
+      },
+      {
+        "level": 25,
+        "moveId": 237
+      },
+      {
+        "level": 33,
+        "moveId": 234
+      },
+      {
+        "level": 45,
+        "moveId": 155
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "A steel bird whose razor feathers slice through rock effortlessly."
+  },
+  {
+    "id": 228,
+    "name": "Scorchhound",
+    "types": [
+      "MURK",
+      "FLAME"
+    ],
+    "baseStats": {
+      "hp": 45,
+      "attack": 60,
+      "defense": 30,
+      "specialAttack": 80,
+      "specialDefense": 50,
+      "speed": 65
+    },
+    "catchRate": 120,
+    "baseExp": 104,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 221
+      },
+      {
+        "level": 6,
+        "moveId": 31
+      },
+      {
+        "level": 12,
+        "moveId": 207
+      },
+      {
+        "level": 20,
+        "moveId": 32
+      },
+      {
+        "level": 28,
+        "moveId": 223
+      },
+      {
+        "level": 38,
+        "moveId": 33
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 229,
+        "method": "LEVEL",
+        "param": 24
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Hunts in packs coordinated by a secret system of howls."
+  },
+  {
+    "id": 229,
+    "name": "Houndoom",
+    "types": [
+      "MURK",
+      "FLAME"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "attack": 90,
+      "defense": 50,
+      "specialAttack": 110,
+      "specialDefense": 80,
+      "speed": 95
+    },
+    "catchRate": 45,
+    "baseExp": 175,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 221
+      },
+      {
+        "level": 6,
+        "moveId": 31
+      },
+      {
+        "level": 12,
+        "moveId": 207
+      },
+      {
+        "level": 20,
+        "moveId": 32
+      },
+      {
+        "level": 28,
+        "moveId": 223
+      },
+      {
+        "level": 38,
+        "moveId": 33
+      },
+      {
+        "level": 50,
+        "moveId": 216
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "The underworld hound; its flames never heal wounds they cause."
+  },
+  {
+    "id": 230,
+    "name": "Kingdrake",
+    "types": [
+      "AQUA",
+      "WYRM"
+    ],
+    "baseStats": {
+      "hp": 75,
+      "attack": 95,
+      "defense": 95,
+      "specialAttack": 95,
+      "specialDefense": 95,
+      "speed": 85
+    },
+    "catchRate": 45,
+    "baseExp": 207,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 8,
+        "moveId": 53
+      },
+      {
+        "level": 16,
+        "moveId": 212
+      },
+      {
+        "level": 25,
+        "moveId": 55
+      },
+      {
+        "level": 32,
+        "moveId": 213
+      },
+      {
+        "level": 45,
+        "moveId": 214
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Slumbers in deep-ocean trenches; wakes to cause tidal waves."
+  },
+  {
+    "id": 231,
+    "name": "Trunklet",
+    "types": [
+      "TERRA"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "attack": 60,
+      "defense": 60,
+      "specialAttack": 40,
+      "specialDefense": 40,
+      "speed": 40
+    },
+    "catchRate": 120,
+    "baseExp": 113,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 141
+      },
+      {
+        "level": 8,
+        "moveId": 51
+      },
+      {
+        "level": 15,
+        "moveId": 143
+      },
+      {
+        "level": 22,
+        "moveId": 143
+      },
+      {
+        "level": 30,
+        "moveId": 146
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 232,
+        "method": "LEVEL",
+        "param": 25
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Uses its rubbery trunk to spray water or roll into a ball."
+  },
+  {
+    "id": 232,
+    "name": "Donkephant",
+    "types": [
+      "TERRA"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "attack": 120,
+      "defense": 120,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 50
+    },
+    "catchRate": 45,
+    "baseExp": 175,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 141
+      },
+      {
+        "level": 8,
+        "moveId": 51
+      },
+      {
+        "level": 15,
+        "moveId": 143
+      },
+      {
+        "level": 22,
+        "moveId": 143
+      },
+      {
+        "level": 30,
+        "moveId": 146
+      },
+      {
+        "level": 40,
+        "moveId": 6
+      },
+      {
+        "level": 50,
+        "moveId": 193
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A massive armoured elephant that bowls over boulders with ease."
+  },
+  {
+    "id": 233,
+    "name": "Polygone2",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 85,
+      "attack": 80,
+      "defense": 90,
+      "specialAttack": 105,
+      "specialDefense": 95,
+      "speed": 60
+    },
+    "catchRate": 45,
+    "baseExp": 180,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 9,
+        "moveId": 78
+      },
+      {
+        "level": 17,
+        "moveId": 73
+      },
+      {
+        "level": 25,
+        "moveId": 164
+      },
+      {
+        "level": 33,
+        "moveId": 163
+      },
+      {
+        "level": 45,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "TOWN"
+    ],
+    "description": "An upgraded digital entity with human-made emotional algorithms."
+  },
+  {
+    "id": 234,
+    "name": "Dreamdeer",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 73,
+      "attack": 95,
+      "defense": 62,
+      "specialAttack": 85,
+      "specialDefense": 65,
+      "speed": 85
+    },
+    "catchRate": 45,
+    "baseExp": 163,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 9,
+        "moveId": 161
+      },
+      {
+        "level": 17,
+        "moveId": 166
+      },
+      {
+        "level": 25,
+        "moveId": 168
+      },
+      {
+        "level": 33,
+        "moveId": 163
+      },
+      {
+        "level": 45,
+        "moveId": 165
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "Its antlers bend light, creating mirages that disorient enemies."
+  },
+  {
+    "id": 235,
+    "name": "Johto235",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 70,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 70
+    },
+    "catchRate": 100,
+    "baseExp": 110,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #235."
+  },
+  {
+    "id": 236,
+    "name": "Johto236",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 70,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 70
+    },
+    "catchRate": 100,
+    "baseExp": 110,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #236."
+  },
+  {
+    "id": 237,
+    "name": "Johto237",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 55,
+      "attack": 70,
+      "defense": 70,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 70
+    },
+    "catchRate": 100,
+    "baseExp": 110,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #237."
+  },
+  {
+    "id": 238,
+    "name": "Frostbaby",
+    "types": [
+      "FROST",
+      "PSYCHE"
+    ],
+    "baseStats": {
+      "hp": 45,
+      "attack": 30,
+      "defense": 15,
+      "specialAttack": 85,
+      "specialDefense": 65,
+      "speed": 65
+    },
+    "catchRate": 45,
+    "baseExp": 34,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 114
+      },
+      {
+        "level": 7,
+        "moveId": 168
+      },
+      {
+        "level": 15,
+        "moveId": 112
+      },
+      {
+        "level": 24,
+        "moveId": 162
+      },
+      {
+        "level": 33,
+        "moveId": 163
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 124,
+        "method": "LEVEL",
+        "param": 30
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Baby form of the frost-psychic sorceress."
+  },
+  {
+    "id": 239,
+    "name": "Voltbaby",
+    "types": [
+      "VOLT"
+    ],
+    "baseStats": {
+      "hp": 45,
+      "attack": 63,
+      "defense": 37,
+      "specialAttack": 65,
+      "specialDefense": 55,
+      "speed": 95
+    },
+    "catchRate": 45,
+    "baseExp": 34,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 71
+      },
+      {
+        "level": 7,
+        "moveId": 77
+      },
+      {
+        "level": 15,
+        "moveId": 72
+      },
+      {
+        "level": 23,
+        "moveId": 73
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 125,
+        "method": "LEVEL",
+        "param": 30
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Baby electric creature whose horns spark uncontrollably."
+  },
+  {
+    "id": 240,
+    "name": "Emberbaby",
+    "types": [
+      "FLAME"
+    ],
+    "baseStats": {
+      "hp": 45,
+      "attack": 75,
+      "defense": 37,
+      "specialAttack": 70,
+      "specialDefense": 55,
+      "speed": 83
+    },
+    "catchRate": 45,
+    "baseExp": 34,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 31
+      },
+      {
+        "level": 7,
+        "moveId": 8
+      },
+      {
+        "level": 15,
+        "moveId": 35
+      },
+      {
+        "level": 23,
+        "moveId": 32
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 126,
+        "method": "LEVEL",
+        "param": 30
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Baby fire creature whose forehead flame burns brightest at dusk."
+  },
+  {
+    "id": 241,
+    "name": "Milktaur",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "attack": 80,
+      "defense": 105,
+      "specialAttack": 40,
+      "specialDefense": 70,
+      "speed": 100
+    },
+    "catchRate": 45,
+    "baseExp": 172,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 8,
+        "moveId": 12
+      },
+      {
+        "level": 15,
+        "moveId": 20
+      },
+      {
+        "level": 22,
+        "moveId": 17
+      },
+      {
+        "level": 35,
+        "moveId": 6
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Produces restorative milk that heals any ailment instantly."
+  },
+  {
+    "id": 242,
+    "name": "Blissara",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 255,
+      "attack": 10,
+      "defense": 10,
+      "specialAttack": 75,
+      "specialDefense": 135,
+      "speed": 55
+    },
+    "catchRate": 30,
+    "baseExp": 255,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 3
+      },
+      {
+        "level": 9,
+        "moveId": 8
+      },
+      {
+        "level": 17,
+        "moveId": 17
+      },
+      {
+        "level": 25,
+        "moveId": 29
+      },
+      {
+        "level": 33,
+        "moveId": 246
+      },
+      {
+        "level": 45,
+        "moveId": 20
+      },
+      {
+        "level": 55,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "The most compassionate healer. Its egg can cure any illness."
+  },
+  {
+    "id": 243,
+    "name": "Boltstride",
+    "types": [
+      "VOLT"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "attack": 85,
+      "defense": 75,
+      "specialAttack": 115,
+      "specialDefense": 100,
+      "speed": 115
+    },
+    "catchRate": 3,
+    "baseExp": 215,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 71
+      },
+      {
+        "level": 1,
+        "moveId": 14
+      },
+      {
+        "level": 9,
+        "moveId": 77
+      },
+      {
+        "level": 15,
+        "moveId": 72
+      },
+      {
+        "level": 22,
+        "moveId": 73
+      },
+      {
+        "level": 29,
+        "moveId": 80
+      },
+      {
+        "level": 43,
+        "moveId": 74
+      },
+      {
+        "level": 50,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": true,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "The legendary thunder beast that races across open plains like lightning."
+  },
+  {
+    "id": 244,
+    "name": "Infernalion",
+    "types": [
+      "FLAME"
+    ],
+    "baseStats": {
+      "hp": 115,
+      "attack": 115,
+      "defense": 85,
+      "specialAttack": 90,
+      "specialDefense": 75,
+      "speed": 100
+    },
+    "catchRate": 3,
+    "baseExp": 215,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 31
+      },
+      {
+        "level": 1,
+        "moveId": 10
+      },
+      {
+        "level": 9,
+        "moveId": 39
+      },
+      {
+        "level": 15,
+        "moveId": 35
+      },
+      {
+        "level": 22,
+        "moveId": 32
+      },
+      {
+        "level": 29,
+        "moveId": 40
+      },
+      {
+        "level": 43,
+        "moveId": 33
+      },
+      {
+        "level": 50,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": true,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "The legendary fire beast. Its body blazes with the force of a volcano."
+  },
+  {
+    "id": 245,
+    "name": "Tidehearth",
+    "types": [
+      "AQUA"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "attack": 75,
+      "defense": 115,
+      "specialAttack": 90,
+      "specialDefense": 115,
+      "speed": 85
+    },
+    "catchRate": 3,
+    "baseExp": 215,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 1,
+        "moveId": 60
+      },
+      {
+        "level": 9,
+        "moveId": 53
+      },
+      {
+        "level": 15,
+        "moveId": 56
+      },
+      {
+        "level": 22,
+        "moveId": 112
+      },
+      {
+        "level": 29,
+        "moveId": 55
+      },
+      {
+        "level": 43,
+        "moveId": 54
+      },
+      {
+        "level": 50,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": true,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "The legendary water beast. Its crystal mane purifies any water it touches."
+  },
+  {
+    "id": 246,
+    "name": "Stonelarva",
+    "types": [
+      "STONE",
+      "TERRA"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 64,
+      "defense": 50,
+      "specialAttack": 45,
+      "specialDefense": 50,
+      "speed": 41
+    },
+    "catchRate": 45,
+    "baseExp": 60,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 191
+      },
+      {
+        "level": 5,
+        "moveId": 142
+      },
+      {
+        "level": 10,
+        "moveId": 143
+      },
+      {
+        "level": 20,
+        "moveId": 192
+      },
+      {
+        "level": 30,
+        "moveId": 193
+      },
+      {
+        "level": 42,
+        "moveId": 146
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 247,
+        "method": "LEVEL",
+        "param": 30
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "Hatched from a mountain. Eats rock to grow stronger."
+  },
+  {
+    "id": 247,
+    "name": "Stonepupa",
+    "types": [
+      "STONE",
+      "TERRA"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 84,
+      "defense": 70,
+      "specialAttack": 65,
+      "specialDefense": 70,
+      "speed": 51
+    },
+    "catchRate": 45,
+    "baseExp": 144,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 191
+      },
+      {
+        "level": 5,
+        "moveId": 142
+      },
+      {
+        "level": 10,
+        "moveId": 143
+      },
+      {
+        "level": 20,
+        "moveId": 192
+      },
+      {
+        "level": 30,
+        "moveId": 193
+      },
+      {
+        "level": 42,
+        "moveId": 146
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 248,
+        "method": "LEVEL",
+        "param": 55
+      }
+    ],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "The armoured cocoon stage; it will emerge as a terrifying dragon."
+  },
+  {
+    "id": 248,
+    "name": "Tyrantalith",
+    "types": [
+      "STONE",
+      "WYRM"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "attack": 134,
+      "defense": 110,
+      "specialAttack": 95,
+      "specialDefense": 100,
+      "speed": 61
+    },
+    "catchRate": 45,
+    "baseExp": 270,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 191
+      },
+      {
+        "level": 5,
+        "moveId": 142
+      },
+      {
+        "level": 10,
+        "moveId": 143
+      },
+      {
+        "level": 20,
+        "moveId": 192
+      },
+      {
+        "level": 30,
+        "moveId": 193
+      },
+      {
+        "level": 42,
+        "moveId": 146
+      },
+      {
+        "level": 55,
+        "moveId": 213
+      },
+      {
+        "level": 65,
+        "moveId": 216
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "The mountain dragon tyrant. Its roar shakes the foundations of the earth."
+  },
+  {
+    "id": 249,
+    "name": "Tempestlord",
+    "types": [
+      "PSYCHE",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 106,
+      "attack": 90,
+      "defense": 130,
+      "specialAttack": 90,
+      "specialDefense": 154,
+      "speed": 110
+    },
+    "catchRate": 3,
+    "baseExp": 220,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 161
+      },
+      {
+        "level": 1,
+        "moveId": 151
+      },
+      {
+        "level": 9,
+        "moveId": 112
+      },
+      {
+        "level": 15,
+        "moveId": 162
+      },
+      {
+        "level": 22,
+        "moveId": 156
+      },
+      {
+        "level": 29,
+        "moveId": 163
+      },
+      {
+        "level": 43,
+        "moveId": 154
+      },
+      {
+        "level": 50,
+        "moveId": 165
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": true,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "The silver sea sovereign that rules both sky and ocean from the storm."
+  },
+  {
+    "id": 250,
+    "name": "Emberlord",
+    "types": [
+      "FLAME",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 106,
+      "attack": 130,
+      "defense": 90,
+      "specialAttack": 110,
+      "specialDefense": 154,
+      "speed": 90
+    },
+    "catchRate": 3,
+    "baseExp": 220,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 31
+      },
+      {
+        "level": 1,
+        "moveId": 151
+      },
+      {
+        "level": 9,
+        "moveId": 32
+      },
+      {
+        "level": 15,
+        "moveId": 152
+      },
+      {
+        "level": 22,
+        "moveId": 37
+      },
+      {
+        "level": 29,
+        "moveId": 40
+      },
+      {
+        "level": 43,
+        "moveId": 33
+      },
+      {
+        "level": 50,
+        "moveId": 154
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": true,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "The golden sky sovereign. Legends say it can resurrect creatures left cold."
+  },
+  {
+    "id": 251,
+    "name": "Timelynx",
+    "types": [
+      "PSYCHE",
+      "FLORA"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 100,
+      "specialAttack": 100,
+      "specialDefense": 100,
+      "speed": 100
+    },
+    "catchRate": 45,
+    "baseExp": 220,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 161
+      },
+      {
+        "level": 1,
+        "moveId": 91
+      },
+      {
+        "level": 10,
+        "moveId": 19
+      },
+      {
+        "level": 20,
+        "moveId": 163
+      },
+      {
+        "level": 30,
+        "moveId": 103
+      },
+      {
+        "level": 40,
+        "moveId": 167
+      },
+      {
+        "level": 50,
+        "moveId": 165
+      }
+    ],
+    "evolutions": [],
+    "regionId": "JOHTO",
+    "isStarter": false,
+    "isLegendary": true,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "A mythical lynx with power over time. Its presence heals the land."
+  }
+]

@@ -1,0 +1,6745 @@
+[
+  {
+    "id": 252,
+    "name": "Leafbud",
+    "types": [
+      "FLORA"
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 35,
+      "specialAttack": 65,
+      "specialDefense": 55,
+      "speed": 70
+    },
+    "catchRate": 45,
+    "baseExp": 62,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 8
+      },
+      {
+        "level": 7,
+        "moveId": 92
+      },
+      {
+        "level": 13,
+        "moveId": 102
+      },
+      {
+        "level": 20,
+        "moveId": 99
+      },
+      {
+        "level": 28,
+        "moveId": 95
+      },
+      {
+        "level": 36,
+        "moveId": 96
+      },
+      {
+        "level": 46,
+        "moveId": 100
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 253,
+        "method": "LEVEL",
+        "param": 16
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": true,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "An agile gecko that can scale vertical walls and clings with suction pads."
+  },
+  {
+    "id": 253,
+    "name": "Leafdash",
+    "types": [
+      "FLORA"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 65,
+      "defense": 45,
+      "specialAttack": 85,
+      "specialDefense": 65,
+      "speed": 95
+    },
+    "catchRate": 45,
+    "baseExp": 141,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 8
+      },
+      {
+        "level": 7,
+        "moveId": 92
+      },
+      {
+        "level": 13,
+        "moveId": 102
+      },
+      {
+        "level": 20,
+        "moveId": 99
+      },
+      {
+        "level": 28,
+        "moveId": 95
+      },
+      {
+        "level": 36,
+        "moveId": 96
+      },
+      {
+        "level": 46,
+        "moveId": 100
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 254,
+        "method": "LEVEL",
+        "param": 36
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "Runs along walls and ceilings; the leaf on its tail channels solar energy."
+  },
+  {
+    "id": 254,
+    "name": "Leafrazor",
+    "types": [
+      "FLORA"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 65,
+      "specialAttack": 105,
+      "specialDefense": 85,
+      "speed": 120
+    },
+    "catchRate": 45,
+    "baseExp": 208,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 8
+      },
+      {
+        "level": 7,
+        "moveId": 92
+      },
+      {
+        "level": 13,
+        "moveId": 102
+      },
+      {
+        "level": 20,
+        "moveId": 99
+      },
+      {
+        "level": 28,
+        "moveId": 99
+      },
+      {
+        "level": 36,
+        "moveId": 96
+      },
+      {
+        "level": 46,
+        "moveId": 100
+      },
+      {
+        "level": 58,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "A master of camouflage. Its blade-leaf tail can cut clean through stone."
+  },
+  {
+    "id": 255,
+    "name": "Ignisaur",
+    "types": [
+      "FLAME"
+    ],
+    "baseStats": {
+      "hp": 45,
+      "attack": 60,
+      "defense": 40,
+      "specialAttack": 70,
+      "specialDefense": 50,
+      "speed": 45
+    },
+    "catchRate": 45,
+    "baseExp": 62,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 9
+      },
+      {
+        "level": 7,
+        "moveId": 31
+      },
+      {
+        "level": 10,
+        "moveId": 8
+      },
+      {
+        "level": 16,
+        "moveId": 34
+      },
+      {
+        "level": 25,
+        "moveId": 32
+      },
+      {
+        "level": 36,
+        "moveId": 36
+      },
+      {
+        "level": 47,
+        "moveId": 33
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 256,
+        "method": "LEVEL",
+        "param": 16
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": true,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "A chick-like flame creature that struts with surprising confidence."
+  },
+  {
+    "id": 256,
+    "name": "Ignisoul",
+    "types": [
+      "FLAME",
+      "BRAWL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 85,
+      "defense": 60,
+      "specialAttack": 85,
+      "specialDefense": 60,
+      "speed": 55
+    },
+    "catchRate": 45,
+    "baseExp": 142,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 9
+      },
+      {
+        "level": 7,
+        "moveId": 31
+      },
+      {
+        "level": 10,
+        "moveId": 8
+      },
+      {
+        "level": 16,
+        "moveId": 34
+      },
+      {
+        "level": 25,
+        "moveId": 32
+      },
+      {
+        "level": 36,
+        "moveId": 36
+      },
+      {
+        "level": 47,
+        "moveId": 33
+      },
+      {
+        "level": 58,
+        "moveId": 36
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 257,
+        "method": "LEVEL",
+        "param": 36
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "A fiery fighter who challenges opponents with elegant kicks."
+  },
+  {
+    "id": 257,
+    "name": "Igniblaze",
+    "types": [
+      "FLAME",
+      "BRAWL"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 120,
+      "defense": 70,
+      "specialAttack": 110,
+      "specialDefense": 70,
+      "speed": 80
+    },
+    "catchRate": 45,
+    "baseExp": 209,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 9
+      },
+      {
+        "level": 7,
+        "moveId": 31
+      },
+      {
+        "level": 10,
+        "moveId": 8
+      },
+      {
+        "level": 16,
+        "moveId": 34
+      },
+      {
+        "level": 25,
+        "moveId": 32
+      },
+      {
+        "level": 36,
+        "moveId": 36
+      },
+      {
+        "level": 47,
+        "moveId": 33
+      },
+      {
+        "level": 58,
+        "moveId": 36
+      },
+      {
+        "level": 65,
+        "moveId": 124
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "A blazing martial artist whose flaming kicks reach 1500 degrees."
+  },
+  {
+    "id": 258,
+    "name": "Mudlet",
+    "types": [
+      "AQUA",
+      "TERRA"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 70,
+      "defense": 45,
+      "specialAttack": 50,
+      "specialDefense": 45,
+      "speed": 40
+    },
+    "catchRate": 45,
+    "baseExp": 63,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 9
+      },
+      {
+        "level": 6,
+        "moveId": 51
+      },
+      {
+        "level": 11,
+        "moveId": 142
+      },
+      {
+        "level": 16,
+        "moveId": 143
+      },
+      {
+        "level": 24,
+        "moveId": 147
+      },
+      {
+        "level": 31,
+        "moveId": 54
+      },
+      {
+        "level": 39,
+        "moveId": 55
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 259,
+        "method": "LEVEL",
+        "param": 16
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": true,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "A cute mud fish that navigates land and water with equal ease."
+  },
+  {
+    "id": 259,
+    "name": "Mudslump",
+    "types": [
+      "AQUA",
+      "TERRA"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 85,
+      "defense": 70,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 50
+    },
+    "catchRate": 45,
+    "baseExp": 141,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 9
+      },
+      {
+        "level": 6,
+        "moveId": 51
+      },
+      {
+        "level": 11,
+        "moveId": 142
+      },
+      {
+        "level": 16,
+        "moveId": 143
+      },
+      {
+        "level": 24,
+        "moveId": 147
+      },
+      {
+        "level": 31,
+        "moveId": 54
+      },
+      {
+        "level": 39,
+        "moveId": 55
+      },
+      {
+        "level": 49,
+        "moveId": 61
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 260,
+        "method": "LEVEL",
+        "param": 36
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Rolls through mud at high speed, carrying enormous momentum."
+  },
+  {
+    "id": 260,
+    "name": "Mudsmasher",
+    "types": [
+      "AQUA",
+      "TERRA"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "attack": 110,
+      "defense": 90,
+      "specialAttack": 85,
+      "specialDefense": 85,
+      "speed": 60
+    },
+    "catchRate": 45,
+    "baseExp": 218,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 9
+      },
+      {
+        "level": 6,
+        "moveId": 51
+      },
+      {
+        "level": 11,
+        "moveId": 142
+      },
+      {
+        "level": 16,
+        "moveId": 143
+      },
+      {
+        "level": 24,
+        "moveId": 147
+      },
+      {
+        "level": 31,
+        "moveId": 54
+      },
+      {
+        "level": 39,
+        "moveId": 55
+      },
+      {
+        "level": 49,
+        "moveId": 61
+      },
+      {
+        "level": 59,
+        "moveId": 143
+      },
+      {
+        "level": 69,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "A swamp titan whose mud-cannon arm launches projectiles at crushing force."
+  },
+  {
+    "id": 261,
+    "name": "Hoenn261",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #261."
+  },
+  {
+    "id": 262,
+    "name": "Hoenn262",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #262."
+  },
+  {
+    "id": 263,
+    "name": "Ziggling",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 38,
+      "attack": 30,
+      "defense": 41,
+      "specialAttack": 30,
+      "specialDefense": 41,
+      "speed": 60
+    },
+    "catchRate": 255,
+    "baseExp": 56,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 5,
+        "moveId": 9
+      },
+      {
+        "level": 9,
+        "moveId": 4
+      },
+      {
+        "level": 17,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 264,
+        "method": "LEVEL",
+        "param": 20
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A raccoon dog that zig-zags to confuse predators."
+  },
+  {
+    "id": 264,
+    "name": "Linooner",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 78,
+      "attack": 70,
+      "defense": 61,
+      "specialAttack": 50,
+      "specialDefense": 61,
+      "speed": 100
+    },
+    "catchRate": 90,
+    "baseExp": 147,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 5,
+        "moveId": 9
+      },
+      {
+        "level": 9,
+        "moveId": 4
+      },
+      {
+        "level": 17,
+        "moveId": 22
+      },
+      {
+        "level": 27,
+        "moveId": 25
+      },
+      {
+        "level": 40,
+        "moveId": 6
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Becomes too straight to dodge when startled \u2014 and crashes into things."
+  },
+  {
+    "id": 265,
+    "name": "Silkwurm",
+    "types": [
+      "INSECT"
+    ],
+    "baseStats": {
+      "hp": 45,
+      "attack": 45,
+      "defense": 35,
+      "specialAttack": 20,
+      "specialDefense": 30,
+      "speed": 20
+    },
+    "catchRate": 255,
+    "baseExp": 54,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 181
+      },
+      {
+        "level": 7,
+        "moveId": 182
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 266,
+        "method": "LEVEL",
+        "param": 7
+      },
+      {
+        "toId": 268,
+        "method": "LEVEL",
+        "param": 7
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "A soft worm that excretes sticky silk to build its cocoon."
+  },
+  {
+    "id": 266,
+    "name": "Silkooze",
+    "types": [
+      "INSECT"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 35,
+      "defense": 55,
+      "specialAttack": 25,
+      "specialDefense": 25,
+      "speed": 15
+    },
+    "catchRate": 120,
+    "baseExp": 71,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 13
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 267,
+        "method": "LEVEL",
+        "param": 10
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "A cocoon stage that drips silk to bind itself to branches."
+  },
+  {
+    "id": 267,
+    "name": "Silkflutter",
+    "types": [
+      "INSECT",
+      "RADIANT"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 70,
+      "defense": 50,
+      "specialAttack": 100,
+      "specialDefense": 80,
+      "speed": 65
+    },
+    "catchRate": 45,
+    "baseExp": 170,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 151
+      },
+      {
+        "level": 10,
+        "moveId": 153
+      },
+      {
+        "level": 18,
+        "moveId": 183
+      },
+      {
+        "level": 25,
+        "moveId": 185
+      },
+      {
+        "level": 38,
+        "moveId": 241
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "A beautiful moth whose shimmering wings scatter radiant scales."
+  },
+  {
+    "id": 268,
+    "name": "Silkbarb",
+    "types": [
+      "INSECT",
+      "VENOM"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 35,
+      "defense": 55,
+      "specialAttack": 25,
+      "specialDefense": 25,
+      "speed": 15
+    },
+    "catchRate": 120,
+    "baseExp": 71,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 13
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 269,
+        "method": "LEVEL",
+        "param": 10
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "A toxic cocoon stage that poisons anything that touches it."
+  },
+  {
+    "id": 269,
+    "name": "Silkvenom",
+    "types": [
+      "INSECT",
+      "VENOM"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 70,
+      "defense": 50,
+      "specialAttack": 90,
+      "specialDefense": 90,
+      "speed": 65
+    },
+    "catchRate": 45,
+    "baseExp": 173,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 131
+      },
+      {
+        "level": 10,
+        "moveId": 135
+      },
+      {
+        "level": 18,
+        "moveId": 134
+      },
+      {
+        "level": 25,
+        "moveId": 136
+      },
+      {
+        "level": 38,
+        "moveId": 185
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "Toxic dust from its wings corrodes armour and weakens foes."
+  },
+  {
+    "id": 270,
+    "name": "Padlet",
+    "types": [
+      "AQUA",
+      "FLORA"
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 30,
+      "defense": 30,
+      "specialAttack": 40,
+      "specialDefense": 50,
+      "speed": 30
+    },
+    "catchRate": 255,
+    "baseExp": 74,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 7,
+        "moveId": 91
+      },
+      {
+        "level": 14,
+        "moveId": 94
+      },
+      {
+        "level": 20,
+        "moveId": 103
+      },
+      {
+        "level": 28,
+        "moveId": 95
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 271,
+        "method": "LEVEL",
+        "param": 14
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "A small water-lily creature that catches falling rain in its leaf."
+  },
+  {
+    "id": 271,
+    "name": "Padquake",
+    "types": [
+      "AQUA",
+      "FLORA"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 50,
+      "specialAttack": 60,
+      "specialDefense": 70,
+      "speed": 50
+    },
+    "catchRate": 120,
+    "baseExp": 161,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 7,
+        "moveId": 91
+      },
+      {
+        "level": 14,
+        "moveId": 94
+      },
+      {
+        "level": 20,
+        "moveId": 103
+      },
+      {
+        "level": 28,
+        "moveId": 95
+      },
+      {
+        "level": 40,
+        "moveId": 55
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 272,
+        "method": "LEVEL",
+        "param": 14
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "The leaf hat grows large enough to shelter a small family."
+  },
+  {
+    "id": 272,
+    "name": "Padking",
+    "types": [
+      "AQUA",
+      "FLORA"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 70,
+      "defense": 70,
+      "specialAttack": 90,
+      "specialDefense": 100,
+      "speed": 70
+    },
+    "catchRate": 45,
+    "baseExp": 181,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 7,
+        "moveId": 91
+      },
+      {
+        "level": 14,
+        "moveId": 94
+      },
+      {
+        "level": 20,
+        "moveId": 103
+      },
+      {
+        "level": 28,
+        "moveId": 95
+      },
+      {
+        "level": 40,
+        "moveId": 55
+      },
+      {
+        "level": 55,
+        "moveId": 98
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "A noble lily-pad creature that purifies rivers with each step."
+  },
+  {
+    "id": 273,
+    "name": "Seedrop",
+    "types": [
+      "FLORA"
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 40,
+      "defense": 50,
+      "specialAttack": 30,
+      "specialDefense": 30,
+      "speed": 30
+    },
+    "catchRate": 255,
+    "baseExp": 74,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 93
+      },
+      {
+        "level": 7,
+        "moveId": 108
+      },
+      {
+        "level": 14,
+        "moveId": 94
+      },
+      {
+        "level": 20,
+        "moveId": 13
+      },
+      {
+        "level": 28,
+        "moveId": 99
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 274,
+        "method": "LEVEL",
+        "param": 14
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "Dangles from branches to absorb sunlight, resembling an acorn."
+  },
+  {
+    "id": 274,
+    "name": "Nuzleigh",
+    "types": [
+      "FLORA",
+      "MURK"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 70,
+      "defense": 40,
+      "specialAttack": 60,
+      "specialDefense": 40,
+      "speed": 60
+    },
+    "catchRate": 120,
+    "baseExp": 141,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 93
+      },
+      {
+        "level": 7,
+        "moveId": 108
+      },
+      {
+        "level": 14,
+        "moveId": 94
+      },
+      {
+        "level": 20,
+        "moveId": 226
+      },
+      {
+        "level": 28,
+        "moveId": 99
+      },
+      {
+        "level": 40,
+        "moveId": 95
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 275,
+        "method": "LEVEL",
+        "param": 14
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "Cloaks itself in shadow to blend in with the forest canopy."
+  },
+  {
+    "id": 275,
+    "name": "Shiftreek",
+    "types": [
+      "FLORA",
+      "MURK"
+    ],
+    "baseStats": {
+      "hp": 90,
+      "attack": 100,
+      "defense": 60,
+      "specialAttack": 90,
+      "specialDefense": 60,
+      "speed": 80
+    },
+    "catchRate": 45,
+    "baseExp": 198,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 93
+      },
+      {
+        "level": 7,
+        "moveId": 108
+      },
+      {
+        "level": 14,
+        "moveId": 94
+      },
+      {
+        "level": 20,
+        "moveId": 226
+      },
+      {
+        "level": 28,
+        "moveId": 99
+      },
+      {
+        "level": 40,
+        "moveId": 95
+      },
+      {
+        "level": 54,
+        "moveId": 100
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "Master of ambush; vanishes into shadows and strikes without warning."
+  },
+  {
+    "id": 276,
+    "name": "Swiftling",
+    "types": [
+      "NEUTRAL",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 55,
+      "defense": 30,
+      "specialAttack": 30,
+      "specialDefense": 30,
+      "speed": 85
+    },
+    "catchRate": 200,
+    "baseExp": 54,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 152
+      },
+      {
+        "level": 7,
+        "moveId": 153
+      },
+      {
+        "level": 13,
+        "moveId": 156
+      },
+      {
+        "level": 20,
+        "moveId": 155
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 277,
+        "method": "LEVEL",
+        "param": 22
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A dauntless small bird that attacks creatures far larger than itself."
+  },
+  {
+    "id": 277,
+    "name": "Swiftale",
+    "types": [
+      "NEUTRAL",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 85,
+      "defense": 60,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 125
+    },
+    "catchRate": 100,
+    "baseExp": 159,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 152
+      },
+      {
+        "level": 7,
+        "moveId": 153
+      },
+      {
+        "level": 13,
+        "moveId": 156
+      },
+      {
+        "level": 20,
+        "moveId": 155
+      },
+      {
+        "level": 30,
+        "moveId": 154
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Rides warm air currents with astounding speed and precision."
+  },
+  {
+    "id": 278,
+    "name": "Wingull",
+    "types": [
+      "AQUA",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 30,
+      "defense": 30,
+      "specialAttack": 55,
+      "specialDefense": 30,
+      "speed": 85
+    },
+    "catchRate": 190,
+    "baseExp": 54,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 7,
+        "moveId": 151
+      },
+      {
+        "level": 14,
+        "moveId": 153
+      },
+      {
+        "level": 22,
+        "moveId": 56
+      },
+      {
+        "level": 30,
+        "moveId": 154
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 279,
+        "method": "LEVEL",
+        "param": 25
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "A sea gull that nests on cliffs and scouts for food over the ocean."
+  },
+  {
+    "id": 279,
+    "name": "Pelikrang",
+    "types": [
+      "AQUA",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 50,
+      "defense": 100,
+      "specialAttack": 85,
+      "specialDefense": 70,
+      "speed": 65
+    },
+    "catchRate": 75,
+    "baseExp": 164,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 7,
+        "moveId": 151
+      },
+      {
+        "level": 14,
+        "moveId": 153
+      },
+      {
+        "level": 22,
+        "moveId": 56
+      },
+      {
+        "level": 30,
+        "moveId": 154
+      },
+      {
+        "level": 40,
+        "moveId": 55
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "A large pelican that can hold incredible amounts of water in its pouch."
+  },
+  {
+    "id": 280,
+    "name": "Raltling",
+    "types": [
+      "PSYCHE",
+      "RADIANT"
+    ],
+    "baseStats": {
+      "hp": 28,
+      "attack": 25,
+      "defense": 25,
+      "specialAttack": 45,
+      "specialDefense": 35,
+      "speed": 40
+    },
+    "catchRate": 235,
+    "baseExp": 40,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 244
+      },
+      {
+        "level": 6,
+        "moveId": 161
+      },
+      {
+        "level": 11,
+        "moveId": 162
+      },
+      {
+        "level": 17,
+        "moveId": 163
+      },
+      {
+        "level": 25,
+        "moveId": 167
+      },
+      {
+        "level": 33,
+        "moveId": 241
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 281,
+        "method": "LEVEL",
+        "param": 20
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Senses emotions with the horns on its head."
+  },
+  {
+    "id": 281,
+    "name": "Kirlihorn",
+    "types": [
+      "PSYCHE",
+      "RADIANT"
+    ],
+    "baseStats": {
+      "hp": 38,
+      "attack": 35,
+      "defense": 35,
+      "specialAttack": 65,
+      "specialDefense": 55,
+      "speed": 50
+    },
+    "catchRate": 120,
+    "baseExp": 97,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 244
+      },
+      {
+        "level": 6,
+        "moveId": 161
+      },
+      {
+        "level": 11,
+        "moveId": 162
+      },
+      {
+        "level": 17,
+        "moveId": 163
+      },
+      {
+        "level": 25,
+        "moveId": 167
+      },
+      {
+        "level": 33,
+        "moveId": 241
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 282,
+        "method": "LEVEL",
+        "param": 30
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "The horn atop its head grows to a fine point as psychic power surges."
+  },
+  {
+    "id": 282,
+    "name": "Gardevoir",
+    "types": [
+      "PSYCHE",
+      "RADIANT"
+    ],
+    "baseStats": {
+      "hp": 68,
+      "attack": 65,
+      "defense": 65,
+      "specialAttack": 125,
+      "specialDefense": 115,
+      "speed": 80
+    },
+    "catchRate": 45,
+    "baseExp": 233,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 244
+      },
+      {
+        "level": 6,
+        "moveId": 161
+      },
+      {
+        "level": 11,
+        "moveId": 162
+      },
+      {
+        "level": 17,
+        "moveId": 163
+      },
+      {
+        "level": 25,
+        "moveId": 167
+      },
+      {
+        "level": 33,
+        "moveId": 241
+      },
+      {
+        "level": 45,
+        "moveId": 165
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creates a micro black hole to protect its trainer from any danger."
+  },
+  {
+    "id": 283,
+    "name": "Surskite",
+    "types": [
+      "INSECT",
+      "AQUA"
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 30,
+      "defense": 32,
+      "specialAttack": 50,
+      "specialDefense": 52,
+      "speed": 65
+    },
+    "catchRate": 200,
+    "baseExp": 54,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 7,
+        "moveId": 182
+      },
+      {
+        "level": 13,
+        "moveId": 183
+      },
+      {
+        "level": 20,
+        "moveId": 185
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 284,
+        "method": "LEVEL",
+        "param": 22
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Skates across water surfaces with legs that secrete a sticky oil."
+  },
+  {
+    "id": 284,
+    "name": "Mightymoth",
+    "types": [
+      "INSECT",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 60,
+      "defense": 62,
+      "specialAttack": 100,
+      "specialDefense": 82,
+      "speed": 60
+    },
+    "catchRate": 75,
+    "baseExp": 162,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 7,
+        "moveId": 182
+      },
+      {
+        "level": 13,
+        "moveId": 183
+      },
+      {
+        "level": 20,
+        "moveId": 185
+      },
+      {
+        "level": 30,
+        "moveId": 187
+      },
+      {
+        "level": 40,
+        "moveId": 154
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "Uses wind gusts to scatter disorienting wing scales."
+  },
+  {
+    "id": 285,
+    "name": "Shroomlet",
+    "types": [
+      "FLORA"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 40,
+      "defense": 60,
+      "specialAttack": 40,
+      "specialDefense": 60,
+      "speed": 35
+    },
+    "catchRate": 255,
+    "baseExp": 74,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 93
+      },
+      {
+        "level": 7,
+        "moveId": 105
+      },
+      {
+        "level": 14,
+        "moveId": 107
+      },
+      {
+        "level": 22,
+        "moveId": 104
+      },
+      {
+        "level": 30,
+        "moveId": 101
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 286,
+        "method": "LEVEL",
+        "param": 23
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "A small mushroom creature that disperses spores to fend off predators."
+  },
+  {
+    "id": 286,
+    "name": "Breloomstrike",
+    "types": [
+      "FLORA",
+      "BRAWL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 130,
+      "defense": 80,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 70
+    },
+    "catchRate": 90,
+    "baseExp": 161,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 93
+      },
+      {
+        "level": 7,
+        "moveId": 105
+      },
+      {
+        "level": 14,
+        "moveId": 107
+      },
+      {
+        "level": 22,
+        "moveId": 104
+      },
+      {
+        "level": 30,
+        "moveId": 122
+      },
+      {
+        "level": 40,
+        "moveId": 124
+      },
+      {
+        "level": 50,
+        "moveId": 126
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "A mushroom boxer whose stretchy arms can land blows from incredible range."
+  },
+  {
+    "id": 287,
+    "name": "Slakster",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 60,
+      "defense": 60,
+      "specialAttack": 35,
+      "specialDefense": 35,
+      "speed": 30
+    },
+    "catchRate": 255,
+    "baseExp": 56,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 9,
+        "moveId": 93
+      },
+      {
+        "level": 17,
+        "moveId": 20
+      },
+      {
+        "level": 25,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 288,
+        "method": "LEVEL",
+        "param": 18
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "Sleeps 20 hours a day. Barely moves even when attacked."
+  },
+  {
+    "id": 288,
+    "name": "Vigoroth",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 80,
+      "defense": 80,
+      "specialAttack": 55,
+      "specialDefense": 55,
+      "speed": 90
+    },
+    "catchRate": 120,
+    "baseExp": 145,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 9,
+        "moveId": 4
+      },
+      {
+        "level": 17,
+        "moveId": 20
+      },
+      {
+        "level": 25,
+        "moveId": 22
+      },
+      {
+        "level": 36,
+        "moveId": 6
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 289,
+        "method": "LEVEL",
+        "param": 36
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "Too hyper to sleep \u2014 full of frenzied, unstoppable energy."
+  },
+  {
+    "id": 289,
+    "name": "Slakosaurus",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 150,
+      "attack": 160,
+      "defense": 100,
+      "specialAttack": 95,
+      "specialDefense": 65,
+      "speed": 100
+    },
+    "catchRate": 45,
+    "baseExp": 252,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 9,
+        "moveId": 4
+      },
+      {
+        "level": 17,
+        "moveId": 20
+      },
+      {
+        "level": 25,
+        "moveId": 22
+      },
+      {
+        "level": 36,
+        "moveId": 6
+      },
+      {
+        "level": 50,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "The most powerful and the laziest creature alive. An unstoppable force when it bothers."
+  },
+  {
+    "id": 290,
+    "name": "Nincadet",
+    "types": [
+      "INSECT",
+      "TERRA"
+    ],
+    "baseStats": {
+      "hp": 31,
+      "attack": 45,
+      "defense": 90,
+      "specialAttack": 30,
+      "specialDefense": 30,
+      "speed": 40
+    },
+    "catchRate": 255,
+    "baseExp": 74,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 181
+      },
+      {
+        "level": 9,
+        "moveId": 2
+      },
+      {
+        "level": 14,
+        "moveId": 184
+      },
+      {
+        "level": 20,
+        "moveId": 144
+      },
+      {
+        "level": 25,
+        "moveId": 193
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 291,
+        "method": "LEVEL",
+        "param": 20
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "A ground-burrowing cicada nymph that rarely sees sunlight."
+  },
+  {
+    "id": 291,
+    "name": "Ninjafly",
+    "types": [
+      "INSECT",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 61,
+      "attack": 90,
+      "defense": 45,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 160
+    },
+    "catchRate": 45,
+    "baseExp": 159,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 181
+      },
+      {
+        "level": 9,
+        "moveId": 153
+      },
+      {
+        "level": 14,
+        "moveId": 184
+      },
+      {
+        "level": 20,
+        "moveId": 156
+      },
+      {
+        "level": 25,
+        "moveId": 193
+      },
+      {
+        "level": 38,
+        "moveId": 185
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "An evasive ninja bug that moves faster than the eye can follow."
+  },
+  {
+    "id": 292,
+    "name": "Ghostshell",
+    "types": [
+      "INSECT",
+      "SHADE"
+    ],
+    "baseStats": {
+      "hp": 1,
+      "attack": 90,
+      "defense": 45,
+      "specialAttack": 30,
+      "specialDefense": 30,
+      "speed": 40
+    },
+    "catchRate": 45,
+    "baseExp": 95,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 205
+      },
+      {
+        "level": 9,
+        "moveId": 206
+      },
+      {
+        "level": 14,
+        "moveId": 184
+      },
+      {
+        "level": 20,
+        "moveId": 202
+      },
+      {
+        "level": 25,
+        "moveId": 204
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "FOREST"
+    ],
+    "description": "A hollow husk haunted by the spirit left behind during evolution."
+  },
+  {
+    "id": 293,
+    "name": "Whislet",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 64,
+      "attack": 51,
+      "defense": 23,
+      "specialAttack": 51,
+      "specialDefense": 23,
+      "speed": 28
+    },
+    "catchRate": 190,
+    "baseExp": 48,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 3
+      },
+      {
+        "level": 5,
+        "moveId": 8
+      },
+      {
+        "level": 9,
+        "moveId": 26
+      },
+      {
+        "level": 16,
+        "moveId": 20
+      },
+      {
+        "level": 23,
+        "moveId": 16
+      },
+      {
+        "level": 35,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 294,
+        "method": "LEVEL",
+        "param": 20
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "Cries like a siren; plugs its own ears with flaps on its head."
+  },
+  {
+    "id": 294,
+    "name": "Loudred",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 84,
+      "attack": 71,
+      "defense": 43,
+      "specialAttack": 71,
+      "specialDefense": 43,
+      "speed": 48
+    },
+    "catchRate": 120,
+    "baseExp": 112,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 3
+      },
+      {
+        "level": 5,
+        "moveId": 8
+      },
+      {
+        "level": 9,
+        "moveId": 26
+      },
+      {
+        "level": 16,
+        "moveId": 20
+      },
+      {
+        "level": 23,
+        "moveId": 16
+      },
+      {
+        "level": 35,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 295,
+        "method": "LEVEL",
+        "param": 40
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "Its voice cracks stone walls and shatters windows."
+  },
+  {
+    "id": 295,
+    "name": "Boomblare",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 104,
+      "attack": 91,
+      "defense": 63,
+      "specialAttack": 91,
+      "specialDefense": 63,
+      "speed": 68
+    },
+    "catchRate": 45,
+    "baseExp": 167,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 3
+      },
+      {
+        "level": 5,
+        "moveId": 8
+      },
+      {
+        "level": 9,
+        "moveId": 26
+      },
+      {
+        "level": 16,
+        "moveId": 20
+      },
+      {
+        "level": 23,
+        "moveId": 16
+      },
+      {
+        "level": 35,
+        "moveId": 5
+      },
+      {
+        "level": 50,
+        "moveId": 26
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "Its sonic blasts register at 150 decibels \u2014 deafening without ear protection."
+  },
+  {
+    "id": 296,
+    "name": "Hoenn296",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #296."
+  },
+  {
+    "id": 297,
+    "name": "Hoenn297",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #297."
+  },
+  {
+    "id": 298,
+    "name": "Hoenn298",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #298."
+  },
+  {
+    "id": 299,
+    "name": "Hoenn299",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #299."
+  },
+  {
+    "id": 300,
+    "name": "Hoenn300",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #300."
+  },
+  {
+    "id": 301,
+    "name": "Hoenn301",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #301."
+  },
+  {
+    "id": 302,
+    "name": "Hoenn302",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #302."
+  },
+  {
+    "id": 303,
+    "name": "Hoenn303",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #303."
+  },
+  {
+    "id": 304,
+    "name": "Ironling",
+    "types": [
+      "IRON",
+      "STONE"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 70,
+      "defense": 100,
+      "specialAttack": 40,
+      "specialDefense": 40,
+      "speed": 30
+    },
+    "catchRate": 180,
+    "baseExp": 66,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 231
+      },
+      {
+        "level": 7,
+        "moveId": 191
+      },
+      {
+        "level": 12,
+        "moveId": 237
+      },
+      {
+        "level": 20,
+        "moveId": 234
+      },
+      {
+        "level": 30,
+        "moveId": 193
+      },
+      {
+        "level": 40,
+        "moveId": 232
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 305,
+        "method": "LEVEL",
+        "param": 32
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "Munches on iron ore to build its armoured shell."
+  },
+  {
+    "id": 305,
+    "name": "Irondon",
+    "types": [
+      "IRON",
+      "STONE"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 90,
+      "defense": 140,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 40
+    },
+    "catchRate": 90,
+    "baseExp": 140,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 231
+      },
+      {
+        "level": 7,
+        "moveId": 191
+      },
+      {
+        "level": 12,
+        "moveId": 237
+      },
+      {
+        "level": 20,
+        "moveId": 234
+      },
+      {
+        "level": 30,
+        "moveId": 193
+      },
+      {
+        "level": 40,
+        "moveId": 232
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 306,
+        "method": "LEVEL",
+        "param": 42
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "Smashes through mountain rock faces when hungry."
+  },
+  {
+    "id": 306,
+    "name": "Ironaggron",
+    "types": [
+      "IRON",
+      "STONE"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 110,
+      "defense": 180,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 50
+    },
+    "catchRate": 45,
+    "baseExp": 205,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 231
+      },
+      {
+        "level": 7,
+        "moveId": 191
+      },
+      {
+        "level": 12,
+        "moveId": 237
+      },
+      {
+        "level": 20,
+        "moveId": 234
+      },
+      {
+        "level": 30,
+        "moveId": 193
+      },
+      {
+        "level": 40,
+        "moveId": 232
+      },
+      {
+        "level": 55,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "A walking fortress that can smash through skyscrapers."
+  },
+  {
+    "id": 307,
+    "name": "Meditite",
+    "types": [
+      "BRAWL",
+      "PSYCHE"
+    ],
+    "baseStats": {
+      "hp": 30,
+      "attack": 40,
+      "defense": 55,
+      "specialAttack": 40,
+      "specialDefense": 55,
+      "speed": 60
+    },
+    "catchRate": 180,
+    "baseExp": 56,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 121
+      },
+      {
+        "level": 7,
+        "moveId": 161
+      },
+      {
+        "level": 13,
+        "moveId": 122
+      },
+      {
+        "level": 20,
+        "moveId": 162
+      },
+      {
+        "level": 28,
+        "moveId": 123
+      },
+      {
+        "level": 36,
+        "moveId": 163
+      },
+      {
+        "level": 48,
+        "moveId": 124
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 308,
+        "method": "LEVEL",
+        "param": 37
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "Meditates for days without eating; spiritual power fills the void."
+  },
+  {
+    "id": 308,
+    "name": "Medicham",
+    "types": [
+      "BRAWL",
+      "PSYCHE"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 60,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 75,
+      "speed": 80
+    },
+    "catchRate": 90,
+    "baseExp": 144,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 121
+      },
+      {
+        "level": 7,
+        "moveId": 161
+      },
+      {
+        "level": 13,
+        "moveId": 122
+      },
+      {
+        "level": 20,
+        "moveId": 162
+      },
+      {
+        "level": 28,
+        "moveId": 123
+      },
+      {
+        "level": 36,
+        "moveId": 163
+      },
+      {
+        "level": 48,
+        "moveId": 124
+      },
+      {
+        "level": 60,
+        "moveId": 164
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "Psychic power amplifies its punches to devastating levels."
+  },
+  {
+    "id": 309,
+    "name": "Sparkite",
+    "types": [
+      "VOLT"
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 45,
+      "defense": 40,
+      "specialAttack": 65,
+      "specialDefense": 40,
+      "speed": 65
+    },
+    "catchRate": 120,
+    "baseExp": 59,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 71
+      },
+      {
+        "level": 5,
+        "moveId": 80
+      },
+      {
+        "level": 9,
+        "moveId": 77
+      },
+      {
+        "level": 15,
+        "moveId": 72
+      },
+      {
+        "level": 25,
+        "moveId": 73
+      },
+      {
+        "level": 35,
+        "moveId": 74
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 310,
+        "method": "LEVEL",
+        "param": 26
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Friction from its fur generates enough electricity to power a small home."
+  },
+  {
+    "id": 310,
+    "name": "Manectric",
+    "types": [
+      "VOLT"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 75,
+      "defense": 60,
+      "specialAttack": 105,
+      "specialDefense": 60,
+      "speed": 105
+    },
+    "catchRate": 45,
+    "baseExp": 168,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 71
+      },
+      {
+        "level": 5,
+        "moveId": 80
+      },
+      {
+        "level": 9,
+        "moveId": 77
+      },
+      {
+        "level": 15,
+        "moveId": 72
+      },
+      {
+        "level": 25,
+        "moveId": 73
+      },
+      {
+        "level": 35,
+        "moveId": 74
+      },
+      {
+        "level": 45,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Nests in thunderclouds. Its howl summons lightning strikes."
+  },
+  {
+    "id": 311,
+    "name": "Hoenn311",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #311."
+  },
+  {
+    "id": 312,
+    "name": "Hoenn312",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #312."
+  },
+  {
+    "id": 313,
+    "name": "Hoenn313",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #313."
+  },
+  {
+    "id": 314,
+    "name": "Hoenn314",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #314."
+  },
+  {
+    "id": 315,
+    "name": "Roseling",
+    "types": [
+      "FLORA",
+      "VENOM"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 60,
+      "defense": 45,
+      "specialAttack": 100,
+      "specialDefense": 80,
+      "speed": 65
+    },
+    "catchRate": 150,
+    "baseExp": 140,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 131
+      },
+      {
+        "level": 7,
+        "moveId": 91
+      },
+      {
+        "level": 13,
+        "moveId": 133
+      },
+      {
+        "level": 20,
+        "moveId": 98
+      },
+      {
+        "level": 28,
+        "moveId": 134
+      },
+      {
+        "level": 35,
+        "moveId": 96
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Its left rose contains poison; its right holds sweet nectar."
+  },
+  {
+    "id": 316,
+    "name": "Hoenn316",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #316."
+  },
+  {
+    "id": 317,
+    "name": "Hoenn317",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #317."
+  },
+  {
+    "id": 318,
+    "name": "Carvsharke",
+    "types": [
+      "AQUA",
+      "MURK"
+    ],
+    "baseStats": {
+      "hp": 45,
+      "attack": 90,
+      "defense": 20,
+      "specialAttack": 65,
+      "specialDefense": 20,
+      "speed": 65
+    },
+    "catchRate": 225,
+    "baseExp": 61,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 7,
+        "moveId": 221
+      },
+      {
+        "level": 13,
+        "moveId": 223
+      },
+      {
+        "level": 20,
+        "moveId": 222
+      },
+      {
+        "level": 28,
+        "moveId": 55
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 319,
+        "method": "LEVEL",
+        "param": 30
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Razor-toothed predator fish that hunts in frenetic packs."
+  },
+  {
+    "id": 319,
+    "name": "Sharpedon",
+    "types": [
+      "AQUA",
+      "MURK"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 120,
+      "defense": 40,
+      "specialAttack": 95,
+      "specialDefense": 40,
+      "speed": 95
+    },
+    "catchRate": 60,
+    "baseExp": 161,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 7,
+        "moveId": 221
+      },
+      {
+        "level": 13,
+        "moveId": 223
+      },
+      {
+        "level": 20,
+        "moveId": 222
+      },
+      {
+        "level": 28,
+        "moveId": 55
+      },
+      {
+        "level": 40,
+        "moveId": 216
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "A torpedo shark that charges targets at 80 knots underwater."
+  },
+  {
+    "id": 320,
+    "name": "Hoenn320",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #320."
+  },
+  {
+    "id": 321,
+    "name": "Hoenn321",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #321."
+  },
+  {
+    "id": 322,
+    "name": "Hoenn322",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #322."
+  },
+  {
+    "id": 323,
+    "name": "Hoenn323",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #323."
+  },
+  {
+    "id": 324,
+    "name": "Hoenn324",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #324."
+  },
+  {
+    "id": 325,
+    "name": "Hoenn325",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #325."
+  },
+  {
+    "id": 326,
+    "name": "Hoenn326",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #326."
+  },
+  {
+    "id": 327,
+    "name": "Hoenn327",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #327."
+  },
+  {
+    "id": 328,
+    "name": "Trapling",
+    "types": [
+      "TERRA"
+    ],
+    "baseStats": {
+      "hp": 45,
+      "attack": 100,
+      "defense": 45,
+      "specialAttack": 45,
+      "specialDefense": 45,
+      "speed": 10
+    },
+    "catchRate": 255,
+    "baseExp": 58,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 141
+      },
+      {
+        "level": 9,
+        "moveId": 181
+      },
+      {
+        "level": 17,
+        "moveId": 143
+      },
+      {
+        "level": 25,
+        "moveId": 146
+      },
+      {
+        "level": 33,
+        "moveId": 144
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 329,
+        "method": "LEVEL",
+        "param": 35
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "DESERT"
+    ],
+    "description": "Digs pitfall traps in sand; its jaws crack boulders."
+  },
+  {
+    "id": 329,
+    "name": "Vibradash",
+    "types": [
+      "TERRA",
+      "WYRM"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 70,
+      "defense": 50,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 70
+    },
+    "catchRate": 120,
+    "baseExp": 119,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 141
+      },
+      {
+        "level": 9,
+        "moveId": 212
+      },
+      {
+        "level": 17,
+        "moveId": 143
+      },
+      {
+        "level": 25,
+        "moveId": 213
+      },
+      {
+        "level": 33,
+        "moveId": 144
+      },
+      {
+        "level": 45,
+        "moveId": 217
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 330,
+        "method": "LEVEL",
+        "param": 45
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "DESERT"
+    ],
+    "description": "Its wings create powerful vibrations that can liquefy sand."
+  },
+  {
+    "id": 330,
+    "name": "Flygondra",
+    "types": [
+      "TERRA",
+      "WYRM"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 100,
+      "defense": 80,
+      "specialAttack": 80,
+      "specialDefense": 80,
+      "speed": 100
+    },
+    "catchRate": 45,
+    "baseExp": 204,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 212
+      },
+      {
+        "level": 9,
+        "moveId": 143
+      },
+      {
+        "level": 17,
+        "moveId": 213
+      },
+      {
+        "level": 25,
+        "moveId": 214
+      },
+      {
+        "level": 33,
+        "moveId": 217
+      },
+      {
+        "level": 45,
+        "moveId": 215
+      },
+      {
+        "level": 55,
+        "moveId": 216
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "DESERT"
+    ],
+    "description": "A dragon of the desert sands whose wings howl like a spirit wail."
+  },
+  {
+    "id": 331,
+    "name": "Cactorlet",
+    "types": [
+      "FLORA"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 85,
+      "defense": 40,
+      "specialAttack": 85,
+      "specialDefense": 40,
+      "speed": 35
+    },
+    "catchRate": 190,
+    "baseExp": 74,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 131
+      },
+      {
+        "level": 7,
+        "moveId": 91
+      },
+      {
+        "level": 13,
+        "moveId": 135
+      },
+      {
+        "level": 20,
+        "moveId": 99
+      },
+      {
+        "level": 28,
+        "moveId": 101
+      },
+      {
+        "level": 36,
+        "moveId": 100
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 332,
+        "method": "LEVEL",
+        "param": 32
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "DESERT"
+    ],
+    "description": "Wanders the desert; its spines contain a mild paralytic venom."
+  },
+  {
+    "id": 332,
+    "name": "Cacturnia",
+    "types": [
+      "FLORA",
+      "MURK"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 115,
+      "defense": 60,
+      "specialAttack": 115,
+      "specialDefense": 60,
+      "speed": 55
+    },
+    "catchRate": 60,
+    "baseExp": 166,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 131
+      },
+      {
+        "level": 7,
+        "moveId": 91
+      },
+      {
+        "level": 13,
+        "moveId": 135
+      },
+      {
+        "level": 20,
+        "moveId": 99
+      },
+      {
+        "level": 28,
+        "moveId": 101
+      },
+      {
+        "level": 36,
+        "moveId": 100
+      },
+      {
+        "level": 50,
+        "moveId": 223
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "DESERT"
+    ],
+    "description": "Dances with spiny arms; each step leaves a trail of venom."
+  },
+  {
+    "id": 333,
+    "name": "Hoenn333",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #333."
+  },
+  {
+    "id": 334,
+    "name": "Hoenn334",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #334."
+  },
+  {
+    "id": 335,
+    "name": "Zangofast",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 73,
+      "attack": 115,
+      "defense": 60,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 90
+    },
+    "catchRate": 45,
+    "baseExp": 160,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 2
+      },
+      {
+        "level": 7,
+        "moveId": 4
+      },
+      {
+        "level": 13,
+        "moveId": 15
+      },
+      {
+        "level": 20,
+        "moveId": 22
+      },
+      {
+        "level": 28,
+        "moveId": 203
+      },
+      {
+        "level": 38,
+        "moveId": 6
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A fierce mongoose that never backs down from a fight with Seviper."
+  },
+  {
+    "id": 336,
+    "name": "Seviclash",
+    "types": [
+      "VENOM"
+    ],
+    "baseStats": {
+      "hp": 73,
+      "attack": 100,
+      "defense": 60,
+      "specialAttack": 100,
+      "specialDefense": 60,
+      "speed": 65
+    },
+    "catchRate": 45,
+    "baseExp": 160,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 131
+      },
+      {
+        "level": 7,
+        "moveId": 221
+      },
+      {
+        "level": 13,
+        "moveId": 136
+      },
+      {
+        "level": 20,
+        "moveId": 133
+      },
+      {
+        "level": 28,
+        "moveId": 134
+      },
+      {
+        "level": 38,
+        "moveId": 135
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A large venomous serpent that has feuded with Zangofast for millennia."
+  },
+  {
+    "id": 337,
+    "name": "Lunaite",
+    "types": [
+      "STONE",
+      "PSYCHE"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 55,
+      "defense": 65,
+      "specialAttack": 95,
+      "specialDefense": 85,
+      "speed": 70
+    },
+    "catchRate": 45,
+    "baseExp": 161,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 161
+      },
+      {
+        "level": 8,
+        "moveId": 119
+      },
+      {
+        "level": 16,
+        "moveId": 112
+      },
+      {
+        "level": 24,
+        "moveId": 162
+      },
+      {
+        "level": 32,
+        "moveId": 163
+      },
+      {
+        "level": 45,
+        "moveId": 165
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "A crescent moon stone creature that grows stronger under moonlight."
+  },
+  {
+    "id": 338,
+    "name": "Solrock",
+    "types": [
+      "STONE",
+      "PSYCHE"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 95,
+      "defense": 85,
+      "specialAttack": 55,
+      "specialDefense": 65,
+      "speed": 70
+    },
+    "catchRate": 45,
+    "baseExp": 161,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 161
+      },
+      {
+        "level": 8,
+        "moveId": 40
+      },
+      {
+        "level": 16,
+        "moveId": 32
+      },
+      {
+        "level": 24,
+        "moveId": 162
+      },
+      {
+        "level": 32,
+        "moveId": 163
+      },
+      {
+        "level": 45,
+        "moveId": 166
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "A sun-shaped rock creature that pulses with solar energy."
+  },
+  {
+    "id": 339,
+    "name": "Barboach",
+    "types": [
+      "AQUA",
+      "TERRA"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 48,
+      "defense": 43,
+      "specialAttack": 46,
+      "specialDefense": 41,
+      "speed": 60
+    },
+    "catchRate": 190,
+    "baseExp": 70,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 142
+      },
+      {
+        "level": 7,
+        "moveId": 51
+      },
+      {
+        "level": 15,
+        "moveId": 143
+      },
+      {
+        "level": 22,
+        "moveId": 146
+      },
+      {
+        "level": 30,
+        "moveId": 55
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 340,
+        "method": "LEVEL",
+        "param": 30
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Uses its whiskers to detect underground rivers."
+  },
+  {
+    "id": 340,
+    "name": "Whiscash",
+    "types": [
+      "AQUA",
+      "TERRA"
+    ],
+    "baseStats": {
+      "hp": 110,
+      "attack": 78,
+      "defense": 73,
+      "specialAttack": 76,
+      "specialDefense": 71,
+      "speed": 60
+    },
+    "catchRate": 75,
+    "baseExp": 164,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 142
+      },
+      {
+        "level": 7,
+        "moveId": 51
+      },
+      {
+        "level": 15,
+        "moveId": 143
+      },
+      {
+        "level": 22,
+        "moveId": 146
+      },
+      {
+        "level": 30,
+        "moveId": 55
+      },
+      {
+        "level": 45,
+        "moveId": 148
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "Its territorial tremors can be felt across vast distances."
+  },
+  {
+    "id": 341,
+    "name": "Hoenn341",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #341."
+  },
+  {
+    "id": 342,
+    "name": "Hoenn342",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #342."
+  },
+  {
+    "id": 343,
+    "name": "Hoenn343",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #343."
+  },
+  {
+    "id": 344,
+    "name": "Hoenn344",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #344."
+  },
+  {
+    "id": 345,
+    "name": "Hoenn345",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #345."
+  },
+  {
+    "id": 346,
+    "name": "Hoenn346",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #346."
+  },
+  {
+    "id": 347,
+    "name": "Hoenn347",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #347."
+  },
+  {
+    "id": 348,
+    "name": "Hoenn348",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #348."
+  },
+  {
+    "id": 349,
+    "name": "Feebas",
+    "types": [
+      "AQUA"
+    ],
+    "baseStats": {
+      "hp": 20,
+      "attack": 15,
+      "defense": 20,
+      "specialAttack": 10,
+      "specialDefense": 55,
+      "speed": 80
+    },
+    "catchRate": 255,
+    "baseExp": 40,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 15,
+        "moveId": 53
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 350,
+        "method": "HAPPINESS",
+        "param": 0
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "The plainest fish in the sea; a master of elegance hides within."
+  },
+  {
+    "id": 350,
+    "name": "Milotica",
+    "types": [
+      "AQUA"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "attack": 60,
+      "defense": 79,
+      "specialAttack": 100,
+      "specialDefense": 125,
+      "speed": 81
+    },
+    "catchRate": 60,
+    "baseExp": 207,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 7,
+        "moveId": 53
+      },
+      {
+        "level": 15,
+        "moveId": 56
+      },
+      {
+        "level": 22,
+        "moveId": 115
+      },
+      {
+        "level": 30,
+        "moveId": 54
+      },
+      {
+        "level": 40,
+        "moveId": 55
+      },
+      {
+        "level": 50,
+        "moveId": 241
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "The most beautiful creature in existence; its presence calms storms."
+  },
+  {
+    "id": 351,
+    "name": "Castweather",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 70,
+      "attack": 70,
+      "defense": 70,
+      "specialAttack": 70,
+      "specialDefense": 70,
+      "speed": 70
+    },
+    "catchRate": 45,
+    "baseExp": 147,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 40
+      },
+      {
+        "level": 20,
+        "moveId": 60
+      },
+      {
+        "level": 30,
+        "moveId": 119
+      },
+      {
+        "level": 40,
+        "moveId": 148
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Its form changes with the weather, adapting perfectly to conditions."
+  },
+  {
+    "id": 352,
+    "name": "Hoenn352",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #352."
+  },
+  {
+    "id": 353,
+    "name": "Hoenn353",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #353."
+  },
+  {
+    "id": 354,
+    "name": "Hoenn354",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #354."
+  },
+  {
+    "id": 355,
+    "name": "Hoenn355",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #355."
+  },
+  {
+    "id": 356,
+    "name": "Hoenn356",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #356."
+  },
+  {
+    "id": 357,
+    "name": "Hoenn357",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #357."
+  },
+  {
+    "id": 358,
+    "name": "Hoenn358",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #358."
+  },
+  {
+    "id": 359,
+    "name": "Absolhex",
+    "types": [
+      "MURK"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 130,
+      "defense": 60,
+      "specialAttack": 75,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 30,
+    "baseExp": 163,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 221
+      },
+      {
+        "level": 7,
+        "moveId": 225
+      },
+      {
+        "level": 14,
+        "moveId": 227
+      },
+      {
+        "level": 22,
+        "moveId": 223
+      },
+      {
+        "level": 30,
+        "moveId": 224
+      },
+      {
+        "level": 42,
+        "moveId": 222
+      },
+      {
+        "level": 55,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "Appears before disasters; once blamed for causing them."
+  },
+  {
+    "id": 360,
+    "name": "Hoenn360",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #360."
+  },
+  {
+    "id": 361,
+    "name": "Frostlet",
+    "types": [
+      "FROST"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 50,
+      "defense": 50,
+      "specialAttack": 50,
+      "specialDefense": 50,
+      "speed": 50
+    },
+    "catchRate": 190,
+    "baseExp": 60,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 114
+      },
+      {
+        "level": 8,
+        "moveId": 115
+      },
+      {
+        "level": 17,
+        "moveId": 112
+      },
+      {
+        "level": 25,
+        "moveId": 117
+      },
+      {
+        "level": 33,
+        "moveId": 113
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 362,
+        "method": "ITEM",
+        "param": 406
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "A ghost-like ice child that lives in frozen caverns."
+  },
+  {
+    "id": 362,
+    "name": "Glalishard",
+    "types": [
+      "FROST"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 80,
+      "defense": 80,
+      "specialAttack": 80,
+      "specialDefense": 80,
+      "speed": 80
+    },
+    "catchRate": 75,
+    "baseExp": 168,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 114
+      },
+      {
+        "level": 8,
+        "moveId": 115
+      },
+      {
+        "level": 17,
+        "moveId": 112
+      },
+      {
+        "level": 25,
+        "moveId": 117
+      },
+      {
+        "level": 33,
+        "moveId": 113
+      },
+      {
+        "level": 45,
+        "moveId": 113
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "A crystalline ice ball whose body temperature is -150 degrees."
+  },
+  {
+    "id": 363,
+    "name": "Hoenn363",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #363."
+  },
+  {
+    "id": 364,
+    "name": "Hoenn364",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #364."
+  },
+  {
+    "id": 365,
+    "name": "Hoenn365",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #365."
+  },
+  {
+    "id": 366,
+    "name": "Hoenn366",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #366."
+  },
+  {
+    "id": 367,
+    "name": "Hoenn367",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #367."
+  },
+  {
+    "id": 368,
+    "name": "Hoenn368",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #368."
+  },
+  {
+    "id": 369,
+    "name": "Hoenn369",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #369."
+  },
+  {
+    "id": 370,
+    "name": "Hoenn370",
+    "types": [
+      "NEUTRAL"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 75,
+      "specialAttack": 60,
+      "specialDefense": 60,
+      "speed": 75
+    },
+    "catchRate": 100,
+    "baseExp": 120,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 10,
+        "moveId": 7
+      },
+      {
+        "level": 20,
+        "moveId": 20
+      },
+      {
+        "level": 30,
+        "moveId": 22
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "Creature #370."
+  },
+  {
+    "id": 371,
+    "name": "Bagonlet",
+    "types": [
+      "WYRM"
+    ],
+    "baseStats": {
+      "hp": 45,
+      "attack": 75,
+      "defense": 60,
+      "specialAttack": 40,
+      "specialDefense": 30,
+      "speed": 50
+    },
+    "catchRate": 45,
+    "baseExp": 60,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 8,
+        "moveId": 221
+      },
+      {
+        "level": 17,
+        "moveId": 211
+      },
+      {
+        "level": 25,
+        "moveId": 212
+      },
+      {
+        "level": 33,
+        "moveId": 213
+      },
+      {
+        "level": 44,
+        "moveId": 215
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 372,
+        "method": "LEVEL",
+        "param": 30
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "Headbutts hard objects to toughen its skull \u2014 dreams of flying."
+  },
+  {
+    "id": 372,
+    "name": "Shellgon",
+    "types": [
+      "WYRM"
+    ],
+    "baseStats": {
+      "hp": 65,
+      "attack": 95,
+      "defense": 100,
+      "specialAttack": 60,
+      "specialDefense": 50,
+      "speed": 50
+    },
+    "catchRate": 45,
+    "baseExp": 147,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 1
+      },
+      {
+        "level": 8,
+        "moveId": 221
+      },
+      {
+        "level": 17,
+        "moveId": 211
+      },
+      {
+        "level": 25,
+        "moveId": 212
+      },
+      {
+        "level": 33,
+        "moveId": 213
+      },
+      {
+        "level": 44,
+        "moveId": 215
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 373,
+        "method": "LEVEL",
+        "param": 50
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "Withdraws inside its hard shell while its body undergoes transformation."
+  },
+  {
+    "id": 373,
+    "name": "Salamencium",
+    "types": [
+      "WYRM",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 95,
+      "attack": 135,
+      "defense": 80,
+      "specialAttack": 110,
+      "specialDefense": 80,
+      "speed": 100
+    },
+    "catchRate": 45,
+    "baseExp": 270,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 213
+      },
+      {
+        "level": 8,
+        "moveId": 221
+      },
+      {
+        "level": 17,
+        "moveId": 212
+      },
+      {
+        "level": 25,
+        "moveId": 214
+      },
+      {
+        "level": 33,
+        "moveId": 217
+      },
+      {
+        "level": 44,
+        "moveId": 215
+      },
+      {
+        "level": 60,
+        "moveId": 154
+      },
+      {
+        "level": 70,
+        "moveId": 216
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "A violent sky dragon whose desire to fly finally overcame its shell."
+  },
+  {
+    "id": 374,
+    "name": "Beldrone",
+    "types": [
+      "IRON",
+      "PSYCHE"
+    ],
+    "baseStats": {
+      "hp": 40,
+      "attack": 55,
+      "defense": 80,
+      "specialAttack": 35,
+      "specialDefense": 60,
+      "speed": 30
+    },
+    "catchRate": 3,
+    "baseExp": 64,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 231
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 375,
+        "method": "LEVEL",
+        "param": 20
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "A mechanical creature with no mouth; communicates through magnetism."
+  },
+  {
+    "id": 375,
+    "name": "Metaldrone",
+    "types": [
+      "IRON",
+      "PSYCHE"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 75,
+      "defense": 100,
+      "specialAttack": 55,
+      "specialDefense": 80,
+      "speed": 50
+    },
+    "catchRate": 3,
+    "baseExp": 147,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 231
+      },
+      {
+        "level": 10,
+        "moveId": 234
+      },
+      {
+        "level": 20,
+        "moveId": 163
+      }
+    ],
+    "evolutions": [
+      {
+        "toId": 376,
+        "method": "LEVEL",
+        "param": 45
+      }
+    ],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "Two Beldrones fused together; their combined psychic field is immense."
+  },
+  {
+    "id": 376,
+    "name": "Metatycross",
+    "types": [
+      "IRON",
+      "PSYCHE"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 135,
+      "defense": 130,
+      "specialAttack": 95,
+      "specialDefense": 90,
+      "speed": 70
+    },
+    "catchRate": 3,
+    "baseExp": 270,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 231
+      },
+      {
+        "level": 10,
+        "moveId": 234
+      },
+      {
+        "level": 20,
+        "moveId": 164
+      },
+      {
+        "level": 30,
+        "moveId": 235
+      },
+      {
+        "level": 40,
+        "moveId": 163
+      },
+      {
+        "level": 50,
+        "moveId": 5
+      },
+      {
+        "level": 60,
+        "moveId": 233
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": false,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "A psychic iron giant whose cross-shaped body generates gravity fields."
+  },
+  {
+    "id": 377,
+    "name": "Crystalith",
+    "types": [
+      "STONE"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 100,
+      "defense": 200,
+      "specialAttack": 50,
+      "specialDefense": 100,
+      "speed": 30
+    },
+    "catchRate": 3,
+    "baseExp": 215,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 191
+      },
+      {
+        "level": 8,
+        "moveId": 197
+      },
+      {
+        "level": 16,
+        "moveId": 193
+      },
+      {
+        "level": 24,
+        "moveId": 196
+      },
+      {
+        "level": 32,
+        "moveId": 198
+      },
+      {
+        "level": 43,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": true,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "The golem of rock, sealed in an ancient crystal cavern eons ago."
+  },
+  {
+    "id": 378,
+    "name": "Glaciadon",
+    "types": [
+      "FROST"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 50,
+      "defense": 100,
+      "specialAttack": 100,
+      "specialDefense": 200,
+      "speed": 50
+    },
+    "catchRate": 3,
+    "baseExp": 215,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 114
+      },
+      {
+        "level": 8,
+        "moveId": 237
+      },
+      {
+        "level": 16,
+        "moveId": 112
+      },
+      {
+        "level": 24,
+        "moveId": 118
+      },
+      {
+        "level": 32,
+        "moveId": 113
+      },
+      {
+        "level": 43,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": true,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "The golem of ice whose body temperature is colder than outer space."
+  },
+  {
+    "id": 379,
+    "name": "Ironclad",
+    "types": [
+      "IRON"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 75,
+      "defense": 150,
+      "specialAttack": 75,
+      "specialDefense": 150,
+      "speed": 50
+    },
+    "catchRate": 3,
+    "baseExp": 215,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 231
+      },
+      {
+        "level": 8,
+        "moveId": 237
+      },
+      {
+        "level": 16,
+        "moveId": 233
+      },
+      {
+        "level": 24,
+        "moveId": 234
+      },
+      {
+        "level": 32,
+        "moveId": 235
+      },
+      {
+        "level": 43,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": true,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "The golem of steel; its iron shell has never been breached."
+  },
+  {
+    "id": 380,
+    "name": "Auraveil",
+    "types": [
+      "WYRM",
+      "PSYCHE"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 80,
+      "defense": 90,
+      "specialAttack": 110,
+      "specialDefense": 130,
+      "speed": 110
+    },
+    "catchRate": 3,
+    "baseExp": 211,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 161
+      },
+      {
+        "level": 8,
+        "moveId": 153
+      },
+      {
+        "level": 16,
+        "moveId": 156
+      },
+      {
+        "level": 24,
+        "moveId": 163
+      },
+      {
+        "level": 32,
+        "moveId": 167
+      },
+      {
+        "level": 43,
+        "moveId": 165
+      },
+      {
+        "level": 55,
+        "moveId": 216
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": true,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A legendary eon dragon that projects calming auras across entire cities."
+  },
+  {
+    "id": 381,
+    "name": "Tideclaw",
+    "types": [
+      "WYRM",
+      "PSYCHE"
+    ],
+    "baseStats": {
+      "hp": 80,
+      "attack": 90,
+      "defense": 80,
+      "specialAttack": 130,
+      "specialDefense": 110,
+      "speed": 110
+    },
+    "catchRate": 3,
+    "baseExp": 211,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 161
+      },
+      {
+        "level": 8,
+        "moveId": 153
+      },
+      {
+        "level": 16,
+        "moveId": 156
+      },
+      {
+        "level": 24,
+        "moveId": 163
+      },
+      {
+        "level": 32,
+        "moveId": 164
+      },
+      {
+        "level": 43,
+        "moveId": 165
+      },
+      {
+        "level": 55,
+        "moveId": 216
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": true,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A legendary eon dragon that flies faster than sound at full speed."
+  },
+  {
+    "id": 382,
+    "name": "Oceanmaw",
+    "types": [
+      "AQUA"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 90,
+      "specialAttack": 150,
+      "specialDefense": 140,
+      "speed": 130
+    },
+    "catchRate": 3,
+    "baseExp": 218,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 51
+      },
+      {
+        "level": 8,
+        "moveId": 60
+      },
+      {
+        "level": 16,
+        "moveId": 54
+      },
+      {
+        "level": 24,
+        "moveId": 112
+      },
+      {
+        "level": 32,
+        "moveId": 55
+      },
+      {
+        "level": 43,
+        "moveId": 55
+      },
+      {
+        "level": 55,
+        "moveId": 165
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": true,
+    "habitat": [
+      "WATER"
+    ],
+    "description": "The primordial sea deity whose awakening floods entire continents."
+  },
+  {
+    "id": 383,
+    "name": "Magmawrath",
+    "types": [
+      "TERRA"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "attack": 150,
+      "defense": 140,
+      "specialAttack": 100,
+      "specialDefense": 90,
+      "speed": 90
+    },
+    "catchRate": 3,
+    "baseExp": 218,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 143
+      },
+      {
+        "level": 8,
+        "moveId": 141
+      },
+      {
+        "level": 16,
+        "moveId": 143
+      },
+      {
+        "level": 24,
+        "moveId": 146
+      },
+      {
+        "level": 32,
+        "moveId": 148
+      },
+      {
+        "level": 43,
+        "moveId": 6
+      },
+      {
+        "level": 55,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": true,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "The primordial land deity whose awakening raises mountain ranges from the sea."
+  },
+  {
+    "id": 384,
+    "name": "Skydrake",
+    "types": [
+      "WYRM",
+      "AERO"
+    ],
+    "baseStats": {
+      "hp": 105,
+      "attack": 150,
+      "defense": 90,
+      "specialAttack": 150,
+      "specialDefense": 90,
+      "speed": 95
+    },
+    "catchRate": 3,
+    "baseExp": 220,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 213
+      },
+      {
+        "level": 8,
+        "moveId": 151
+      },
+      {
+        "level": 16,
+        "moveId": 214
+      },
+      {
+        "level": 24,
+        "moveId": 212
+      },
+      {
+        "level": 32,
+        "moveId": 217
+      },
+      {
+        "level": 43,
+        "moveId": 215
+      },
+      {
+        "level": 55,
+        "moveId": 154
+      },
+      {
+        "level": 65,
+        "moveId": 216
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": true,
+    "habitat": [
+      "MOUNTAIN"
+    ],
+    "description": "The sky sovereign. It patrols the upper atmosphere and mediates between sea and land."
+  },
+  {
+    "id": 385,
+    "name": "Wishsprite",
+    "types": [
+      "IRON",
+      "PSYCHE"
+    ],
+    "baseStats": {
+      "hp": 100,
+      "attack": 100,
+      "defense": 100,
+      "specialAttack": 100,
+      "specialDefense": 100,
+      "speed": 100
+    },
+    "catchRate": 3,
+    "baseExp": 220,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 17
+      },
+      {
+        "level": 10,
+        "moveId": 244
+      },
+      {
+        "level": 20,
+        "moveId": 234
+      },
+      {
+        "level": 30,
+        "moveId": 163
+      },
+      {
+        "level": 40,
+        "moveId": 167
+      },
+      {
+        "level": 50,
+        "moveId": 165
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": true,
+    "habitat": [
+      "GRASSLAND"
+    ],
+    "description": "A mythical star creature that grants any wish to those it trusts."
+  },
+  {
+    "id": 386,
+    "name": "Voidform",
+    "types": [
+      "PSYCHE"
+    ],
+    "baseStats": {
+      "hp": 50,
+      "attack": 150,
+      "defense": 50,
+      "specialAttack": 150,
+      "specialDefense": 50,
+      "speed": 150
+    },
+    "catchRate": 3,
+    "baseExp": 215,
+    "learnset": [
+      {
+        "level": 1,
+        "moveId": 164
+      },
+      {
+        "level": 10,
+        "moveId": 14
+      },
+      {
+        "level": 20,
+        "moveId": 165
+      },
+      {
+        "level": 30,
+        "moveId": 167
+      },
+      {
+        "level": 40,
+        "moveId": 163
+      },
+      {
+        "level": 50,
+        "moveId": 5
+      }
+    ],
+    "evolutions": [],
+    "regionId": "HOENN",
+    "isStarter": false,
+    "isLegendary": true,
+    "habitat": [
+      "CAVE"
+    ],
+    "description": "A meteorite creature with multiple forms. Origin of life's genetic code."
+  }
+]

@@ -2,10 +2,7 @@ package com.monstergame.content.loader
 
 import com.monstergame.content.model.ShopDto
 import com.monstergame.engine.model.*
-import com.monstergame.engine.overworld.AreaData
 import com.monstergame.engine.overworld.GameEvent
-import com.monstergame.engine.overworld.NpcData
-import com.monstergame.engine.overworld.RegionData
 
 /**
  * Aggregated in-memory content repository.

@@ -51,9 +51,9 @@ class BattleEngine(
 
         // Run attempt
         if (playerAction is BattleAction.Run) {
-            val (ran, msg) = tryRun(s)
-            messages.add(msg)
-            if (ran) return TurnResult(s.copy(outcome = BattleOutcome.RAN_AWAY, log = s.log + messages), messages)
+            val runResult = tryRun(s)
+            messages.add(runResult.second)
+            if (runResult.first) return TurnResult(s.copy(outcome = BattleOutcome.RAN_AWAY, log = s.log + messages), messages)
             s = s.copy(runAttempts = s.runAttempts + 1)
         }
 
@@ -439,7 +439,7 @@ class BattleEngine(
         val messages = listOf("${side.active.nickname} come back!", "Go, ${incoming.nickname}!")
         val newSide = side.copy(
             activeIndex = index,
-            creatures = side.creatures.map { it.copy(statStages = StatStages()) }
+            creatures = side.creatures.map { it.copy(statStages = StatStages()) }.toMutableList()
         )
         return if (isPlayer) state.copy(player = newSide) to messages
         else state.copy(opponent = newSide) to messages
@@ -566,6 +566,30 @@ class BattleEngine(
             playerSpd > oppSpd -> true
             oppSpd > playerSpd -> false
             else -> Random.nextBoolean()
+        }
+    }
+
+    // --- Run attempt ---
+
+    /**
+     * Attempts to flee from a wild battle.
+     * Returns Pair(success, message).
+     * Formula: fleeFactor = (playerSpd * 128 / (opponentSpd + 1) + 30 * attempts) clamped to [0, 255].
+     * If fleeFactor >= 255 the escape always succeeds; otherwise a random roll decides.
+     */
+    private fun tryRun(state: BattleState): Pair<Boolean, String> {
+        if (!state.canRun) return false to "You can't escape from this battle!"
+        if (state.battleType != BattleType.WILD) return false to "There's no running from a trainer battle!"
+
+        val playerSpd  = state.player.active.calculatedStats.speed
+        val opponentSpd = state.opponent.active.calculatedStats.speed
+        val attempts   = state.runAttempts + 1
+
+        val fleeFactor = ((playerSpd * 128) / (opponentSpd + 1) + 30 * attempts).coerceIn(0, 255)
+        return if (fleeFactor >= 255 || Random.nextInt(256) < fleeFactor) {
+            true  to "Got away safely!"
+        } else {
+            false to "Can't escape!"
         }
     }
 

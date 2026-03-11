@@ -341,7 +341,7 @@ private fun BagQuickMenu(gameVm: GameViewModel, onUseItem: (Int) -> Unit, isWild
         horizontalArrangement = Arrangement.spacedBy(6.dp),
         modifier = Modifier.fillMaxWidth().height(80.dp)
     ) {
-        bagItems.filter { (id, qty) -> qty > 0 }.take(6).forEach { (itemId, qty) ->
+        bagItems.filterValues { it > 0 }.entries.take(6).forEach { (itemId, qty) ->
             val item = gameVm.repo.getItem(itemId) ?: return@forEach
             val canUse = item.ballType != null && isWild || item.healAmount > 0 || item.curesAll
             Box(

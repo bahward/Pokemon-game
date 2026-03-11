@@ -185,7 +185,7 @@ class BattleViewModel @Inject constructor(
                             if (c.isAlive) {
                                 val withExp = CreatureFactory.addExp(c, expShare)
                                 val species = repo.getCreature(c.speciesId) ?: continue
-                                val (leveled, msgs) = engine.tryLevelUp(withExp, species)
+                                val leveled = engine.tryLevelUp(withExp, species).first
                                 newParty[i] = leveled
                                 if (expShare > 0) expGains.add(c.nickname to expShare)
                             }

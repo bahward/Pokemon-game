@@ -13,8 +13,8 @@ import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.unit.dp
 import com.monstergame.engine.model.Direction
 import com.monstergame.engine.model.Position
-import com.monstergame.engine.overworld.TileMap
-import com.monstergame.engine.overworld.TileType
+import com.monstergame.engine.model.TileMap
+import com.monstergame.engine.model.TileType
 
 private const val TILE_PX = 32  // pixels per tile
 
